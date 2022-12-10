@@ -2,7 +2,7 @@
     background-image: url('../img/about/aboutbanner.png');
     position: relative;
     object-fit:fill;
-    background-size: 100%;
+    /* background-size: 100%; */
      
     height:60vh;
     background-repeat: no-repeat;
@@ -30,4 +30,10 @@
     width: 700px;
     position: absolute;
     right: 250px;
+}
+@media(max-width:1000px)
+{
+    .aboutbanner{
+        height: 100vh;
+    }
 }
