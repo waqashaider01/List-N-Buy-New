@@ -32,6 +32,12 @@ public function SetNewPassword(){
 public function SignUp(){
     return view('frontend.signup');
 }
+public function AboutUs(){
+    return view('frontend.About_us');
+}
+
+
+
 
 
 
