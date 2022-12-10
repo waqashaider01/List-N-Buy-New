@@ -2,7 +2,7 @@
     background-image: url('../img/about/aboutbanner.png');
     position: relative;
     object-fit:fill;
-    /* background-size: 100%; */
+    background-size: 100%;
      
     height:60vh;
     background-repeat: no-repeat;
@@ -18,7 +18,7 @@
     position: absolute;
     top: 25%;
     left: 200px;
-    
+
     /* or 53px */
     
     
