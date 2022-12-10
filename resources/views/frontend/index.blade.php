@@ -106,7 +106,7 @@
       </a>
     </div>
     <div class="col-md-4 col-xs-12 col-sm-6 mb-5">
-      <a href="" style="text-decoration: none">
+      <a href="{{url('/home_screen')}}" style="text-decoration: none">
         <div class="d-flex flex-column img_card_parent">
 			    <div class="img_card">
 						<img src="{{url('frontend\img\home\home2.png')}}" class="lazyload img-fluid" alt="Vehicles">
