@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Prompt:wght@500&display=swap');
+
+
+
+
+/**************** HOME PAGE ************/
+
+
+
+.header_logo img {
+    width: 160px;
+}
+
+.nav_item {
+    font-family: 'Prompt', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #2A84F2;
+
+}
+
+.nav_item {
+    font-family: 'Prompt', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #2A84F2;
+
+}
+
+.nav_btn1 {
+    padding: 12px 40px;
+    border-radius: 5px;
+    font-family: Prompt;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid #2A84F2;
+    color: #2A84F2;
+}
+
+.nav_btn1:hover {
+    border: 1px solid #FFCB47;
+    background: #FFCB47;
+    transition: all 0.3s;
+}
+
+.nav_btn2 {
+    padding: 12px 40px;
+    background: #2A84F2;
+    border-radius: 5px;
+    font-family: Prompt;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.nav_btn2:hover {
+    border: 1px solid #FFCB47;
+    background: #FFCB47;
+    transition: all 0.3s;
+}
+
+.navbar_setting {
+    flex-grow: 0 !important;
+}
+
+.leng_drop_down_btn {
+    border: none !important;
+    color: #2A84F2;
+}
+
+.leng_drop_down_btn:active {
+    color: #2A84F2;
+}
+
+.leng_drop_down_btn:hover {
+    color: #2A84F2;
+}
+
+
+
+.leng_drop_down_btn:checked {
+    color: #2A84F2;
+}
+
+
+.leng_drop_down {}
+
+.leng_drop_down .dropdown-item.active {
+    background-color: #e6e6e6 !important;
+    color: black;
+}
+
+.flag_img {
+    width: 23px !important;
+    /* border-radius: 3px; */
+}
+
+
+.img_card {
+    /* height: 150px; */
+    background: #FFFFFF;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.img_card_parent {
+
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10 px;
+    color: #3A456E;
+    background: #F3F4F8 !important;
+    /* width: 299px; */
+
+}
+
+.img_card_parent .img_card img {
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    height: 310px;
+    background-size: cover;
+    object-fit: cover;
+
+
+}
+
+.img_card_parent {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+
+
+.img_card_parent:hover {
+    background-color: #2A84F2 !important;
+    color: white;
+    transition: all 0.4s;
+    /* border: 2px solid #2A84F2; */
+    padding: 2px;
+    /* border-radius: 10px; */
+}
+
+
+
+@media only screen and (min-width: 991px) {
+    .leng_drop_down {
+        left: -120px !important;
+        top: 50px !important;
+        overflow: hidden !important;
+
+    }
+}
+
+
+
+
+
+/**************** HOME PAGE END************/
+
+
+
+
+
+/**************** LOG IN PAGES & SIGNUP ETC************/
+
+.sigin-bg-color {
+    background: #FFFFFF;
+}
+
+.btn-enter1 {
+    width: 100%;
+    color: black;
+    border: 2px solid #2A84F2;
+    border-radius: 4px;
+
+}
+
+.btn-enter1:hover {
+
+    border: 2px solid #2A84F2;
+
+
+}
+
+.btn-enter {
+    width: 100%;
+
+}
+
+.logsignmain {
+    height: 100vh;
+}
+
+.loglogo {
+    width: 200px
+}
+
+.head-text-form {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    color: #3A456E;
+}
+
+.form-label {
+    position: relative;
+    font-family: 'Prompt';
+    font-style: normal;
+    font-size: 20px;
+
+    color: #3A456E !important;
+}
+
+.form-labelforget {
+    position: relative;
+    font-family: 'Prompt';
+    font-style: normal;
+    font-size: 20px;
+
+}
+
+.bg-img:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #F3F4F8;
+    ;
+    z-index: 999;
+    text-align: center;
+    padding: 60px 32px;
+    width: 370px;
+    transform: translate(-50%, -50%);
+    border: 1px solid #fff;
+    backdrop-filter: blur(3px);
+}
+
+.content header {
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0 0 35px 0;
+}
+
+
+.sectionblock {
+    position: relative;
+    height: 40px;
+    width: 100%;
+    display: flex;
+
+    border-radius: 4px;
+    background: #EEEEEE;
+}
+
+.sectionblock input:focus {
+    box-shadow: #2A84F2 0px 0px 5px;
+}
+
+.sectionblock span {
+    color: #2A84F2;
+    width: 40px;
+    line-height: 45px;
+    position: relative;
+    right: 15px;
+}
+
+.sectionblock input {
+    border: 1px solid #2A84F2 !important;
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border-radius: 4px;
+    outline: none;
+    color: #222;
+    font-size: 18px;
+}
+
+.toggle-password:hover {
+    cursor: pointer;
+}
+
+.signup {
+    color: black;
+    font-weight: bold;
+}
+
+.account {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+
+    /* main text color */
+
+    color: #3A456E;
+}
+
+.long-value-input {
+    width: 200px;
+    height: 30px;
+    padding: 0 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.btn-enter {
+    color: white;
+    background-color: #2A84F2;
+    border-radius: 4px;
+    height: 40px;
+}
+
+.btn-enter:hover {
+    background-color: #2A84F2;
+    color: white;
+}
+
+.hero a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 18px;
+    color: #2A84F2;
+
+}
+
+.loginpragraph {
+    font-family: 'Prompt';
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+@media(max-width:786px) {
+    .logform {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+.imgsize {
+    width: 70px;
+}
+
+/* forget Password  */
+.paragraph {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(131, 142, 161, 0.5);
+
+
+}
+
+.emailparagraph {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+
+
+    color: #838EA1;
+
+}
+
+.backlog a {
+    text-decoration: none;
+}
+
+
+
+.sign_up_link {
+    font-weight: 650;
+    font-family: 'Roboto Slab';
+}
+
+
+
+.check_your_email {
+    font-size: 17px;
+    color: #838EA1;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+}
+
+.forward_back_icon {
+    width: 24px;
+}
+
+
+/**************** LOG IN PAGES & SIGNUP ETC  END************/
+
+
+
+
+
+/**************** FOOTER START************/
+
+
+
+.footercontain {
+    background-color: #2A84F2;
+}
+
+.loglogo {
+    width: 200px;
+}
+
+.footer-text {
+    font-family: Prompt;
+    font-size: 14px;
+    color: white;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.footerhead {
+    font-family: Prompt;
+    color: white;
+    font-weight: 600;
+}
+
+.footerselect {
+    font-family: Prompt;
+    text-decoration: none;
+    color: white;
+
+}
+
+.footerselect h6 {
+    font-family: Prompt;
+    line-height: 40px;
+}
+
+.footerselect:hover {
+    color: darkgrey;
+}
+
+.footerline {
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    margin-bottom: 10px;
+
+}
+
+.footercopyroght {
+    font-family: Prompt;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+
+/**************** FOOTER END************/
