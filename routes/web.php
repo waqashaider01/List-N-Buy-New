@@ -19,6 +19,6 @@ Route::get('/check-email', [HomeController::class,'CheckEmail']);
 Route::get('/forget-password', [HomeController::class,'ForgetPassword']);
 Route::get('/password-reset', [HomeController::class,'PasswordReset']);
 Route::get('/Set-a-new-password', [HomeController::class,'SetNewPassword']);
-Route::get('/sign-up', [HomeController::class,'SignUp']); 
+Route::get('/sign-up', [HomeController::class,'SignUp']);
 Route::get('/about-us', [HomeController::class,'AboutUs']);
 

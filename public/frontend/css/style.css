@@ -6,9 +6,13 @@
 /**************** HOME PAGE ************/
 
 
+.text_dec_none {
+    text-decoration: none !important;
+}
+
 
 .header_logo img {
-    width: 160px;
+    width: 140px;
 }
 
 .nav_item {
@@ -30,7 +34,9 @@
 }
 
 .nav_btn1 {
-    padding: 12px 40px;
+    height: 47px;
+    width: 122px;
+    padding: 12px 30px;
     border-radius: 5px;
     font-family: Prompt;
     font-style: normal;
@@ -48,7 +54,9 @@
 }
 
 .nav_btn2 {
-    padding: 12px 40px;
+    height: 47px;
+    width: 122px;
+    padding: 12px 30px;
     background: #2A84F2;
     border-radius: 5px;
     font-family: Prompt;
@@ -477,6 +485,211 @@
 
 
 
-
-
 /**************** FOOTER END************/
+
+
+
+
+
+/**************** HOME SCREEN************/
+
+
+
+
+.select_option {
+    cursor: pointer;
+    font-size: 16px;
+    text-overflow: ellipsis;
+    color: #444;
+    line-height: 28px;
+    border-radius: 0.375rem;
+
+}
+
+
+
+
+
+.search_section {
+    line-height: 32px;
+    font-size: 16px;
+}
+
+/* .search_section_div {
+    width: 150px;
+} */
+
+
+
+.category_img_banner {
+    background-image: url('../img/category-images-banner/car-banner.jpeg'), linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 240px;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    background-size: cover;
+}
+
+
+
+.banner_heading {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+
+
+.banber_title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: rgb(255, 231, 108);
+    background-color: #7e8c8d;
+    padding: 5px 10px;
+}
+
+.text_d_none {
+    text-decoration: none;
+}
+
+
+.category_icon_span {
+    background-color: hsl(213, 88%, 56%);
+    border-radius: 50%;
+    box-sizing: border-box;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+}
+
+.category_icon_span:hover {
+    background-color: #7e8c8d;
+}
+
+.category_icon {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.category_icon_name {
+    text-align: center;
+    font-size: 10px;
+    color: #838ea1;
+    font-size: 9px;
+    font-weight: 600;
+}
+
+.category_icon_parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 14px;
+}
+
+
+
+.url_link_onpage {
+    color: #7e8c8d;
+}
+
+
+.heading_bg_div {
+    background-image: url('../img/heading-bg-md.svg');
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 40px;
+    /* vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    background-size: cover; */
+}
+
+.page-main-heading {
+    font-family: Prompt;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #3a456e;
+}
+
+
+
+
+.category_images {
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100px;
+    width: 100%;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    background-size: cover;
+
+}
+
+/**************** HOME SCREEN END************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive css */
+
+
+
+@media all and (max-width: 980px) {
+
+    .banner_heading {
+        font-size: 2.5rem;
+    }
+
+    .banber_title {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+@media all and (max-width: 800px) {
+
+    .banner_heading {
+        font-size: 2.3rem;
+    }
+
+    .banber_title {
+        font-size: 1.3rem;
+    }
+}
+
+
+@media all and (max-width: 480px) {
+
+    .banner_heading {
+        font-size: 2.2rem;
+    }
+
+    .banber_title {
+        font-size: 1.2rem;
+    }
+}
