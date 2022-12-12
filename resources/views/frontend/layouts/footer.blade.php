@@ -1,7 +1,7 @@
  <div class="container-fluid footercontain">
   
     
-        <div class="row mx-5 mt-5">
+        <div class="row mx-5">
             <div class="col-md-6 col-lg-3  mt-5">
                <img src="{{url('frontend\img\footerlogo.png')}}" class="loglogo"  alt="">
                <p class="footer-text text-justify">
