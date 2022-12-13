@@ -637,6 +637,26 @@
 
 }
 
+
+
+.add-title a {
+    color: #333;
+    font-size: .88rem;
+
+}
+
+.add-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+
+
+
+
+
 /**************** HOME SCREEN END************/
 
 

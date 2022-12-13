@@ -18,7 +18,7 @@
 
 {{-- selcet box --}}
 
-        <li class="me-2">
+        <li class="me-2  mt-3 mt-lg-0">
               <select class="form-select form-select-lg select_option mb-3 mb-lg-0 " aria-label=".form-select-lg example">
                 <option selected>All Categories</option>
                 <option value="1">Automobiles</option>
@@ -240,89 +240,51 @@
 </div>
 
 
-<div class="container-fluid shadow">
-    <div class="row p-2" style="border-bottom:1px solid rgb(220, 220, 220)">
-   <div class="col">
-     <div class="heading_bg_div">
-        <h2 class="page-main-heading position-absolute">Premium Plus</h2>
+    <div class="container-fluid shadow">
+        <div class="row p-2" style="border-bottom:1px solid rgb(220, 220, 220)">
+    <div class="col">
+        <div class="heading_bg_div">
+            <h2 class="page-main-heading position-absolute">Premium Plus</h2>
+        </div>
     </div>
-   </div>
-</div>
-<div class="row mt-2">
+    </div>
+        <div class="row mt-2">
 
-<div class="col-3"></div>
+        <div class="col-2"></div>
 
-<div class="col-9">
-    <div class="row">
-        <div class="col-2">
-            <div class="div">
+            <div class="col-10">
                 <div class="row">
-                    <div class="col">
-                        <div>
-                            <img class="category_images img-fluid" src="{{url('frontend\img\Automobile-premium-plus\1.jpg')}}" alt="">
+                    <div class="col-2">
+                        <div class="div">
+                            <div class="row">
+                                <a href="">
+                                <div class="col">
+                                    <div>
+                                        <img class="category_images img-fluid" src="{{url('frontend\img\Automobile-premium-plus\1.jpg')}}" alt="">
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <h5 class="add-title py-1 px-0">
+                                        <a href="" class="text_d_none" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="2018 Mercedes Sprinter">2018 Mercedes Sprinter</a>
+                                    </h5>
+                                </div>
+                                <div class="col">
+                                    <span>
+                                        $32,000
+                                    </span>
+                                </div>
+                                
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="col-2">
-            <div class="div">
-                <div class="row">
-                    <div class="col">
-                        <div>
-                            <img class="category_images" src="{{url('frontend\img\Automobile-premium-plus\1.jpg')}}" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-2">
-            <div class="div">
-                <div class="row">
-                    <div class="col">
-                        <div>
-                            <img class="category_images" src="{{url('frontend\img\Automobile-premium-plus\1.jpg')}}" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-2">
-            <div class="div">
-                <div class="row">
-                    <div class="col">
-                        <div>
-                            <img class="category_images" src="{{url('frontend\img\Automobile-premium-plus\1.jpg')}}" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-2">
-            <div class="div">
-                <div class="row">
-                    <div class="col">
-                        <div>
-                            <img class="category_images" src="{{url('frontend\img\Automobile-premium-plus\1.jpg')}}" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-2">
-            <div class="div">
-                <div class="row">
-                    <div class="col">
-                        <div>
-                            <img class="category_images" src="{{url('frontend\img\Automobile-premium-plus\1.jpg')}}" alt="">
-                        </div>
-                    </div>
-                </div>
+                    
             </div>
         </div>
     </div>
-</div>
-</div>
 </div>
 
 
