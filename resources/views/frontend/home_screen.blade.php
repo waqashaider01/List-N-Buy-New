@@ -253,6 +253,28 @@
         <div class="col-2">
             
 
+            <div class="side_navbar">
+                <div class="dropdown">
+                <ul class="dropbtn">Vehicle
+                <li class="dropdown-content">
+                    <a class="sub_menu" href="#">Cars</a>
+                    <a class="sub_menu" href="#">Buses and Microbuses</a>
+                    <a class="sub_menu" href="#">Link 3</a>
+                </li>
+                </ul>
+                </div>
+
+                
+                <div class="dropdown">
+                <ul class="dropbtn">Dropdown</ul>
+                <li class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </li>
+                </div>
+
+            </div>
         </div>
 
             <div class="col-10">
