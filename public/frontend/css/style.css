@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Prompt:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Prompt:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Prompt:wght@300&display=swap');
 
 
 
@@ -642,6 +644,12 @@
 .add-title a {
     color: #333;
     font-size: .88rem;
+    font-weight: 700;
+
+}
+
+.add-title:hover a {
+    color: #666;
 
 }
 
@@ -653,11 +661,248 @@
 }
 
 
+.product_price {
+    color: #3a456e !important;
+    font-family: 'Prompt' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+}
 
+
+.item_list:hover {
+    background: #f6f6f5;
+}
+
+
+
+
+.item_list:hover .make_favorite span {
+    font-size: .65rem;
+}
+
+.btn-default {
+    color: #292b2c;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+.btn-default:hover {
+    color: #292b2c;
+    /* background-color: #fff; */
+    border-color: #ccc;
+}
+
+.make_favorite {
+    width: fit-content;
+}
+
+.item_list:hover .make_favorite span {
+    width: auto;
+    font-size: 12px;
+}
+
+.item_list .make_favorite span {
+    width: 0;
+    font-size: 0;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+}
+
+
+.item_list .btn.make_favorite {
+    width: fit-content;
+    padding: 2px 10px;
+}
+
+
+
+.reviews-widget>span.far.fa-star {
+    color: #ffc32b;
+}
+
+.reviews-widget>span.far.fa-star {
+    margin-top: 5px;
+    font-size: 12px;
+    margin-right: -4px;
+}
+
+.info-row {
+    font-size: 0.7rem !important;
+}
+
+
+.rating-label {
+    margin-top: 5px;
+    font-size: 12px;
+    font-family: Prompt;
+    font-style: normal;
+    font-weight: 300 !important;
+    margin-left: 4px;
+    color: #ccc;
+}
+
+
+.info-row span {
+    font-size: 0.8rem !important;
+    padding-right: 1px;
+}
+
+
+
+.c-bottom-details {
+    border-top: 0.5px solid #E0E0E0;
+}
+
+.c-bottom-details .item-location, .c-bottom-details .date {
+    font-size: 8px;
+    font-family: Prompt;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.item-location {
+    white-space: nowrap;
+    width: 80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+bottom-details .date {
+    font-size: 8px;
+    font-family: Prompt;
+    font-style: normal;
+    font-weight: 300;
+}
+
+
+.photo-count {
+    background: #ccc;
+    border: 0 none;
+    font-size: 12px;
+    opacity: .75;
+    padding: 0 3px;
+    position: absolute;
+    right: 4px;
+    top: 5px;
+    border-radius: 3px px;
+    color: black;
+    border-radius: 2px;
+}
+
+
+.add_image {
+    position: relative;
+}
+
+
+
+@media (min-width: 768px) {
+    .cornerRibbons {
+        left: -15% !important;
+        top: 7% !important;
+    }
+}
+
+.cornerRibbons {
+    left: -15% !important;
+    top: 7% !important;
+}
+
+
+
+
+.bg-org {
+    background: #ff8c00;
+}
+
+.cornerRibbons {
+    width: 100px !important;
+}
+
+.cornerRibbons {
+    padding: 2px;
+}
+
+.cornerRibbons {
+    box-shadow: 0 0 1px rgb(0 0 0 / 15%);
+    left: -6%;
+    overflow: hidden;
+    position: absolute;
+    top: 20%;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    width: 200px;
+    z-index: 2;
+    -webkit-transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+}
+
+
+.ribbon-text {
+    font-size: 8px;
+    font-weight: 700;
+    margin: auto;
+    color: #000000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+
+.item_list {
+    /* border-bottom: solid 1px #ddd;
+    border-right: solid 1px #ddd; */
+    position: relative;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    border-radius: 5px;
+}
+
+.item_list:hover {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    transition: all 0.3s;
+}
+
+
+
+.c_width {
+    padding: 8px;
+    /* margin-bottom: 5px; */
+}
 
 
 
 /**************** HOME SCREEN END************/
+
+
+
+
+
+
+
+
+
+/**************** HOME SIDE BAR************/
+
+
+
+
+
+
+
+/**************** HOME SIDE BAR END************/
+
+
+
 
 
 
