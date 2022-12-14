@@ -1,90 +1,100 @@
 @extends('frontend.layouts.main')
 @section('main-container')
  
-<div class="container">
+<div class="container mb-5">
     <nav class="navbar navbar-expand-lg">
   <div class="container-fluid header_logo mt-5">
-  <a class="navbar-brand" href="{{url('/')}}">
+    <div class="row">
+      <div class="col-12">
+        <div class="row">
+          <div class="col-md-5">
+          <a class="" href="{{url('/')}}">
         <img src="{{url('frontend/img/old-logo-blue 2.png')}}" alt="">
-    </a>   
+    </a> 
+          </div>
+          <div class="col-md-5 ps-3 ms-5 aboutexternal">
+    
+          <a class="nav-link nav_item  " aria-current="page" href="#" style="float: left;">ABOUT US</a>
+       
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse navbar_setting" id="navbarSupportedContent" style="position:relative">
-      <ul class="navbar-nav mb-2 mb-lg-0">
-       <li class="nav-item">
-          <a class="nav-link nav_item" aria-current="page" href="#">ABOUT US</a>
-        </li> 
-        <li class="nav-item d-flex me-4 mb-3 mb-lg-0" data-bs-toggle="modal" data-bs-target="#">
-            <a href="#" class="btn nav_btn1 ">Post ad</a>
+   
+    <ul class="navbar-nav mb-2 mb-lg-0 ">
+      
+    <li>
+    <div class="row aboutintenal">
+      <div class="col-md-12">
+        <div class="row">
+    
+          <div class="col-md-12">
+    
+          <a class="nav-link nav_item  " aria-current="page" href="#" style="float: left;">ABOUT US</a>
+       
+     
+          </div>
+        </div>
+      </div>
+    </div>
+    </li>
+        <li class="nav-item d-flex   mb-3 mb-lg-0" data-bs-toggle="modal" data-bs-target="#">
+        <div class="col-md-12 d-flex   mt-2 aboutheadicon">
+           
+            <a href="" class="icon pinterest">
+            <span>Mail</span>
+            <div class="category_icon_span">
+           <i class="fa-regular fa-envelope category_icon"></i>
+            </div>
+            
+            </a>
+           
+
+            <a href="" class="icon pinterest">
+            <span>Announcement</span>
+            <div class="category_icon_span">
+            <img src="{{url('frontend\img\about\about_sound.png')}}" alt="" class="mt-2" style="width: 25px;">
+            </div>
+            
+            </a>
+
+
+         
+       
+            <a href="" class="icon pinterest">
+            <span>Notification</span>
+            <div class="category_icon_span">
+            <i class="fa-regular fa-bell category_icon"></i>
+            </div>
+            
+            </a>
+
+
+          
+            <a href="" class="icon pinterest">
+            <span>User</span>
+            <div class="category_icon_span">
+            <i class="fa-regular fa-circle-user category_icon"></i>
+           
+            </div>
+            
+            </a>
+        </div>
         </li>
         <li class="nav-item">
-            <a href="/login" class="btn nav_btn2">Sign In</a>
+            <a href="/login" class="btn nav_btn2">SELL</a>
         </li>
         
       </ul>
 
 
-      <!-- {{-- lenguage dropdown --}}
-
-        <div class="dropdown">
-          <a class="btn dropdown-toggle leng_drop_down_btn" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-          <i class="fa-solid fa-globe"></i>
-          </a>
-
-            <ul class="dropdown-menu leng_drop_down shadow" aria-labelledby="dropdownMenuLink">
-              <li><a class="dropdown-item " href="#" title="English">
-                <img class="flag_img" src="{{url('frontend\img\flag\1.png')}}" alt=""> English
-              </a></li>
-              <li><a class="dropdown-item" href="#" title="French">
-                  <img class="flag_img" src="{{url('frontend\img\flag\2.png')}}" alt=""> Français
-              </a></li>
-              <li><a class="dropdown-item" href="#" title="Spanish">
-                  <img class="flag_img" src="{{url('frontend\img\flag\3.png')}}" alt=""> Español
-              </a></li>
-              <li><a class="dropdown-item" href="#" title="Arabic">  
-                  <img class="flag_img" src="{{url('frontend\img\flag\4.png')}}" alt=""> 
-                العربية
-              </a></li>
-              <li><a class="dropdown-item" href="#" title="Portuguese">
-                  <img class="flag_img" src="{{url('frontend\img\flag\5.png')}}" alt=""> Português
-              </a></li>
-              <li><a class="dropdown-item" href="#" title="German">
-                  <img class="flag_img" src="{{url('frontend\img\flag\6.png')}}" alt=""> Deutsch
-                  </a></li>
-              <li><a class="dropdown-item" href="#" title="Italian">
-                  <img class="flag_img" src="{{url('frontend\img\flag\7.png')}}" alt=""> Italiano
-                  </a></li>
-              <li><a class="dropdown-item" href="#" title="Turkish">
-                  <img class="flag_img" src="{{url('frontend\img\flag\8.png')}}" alt=""> Türkçe
-                  </a></li>
-              <li><a class="dropdown-item" href="#" title="Russian">
-                  <img class="flag_img" src="{{url('frontend\img\flag\9.png')}}" alt=""> Русский
-                  </a></li>
-              <li><a class="dropdown-item" href="#" title="Hindi">
-                  <img class="flag_img" src="{{url('frontend\img\flag\10.png')}}" alt=""> हिन्दी
-                  </a></li>
-              <li><a class="dropdown-item" href="#" title="Bengali">
-                  <img class="flag_img" src="{{url('frontend\img\flag\11.png')}}" alt=""> বাংলা
-                  </a></li>
-              <li><a class="dropdown-item" href="#" title="Simplified Chinese">
-                  <img class="flag_img" src="{{url('frontend\img\flag\12.png')}}" alt=""> 简体中文
-                  </a></li>
-              <li><a class="dropdown-item" href="#" title="Japanese">
-                  <img class="flag_img" src="{{url('frontend\img\flag\13.png')}}" alt=""> 日本語
-                  </a></li>
-              <li><a class="dropdown-item" href="#" title="Thai">
-                  <img class="flag_img" src="{{url('frontend\img\flag\14.png')}}" alt=""> ไทย
-                  </a></li>
-              <li><a class="dropdown-item" href="#" title="Romanian">
-                  <img class="flag_img" src="{{url('frontend\img\flag\15.png')}}" alt=""> Română
-                  </a></li>
-              <li><a class="dropdown-item" href="#" title="Georgian">
-                  <img class="flag_img" src="{{url('frontend\img\flag\16.png')}}" alt=""> ქართული
-                  </a></li>
-            </ul>
-          </div>
-        </div> -->
+      
       </div>
     </nav>
 </div>
@@ -114,7 +124,9 @@
     </div>
     <div class="col-md-6 mt-5 col-lg-6 ">
       <p class="abouttext">ABOUT US</p>
+      
       <h3 class="abouthead">WHAT WE DO</h3>
+      <div class="aboutline"></div>
 <br>
     <p class="aboutparagraph">Listnbuy.com was born out of the desire to bring that smooth interaction of a well designed and communicative user's interface that transcends excellence in the transactions between the buyer and the sellers trading on our platform.   </p>
     <br>
@@ -136,7 +148,11 @@ Unlike other web sites, Listnbuy.com prioritizes the values of its customers bas
 <p class="aboutparagraph"> Our team at Listnbuy™. is made up of truly minded international individuals that have invested their total and absolute commitments, expertise and dedication in making sure that we produce this web platform that will always be second to none. </p>
  <p class="aboutparagraph"> 
 From our team at Listnbuy™., we say "Welcome" to a great experience of the E-commerce world of buying and selling. We are truly convinced that you will experience the true reality "About Us."</p>
-    </div>
+<br>
+<br>
+<br><br><br><br>
+<br><br><br><br> 
+</div>
   </div>
  </div>
 

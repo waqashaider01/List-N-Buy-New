@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Prompt:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Prompt:wght@400&display=swap');
 
 
 
@@ -97,7 +97,6 @@
 }
 
 
-.leng_drop_down {}
 
 .leng_drop_down .dropdown-item.active {
     background-color: #e6e6e6 !important;
@@ -209,8 +208,9 @@
     height: 100vh;
 }
 
+
 .loglogo {
-    width: 200px
+    width: 150px !important;
 }
 
 .head-text-form {
@@ -440,22 +440,33 @@
 
 .footer-text {
     font-family: Prompt;
+    font-style: normal;
+    font-weight: normal;
     font-size: 14px;
+    line-height: 21px;
+    width: 282px ;
     color: white;
-    line-height: 30px;
-    text-align: justify;
 }
 
 .footerhead {
     font-family: Prompt;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
     color: white;
-    font-weight: 600;
 }
+
 
 .footerselect {
     font-family: Prompt;
-    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
     color: white;
+    text-decoration: none;
+    border-bottom: 0.5px solid transparent
 
 }
 
@@ -478,8 +489,12 @@
 
 .footercopyroght {
     font-family: Prompt;
-    text-align: center;
-    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+     color: white;
+     text-align: center;
 }
 
 
@@ -691,5 +706,14 @@
 
     .banber_title {
         font-size: 1.2rem;
+    }
+    .footer-text {
+        
+        width: 100% ;
+      
+    }
+    .loglogo {
+        
+        width: 100px !important;
     }
 }

@@ -40,6 +40,9 @@ public function HomeScreen(){
 public function AboutUs(){
     return view('frontend.About_us');
 }
+public function BuyProduct(){
+    return view('frontend.buy_product');
+}
 
 
 }
