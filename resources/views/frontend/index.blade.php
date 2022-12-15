@@ -93,7 +93,7 @@
 
 <div class="container">
   <div class="row mt-5">
-    <div class="col-md-4 col-xs-12 col-sm-6">
+    <div class="col-md-4 col-sm-6 col-12 col-lg-3">
       <a href="{{url('/home-screen')}}" style="text-decoration: none">
         <div class="d-flex flex-column img_card_parent">
 			    <div class="img_card">
@@ -105,7 +105,8 @@
 				</div>
       </a>
     </div>
-    <div class="col-md-4 col-xs-12 col-sm-6 mb-5">
+
+    <div class="col-md-4 col-sm-6 col-12 col-lg-3 mb-5">
       <a href="{{url('/home-screen')}}" style="text-decoration: none">
         <div class="d-flex flex-column img_card_parent">
 			    <div class="img_card">
@@ -117,7 +118,8 @@
 				</div>
       </a>
     </div>
-    <div class="col-md-4 col-xs-12 col-sm-6 mb-5">
+
+    <div class="col-md-4 col-sm-6 col-12 col-lg-3 mb-5">
       <a href="" style="text-decoration: none">
         <div class="d-flex flex-column img_card_parent">
 			    <div class="img_card">
@@ -130,7 +132,7 @@
       </a>
     </div>
   
-    <div class="col-md-4 col-xs-12 col-sm-6 mb-5">
+    <div class="col-md-4 col-sm-6 col-12 col-lg-3 mb-5">
       <a href="" style="text-decoration: none">
         <div class="d-flex flex-column img_card_parent">
 			    <div class="img_card">
@@ -143,7 +145,7 @@
       </a>
     </div>
   
-    <div class="col-md-4 col-xs-12 col-sm-6 mb-5">
+    <div class="col-md-4 col-sm-6 col-12 col-lg-3 mb-5">
       <a href="" style="text-decoration: none">
         <div class="d-flex flex-column img_card_parent">
 			    <div class="img_card">
@@ -156,7 +158,31 @@
       </a>
     </div>
   
-    <div class="col-md-4 col-xs-12 col-sm-6 mb-5">
+    <div class="col-md-4 col-sm-6 col-12 col-lg-3 mb-5">
+      <a href="" style="text-decoration: none">
+        <div class="d-flex flex-column img_card_parent">
+			    <div class="img_card">
+						<img src="{{url('frontend\img\home\home6.1.png')}}" class="lazyload img-fluid" alt="Vehicles">
+					</div>
+					<h4 class="text-center py-4 m-0">
+						Handyman
+					</h4>
+				</div>
+      </a>
+    </div>
+    <div class="col-md-4 col-sm-6 col-12 col-lg-3 mb-5">
+      <a href="" style="text-decoration: none">
+        <div class="d-flex flex-column img_card_parent">
+			    <div class="img_card">
+						<img src="{{url('frontend\img\home\home6.1.png')}}" class="lazyload img-fluid" alt="Vehicles">
+					</div>
+					<h4 class="text-center py-4 m-0">
+						Handyman
+					</h4>
+				</div>
+      </a>
+    </div>
+    <div class="col-md-4 col-sm-6 col-12 col-lg-3 mb-5">
       <a href="" style="text-decoration: none">
         <div class="d-flex flex-column img_card_parent">
 			    <div class="img_card">

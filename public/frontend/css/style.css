@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Prompt:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Prompt:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Prompt:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Prompt:wght@350&display=swap');
 
 
 
@@ -135,7 +136,7 @@
 .img_card_parent .img_card img {
     border-radius: 10px 10px 0 0;
     width: 100%;
-    height: 310px;
+    height: 200px;
     background-size: cover;
     object-fit: cover;
 
@@ -498,7 +499,7 @@
 
 .select_option {
     cursor: pointer;
-    font-size: 16px;
+    font-size: 15px;
     text-overflow: ellipsis;
     color: #444;
     line-height: 28px;
@@ -898,11 +899,40 @@ bottom-details .date {
 .dropbtn {
     color: white;
     padding: 5px 10px !important;
-    font-size: 16px;
+    font-size: 15px;
     border: none;
     cursor: pointer;
     border-bottom: 1px solid #5AB4FF;
+    font-family: 'Prompt';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* white-space: nowrap; */
 }
+
+
+.sub_menu {
+    padding: 5px 10px !important;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #5AB4FF;
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+
+.side_nav_arrow {
+    font-size: 13px !important;
+}
+
 
 .dropbtn:hover {
     background-color: #5AB4FF;
@@ -913,6 +943,7 @@ bottom-details .date {
     position: relative;
     display: block;
     z-index: 100;
+
 }
 
 .dropdown-content {
@@ -955,12 +986,17 @@ bottom-details .date {
     border-radius: 5px;
     padding-top: 20px;
     padding-bottom: 20px;
+
 }
 
-
-.sub_menu {
-    padding: 5px 10px !important;
-    margin-bottom: 5px;
+.category1_heading {
+    color: #3A456E;
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 /**************** HOME SIDE BAR END************/
