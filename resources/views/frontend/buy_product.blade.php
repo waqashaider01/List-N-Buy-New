@@ -219,26 +219,228 @@ function showSlides(n) {
 </script>
 
 
+
+<div class="pt-4 d-flex justify-content-between">
+  <div>
+<p class="buysecondhead">  2020 Toyota Highlander</p>
+  </div>
+  <div>
+  <a href="" ><img src="{{url('frontend\img\buy_product\download_buy.png')}}" style="width: 40px;" alt=""></a>
+     
+  </div>
+
+</div>
+<div class="pt-4 d-flex justify-content-between">
+  <div>
+
+
+<a href="" ><img src="{{url('frontend\img\buy_product\location_buy.png')}}" style="width: 20px;" alt=""></a>
+<span class="icontext_buy p-sm-1">Washington,DC</span>
+<span class="ps-5">
+<a href="" ><img src="{{url('frontend\img\buy_product\time_buy.png')}}" style="width: 20px;" alt=""></a>
+<span class="icontext_buy p-sm-1">Posted 2 hrs ago</span>
+ 
+
+</span> 
+</div>
+  <div>
+  <a href="" ><img src="{{url('frontend\img\buy_product\eye_buy.png')}}" style="width: 20px;" alt=""></a>
+<span class="icontext_buy p-sm-1">04 Veiws</span>
+ 
+  </div>
+  
+  
+
+</div>
+
+
     </div>
-    <div class="col-md-5 pt-4 ps-5 mx-4">
+    <div class="col-md-6 pt-3">
+      <div class=" d-flex justify-content-center">
 
-    <p class="buysecondhead">2020 Toyota Highlander</p>
+     
+<div>
+  
+<p class="buysecondhead pt-2">2020 Toyota Highlander</p>
 
-    <p>sdhfjashfjash</p>
+<div class="row">
+<div class="col-lg-12 col-md-12 col-sm-6 pb-2">
+                                 <div class=" d-flex justify-content-left buy_product_widget">
+                                     <div >
+                                  
+                                        <img src="{{url('frontend\img\buy_product\buy_star.png')}}" alt="" style="width:   15px;"> 
+                                        <img src="{{url('frontend\img\buy_product\buy_star.png')}}" alt="" style="width:   15px;"> 
+                                        <img src="{{url('frontend\img\buy_product\buy_star.png')}}" alt="" style="width:   15px;"> 
+                                        <img src="{{url('frontend\img\buy_product\buy_star.png')}}" alt="" style="width:   15px;"> 
+                                        
+                                       </div>
+                                     <div class="div">
+                                         <span class="rating-label-buy  ps-3">04 review(s)</span>
+                                     </div>
+                                 </div>
+                       </div>
+</div>
+<p class="buy_doller">$27345</p>
+ <p class="buysecondhead">Current Location: Washington, DC</p>
 
-    <p class="buy_doller">$27345</p>
-    <p class="buysecondhead">Current Location: Washington, DC</p>
 
-    <button type="button" class="btn btn-primary btn-lg   buy_product_btn">Large button</button>
-    </div>
+ <button type="button" class="btn btn-primary btn-lg   buy_product_btn">Make In Offer</button>
+ <br> <br>
+ <button type="button" class="btn  btn-lg   buy_product_btn_review">Post a Review</button>
+
+<!-- Navabar Tab  start -->
+<ul class="nav nav-tabs itemsDetailsTabs" id="itemsDetailsTabs" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="item-description-tab" data-bs-toggle="tab" data-bs-target="#item-description" role="tab" aria-controls="item-description" aria-selected="true">
+                                    <h4>Description</h4>
+                                </button>
+                            </li>
+
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="item-details-tab" data-bs-toggle="tab" data-bs-target="#item-details" role="tab" aria-controls="item-details" aria-selected="true">
+                                    <h4>Features</h4>
+                                </button>
+                            </li>
+                                                            
+                                                    </ul>
+<!-- Navbar Tab End  -->
+
+
+<div>
+
+</div>
+
 
 </div>
 </div>
 
+<hr>
+<div class="row">
+<div class="col-md-12 pt1">
+      <div class=" d-flex justify-content-center">
 
+     
+<div>
+  
+<p class="buy_profile_text">Sold By</p>
+ 
+<div class="profile-pic-div">
+  <img src="{{url('frontend\img\buy_product\buy_profile.png')}}" id="photo"  class="rounded mx-auto d-block">
+</div>
+
+ <p class="Profile-Name">William Mark</p>
+ 
+ 
+
+ <button type="button" class="btn  btn-lg   prifile_detail_btn_buy">View Profile</button>
+  
+ <div class="pt-3 pb-3 px-5">
+ <span class="buysecondhead">SHARE</span>
+  <a href="" ><img src="{{url('frontend\img\buy_product\twitter_buy.png')}}" style="width: 30px;" alt=""></a>
+  <a href="" ><img src="{{url('frontend\img\buy_product\facebook_buy.png')}}" style="width: 30px;" alt=""></a>
+  <a href="" ><img src="{{url('frontend\img\buy_product\whatsapp_buy.png')}}" style="width: 30px;" alt=""></a>
+
+ </div>
+ <button type="button" class="btn  btn-lg   prifile_detail_btn_buy">XXXXXXXXXX</button>
+ <br>  <br>
+ <button type="button" class="btn  btn-lg   prifile_detail_btn_buy">Start Chat</button>
+ <br>  <br>
+ <button type="button" class="btn  btn-lg   prifile_detail_btn_buy">Contact Seller</button>
+ <br>  <br>
+ <button type="button" class="btn  btn-lg   prifile_detail_btn_buy">Review Post</button>
+ <br>  <br>
+ <button type="button" class="btn  btn-lg   prifile_detail_btn_buy">Repost</button>
+ <br>  <br>
+ <button type="button" class="btn  btn-lg   prifile_detail_btn_buy">Ban the user</button>
+ <br>  <br>
+ 
+ 
+
+<div>
+
+</div>
+
+
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="container">
+  
+ <h5 class="pt-5 pb-5 Similar_ads_buy" style="z-index: 1000;"><span> <img src="{{url('frontend\img\buy_product\text_back_img_buy.png')}}" alt="" style="width: 90px; position:relative;left:7%"></span> Similar Ads </h4>
+
+</div>
+
+<div class="container buysection_card pt-5 pb-5">
+ <div class="row position-relative">
+ <div class="col-lg-4 col-md-4 ">
+ <a href=""><img src="{{url('frontend\img\buy_product\car_buy_1.png')}}"   class="card_buy_img"  alt=""></a>
+
+ </div>
+ <div class="col-lg-4 col-md-4 mt-3">
+ <p class="buysecondhead">Mercedes-Benz</p>
+ <p class="card_p_buy">Mercedes-Benz to Release Pickup Truck by 2020</p>
+ <div class="buy_btn_location">
+  <div>
+    <button class="card_buy_btn">Foreign Used</button>
+  </div>
+  <div>
+    <button class="card_buy_btn card_buy_btnup">AutoEvolution</button>
+  </div>
+ </div>
+
+
+</div>
+<div class="col-lg-4 col-md-4 mt-3  post_buy_card">
+<div>
+<p class="card_buy_price">$43,847.00</p>
+<br><br><br>
+
+
+  </div>
+
+
+  
+</div>
+
+
+
+
+ </div>
+
+ <div class="row">
+  <div class="col-md-4 col-sm-0 col-xs-0"></div>
+  <div class="col-md-4 col-sm-6 col-xs-6">
+  <div class="post_buy_card2">
+  <a href=""><img src="http://127.0.0.1:8000/frontend\img\buy_product\location_buy.png" style="width: 20px;" alt=""></a>
+
+  <span class="icontext_buy p-1">Washington,DC</span>
+ 
+  </div>
+  </div>
+  <div class="col-md-4 col-sm-6 col-xs-6">
+  <div class="post_buy_card">
+  <a href=""><img src="http://127.0.0.1:8000/frontend\img\buy_product\time_buy.png" style="width: 20px;" alt=""></a>
+<span class="icontext_buy p-1">Posted 14 Jan</span>
+</div>
+ 
+  </div>
+ </div>
+</div>
+<br>
 
 
 @endsection
+
+
+
 
 
 
