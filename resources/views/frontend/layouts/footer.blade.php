@@ -2,7 +2,7 @@
   
     
         <div class="row mx-5">
-            <div class="col-md-6 col-lg-3  mt-5">
+            <div class="col-md-6 col-lg-4  mt-5">
                <img src="{{url('frontend\img\footerlogo.png')}}" class="loglogo"  alt="">
                <p class="footer-text text-justify">
                 Listnbuy was created out of the
@@ -20,7 +20,7 @@
                   <a href=""  class="footerselect">  <h6>Terms & Conditions</h6></a>
                    <a href="" class="footerselect"><h6>Terms & Conditions</h6></a>
              </div>
-             <div class="col-md-6 col-lg-3  mt-5">
+             <div class="col-md-6 col-lg-2 mt-5">
                 <h2 class="footerhead"> Others</h2>
                   <a href=""  class="footerselect">  <h6>Contact Us</h6></a>
                    <a href="" class="footerselect"><h6>Contact Us</h6></a>
