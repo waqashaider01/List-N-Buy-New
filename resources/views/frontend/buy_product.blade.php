@@ -125,7 +125,7 @@
  </div>
 <div class="row">
 
-    <div class="col-md-6" >
+    <div class="col-md-6 col-lg-8" >
 
     <div class="slideshow-container">
 
@@ -254,8 +254,158 @@ function showSlides(n) {
 </div>
 
 
+<div class="pt-4">
+  <div>
+  <article id="tabs_buy">
+        <ul role="tablist" aria-label="Free HTML Tabs" class="tabbactive">
+          <li role="tab" aria-selected="true" aria-controls="panel-home" id="tab-home" tabindex="0">
+          Vehicle Description
+          </li>
+          <li role="tab" aria-selected="false" aria-controls="panel-developers" id="tab-developers" tabindex="-1">
+          Vehicle Details
+          </li>
+          <li role="tab" aria-selected="false" aria-controls="panel-information" id="tab-information" tabindex="-1">
+          Reviews
+          </li>
+        </ul>
+        <section id="panel-home" role="tabpanel" tabindex="0" aria-labelledby="tab-home">
+         <div class="d-flex justify-content-between">
+          <div>
+<div class="d-block">
+<div class="buysecondhead">MILAGE</div>
+<div class="icontext_buy ">13645700</div>
+
+</div>
+<div class="d-block pt-2">
+<div class="buysecondhead">ENGINE SIZE</div>
+<div class="icontext_buy">2700 cc</div>
+</div>
+<div class="d-block pt-2">
+<div class="buysecondhead">YEAR OF MANUFACTURE</div>
+<div class="icontext_buy">2022</div>
+</div>
+<div class="d-block pt-2">
+<div class="buysecondhead">FUEL TYPE</div>
+<div class="icontext_buy">PETEROL </div>
+</div>
+
+
+
+
+
+
+          </div>
+          <div>
+          <div class="d-block">
+<div class="buysecondhead">BODY STYLE</div>
+<div class="icontext_buy ">JEEP</div>
+
+
+</div>
+<div class="d-block pt-2">
+<div class="buysecondhead">COLOR</div>
+<div class="icontext_buy">WHITE</div>
+</div>
+<div class="d-block pt-2">
+<div class="buysecondhead">SEATS</div>
+<div class="icontext_buy">6</div>
+</div>
+
+<div class="d-block pt-2">
+<div class="buysecondhead">MAKE</div>
+<div class="icontext_buy">TOYOTA</div>
+</div>
+
+
+
+
+       
+</div>
+          <div>
+
+       <!-- Thirs Data Show Here   -->
+       </div>
+
+          </div>
+          
+        </section>
+       
+      </article>
+      
+      <script>
+          window.addEventListener("DOMContentLoaded", () => {
+
+const tabs = document.querySelectorAll('[role="tab"]');
+const tabList = document.querySelector('[role="tablist"]');
+
+// Add a click event handler to each tab
+tabs.forEach((tab) => {
+    tab.addEventListener("click", changeTabs);
+});
+
+// Enable arrow navigation between tabs in the tab list
+let tabFocus = 0;
+
+tabList.addEventListener("keydown", (e) => {
+
+    // Move right
+    if (e.keyCode === 39 || e.keyCode === 37) 
+    {
+        tabs[tabFocus].setAttribute("tabindex", -1);
+
+        if (e.keyCode === 39) 
+        {
+            tabFocus++;
+
+            // If we're at the end, go to the start
+            if (tabFocus >= tabs.length) {
+                tabFocus = 0;
+            }
+            // Move left
+        } 
+          else if (e.keyCode === 37)
+        {
+            tabFocus--;
+
+            // If we're at the start, move to the end
+            if (tabFocus < 0) {
+                tabFocus = tabs.length - 1;
+            }
+        }
+
+        tabs[tabFocus].setAttribute("tabindex", 0);
+        tabs[tabFocus].focus();
+    }
+});
+});
+
+function changeTabs(event) {
+const target = event.target;
+const parent = target.parentNode;
+const grandparent = parent.parentNode;
+
+// Remove all current selected tabs
+parent.querySelectorAll('[aria-selected="true"]').forEach((node) => node.setAttribute("aria-selected", false));
+
+// Set this tab as selected
+target.setAttribute("aria-selected", true);
+
+// Hide all tab panels
+grandparent.querySelectorAll('[role="tabpanel"]').forEach((node) => node.setAttribute("hidden", true));
+
+// Show the selected panel
+grandparent.parentNode.querySelector(`#${target.getAttribute("aria-controls")}`).removeAttribute("hidden");
+}
+      </script>
+  </div>
+
+</div>
+
+
+
+
     </div>
-    <div class="col-md-6 pt-3">
+    <div class="col-md-6 col-lg-4 pt-3">
       <div class=" d-flex justify-content-center">
 
      
@@ -287,23 +437,6 @@ function showSlides(n) {
  <button type="button" class="btn btn-primary btn-lg   buy_product_btn">Make In Offer</button>
  <br> <br>
  <button type="button" class="btn  btn-lg   buy_product_btn_review">Post a Review</button>
-
-<!-- Navabar Tab  start -->
-<ul class="nav nav-tabs itemsDetailsTabs" id="itemsDetailsTabs" role="tablist">
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link active" id="item-description-tab" data-bs-toggle="tab" data-bs-target="#item-description" role="tab" aria-controls="item-description" aria-selected="true">
-                                    <h4>Description</h4>
-                                </button>
-                            </li>
-
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="item-details-tab" data-bs-toggle="tab" data-bs-target="#item-details" role="tab" aria-controls="item-details" aria-selected="true">
-                                    <h4>Features</h4>
-                                </button>
-                            </li>
-                                                            
-                                                    </ul>
-<!-- Navbar Tab End  -->
 
 
 <div>
@@ -435,6 +568,132 @@ function showSlides(n) {
  </div>
 </div>
 <br>
+<div class="container buysection_card pt-5 pb-5">
+ <div class="row position-relative">
+ <div class="col-lg-4 col-md-4 ">
+ <a href=""><img src="{{url('frontend\img\buy_product\car_buy_1.png')}}"   class="card_buy_img"  alt=""></a>
+
+ </div>
+ <div class="col-lg-4 col-md-4 mt-3">
+ <p class="buysecondhead">Mercedes-Benz</p>
+ <p class="card_p_buy">Mercedes-Benz to Release Pickup Truck by 2020</p>
+ <div class="buy_btn_location">
+  <div>
+    <button class="card_buy_btn">Foreign Used</button>
+  </div>
+  <div>
+    <button class="card_buy_btn card_buy_btnup">AutoEvolution</button>
+  </div>
+ </div>
+
+
+</div>
+<div class="col-lg-4 col-md-4 mt-3  post_buy_card">
+<div>
+<p class="card_buy_price">$43,847.00</p>
+<br><br><br>
+
+
+  </div>
+
+
+  
+</div>
+
+
+
+
+ </div>
+
+ <div class="row">
+  <div class="col-md-4 col-sm-0 col-xs-0"></div>
+  <div class="col-md-4 col-sm-6 col-xs-6">
+  <div class="post_buy_card2">
+  <a href=""><img src="http://127.0.0.1:8000/frontend\img\buy_product\location_buy.png" style="width: 20px;" alt=""></a>
+
+  <span class="icontext_buy p-1">Washington,DC</span>
+ 
+  </div>
+  </div>
+  <div class="col-md-4 col-sm-6 col-xs-6">
+  <div class="post_buy_card">
+  <a href=""><img src="http://127.0.0.1:8000/frontend\img\buy_product\time_buy.png" style="width: 20px;" alt=""></a>
+<span class="icontext_buy p-1">Posted 14 Jan</span>
+</div>
+ 
+  </div>
+ </div>
+</div>
+<br>
+<!-- Second Card end  -->
+
+
+<div class="container buysection_card pt-5 pb-5">
+ <div class="row position-relative">
+ <div class="col-lg-4 col-md-4 ">
+ <a href=""><img src="{{url('frontend\img\buy_product\car_buy_1.png')}}"   class="card_buy_img"  alt=""></a>
+
+ </div>
+ <div class="col-lg-4 col-md-4 mt-3">
+ <p class="buysecondhead">Mercedes-Benz</p>
+ <p class="card_p_buy">Mercedes-Benz to Release Pickup Truck by 2020</p>
+ <div class="buy_btn_location">
+  <div>
+    <button class="card_buy_btn">Foreign Used</button>
+  </div>
+  <div>
+    <button class="card_buy_btn card_buy_btnup">AutoEvolution</button>
+  </div>
+ </div>
+
+
+</div>
+<div class="col-lg-4 col-md-4 mt-3  post_buy_card">
+<div>
+<p class="card_buy_price">$43,847.00</p>
+<br><br><br>
+
+
+  </div>
+
+
+  
+</div>
+
+
+
+
+ </div>
+
+ <div class="row">
+  <div class="col-md-4 col-sm-0 col-xs-0"></div>
+  <div class="col-md-4 col-sm-6 col-xs-6">
+  <div class="post_buy_card2">
+  <a href=""><img src="http://127.0.0.1:8000/frontend\img\buy_product\location_buy.png" style="width: 20px;" alt=""></a>
+
+  <span class="icontext_buy p-1">Washington,DC</span>
+ 
+  </div>
+  </div>
+  <div class="col-md-4 col-sm-6 col-xs-6">
+  <div class="post_buy_card">
+  <a href=""><img src="http://127.0.0.1:8000/frontend\img\buy_product\time_buy.png" style="width: 20px;" alt=""></a>
+<span class="icontext_buy p-1">Posted 14 Jan</span>
+</div>
+ 
+  </div>
+ </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><br>
+<!-- Third Card End  -->
 
 
 @endsection

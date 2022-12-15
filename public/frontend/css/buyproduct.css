@@ -226,8 +226,6 @@ font-family: 'Prompt';
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-/* line-height: 27px; */
-/* main text color */
 color: #3A456E;
 
   }
@@ -362,8 +360,6 @@ font-style: normal;
 font-weight: 400;
 font-size: 14px;
 
-/* other text color */
-
 color: #838EA1;
 
 }
@@ -432,14 +428,24 @@ color: #2A84F2;
   justify-content: space-between;
  }
  .post_buy_card{
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
   display: flex;
   justify-content: end;
  }
  .post_buy_card2{
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
  }
 
+ @media(max-width:1200px)
+ {
+  .post_buy_card2{
+    margin-top: 2rem;
+   }
+   .post_buy_card{
+    margin-top: 2rem;
+
+   }
+ }
 
  @media(max-width:768px)
  {
@@ -489,3 +495,89 @@ color: #2A84F2;
 }
 
   /*#################>NavTab End <################### */
+
+
+  /* #tabs_buy {
+    display: flex;
+    flex-direction: column;
+  } */
+  
+  #tabs_buy blockquote {
+    padding: 0 0.85rem;
+    
+    margin: 0.5rem 0 1rem;
+    color: #6c7d8d;
+  }
+  
+  #tabs_buy > [role="tablist"] {
+    text-transform: uppercase;
+    display: flex;
+    border-bottom: 0.5px solid rgba(42, 132, 242, 0.3)!important;
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #3A456E
+  }
+  .tabbactive li:active{
+    color: red;
+
+  }
+  
+  #tabs_buy > [role="tablist"] > [role="tab"] {
+    display: flex;
+    align-items: center;
+    margin: 0 0 -0.125rem;
+    
+    border-bottom: solid 0.125rem transparent;
+    padding: 0.5rem 1.5rem;
+    height: 3rem;
+  }
+    
+  #tabs_buy > [role="tablist"] > [role="tab"]:is([aria-selected="true"]) {
+    border-bottom: solid 0.125rem #58acdc;
+    cursor: not-allowed;
+  }
+  
+  #tabs_buy > [role="tablist"] > [role="tab"]:hover:is([aria-selected="false"]) {
+    cursor: pointer;
+    border-bottom: solid 0.125rem #98c6e0;
+  }
+  
+  #tabs_buy > [role="tabpanel"] {
+    border-bottom: solid 1px transparent;
+    padding: 0.5rem 1rem;
+    color: #2c2c2c;
+  }
+  
+  #tabs_buy > [role="tabpanel"] > :where(h1, blockquote, p) {
+    min-width: 20rem;
+    max-width: 50rem;
+  }
+  
+  #tabs_buy > [role="tabpanel"]:not([hidden]) {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #tabs_buy > [role="tabpanel"] > h1 {
+    padding: 1rem 0 0 0;
+    font-size: 1.5rem;
+  }
+  
+  #tabs_buy > [role="tabpanel"] > p + :where(h2, h3, h4) {
+    margin-top: 0.75rem;
+  }
+  
+  #tabs_buy > [role="tabpanel"] > h2 {
+    font-size: 1.25rem;
+  }
+  
+  #tabs_buy > [role="tabpanel"] > :where(h1, h2, h3, p) + p {
+    padding: 0.5rem 0;
+  }
+  
+   
+  
+   
+       
