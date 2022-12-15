@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="{{url('frontend/css/about.css')}}">
     <link rel="stylesheet" href="{{url('frontend/css/buyproduct.css')}}">
 
+ 
   </head>
   <body>
   
