@@ -361,511 +361,7 @@
 				                <span class="ribbon-text" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Clear Title">Clear Title</span>
 			                </div>
                             <div class="row">
-                                <a href="">
-                                <div class="col">
-                                    <div class="add_image">
-                                        <img class="category_images img-fluid" src="{{url('frontend\img\Automobile-premium-plus\1.jpg')}}" alt="">
-                                        <span class="photo-count">
-                                            <i class="fa fa-camera"></i> 12
-                                        </span>
-                                    </div>
-                                </div>
-                                </a>
-                            </div>
-                            <div class="row p-1">
-                                <div class="col-12">
-                                    <h5 class="add-title py-1 px-0">
-                                        <a href="" class="text_d_none" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="2018 Mercedes Sprinter" >2018 Mercedes Sprinter</a>
-                                    </h5>
-                                </div>
-                                <div class="col d-flex align-items-center">
-                                    <span class="product_price">
-                                        $32,000
-                                    </span>
-                                <div class="ms-auto my-auto">
-									<a class="btn btn-default btn-sm mb-0 make_favorite" id="1275">
-										<i class="fas fa-bookmark"></i> <span>Save</span>
-									</a>
-								</div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="item-details d-flex justify-content-between">
-                                        <div class="info-row reviews-widget ratings">
-                                            <span class="far fa-star"></span>
-                                            <span class="far fa-star"></span>
-                                            <span class="far fa-star"></span>
-                                            <span class="far fa-star"></span>
-                                            <span class="far fa-star"></span>
-                                        </div>
-                                        <div class="div">
-                                            <span class="rating-label">0 review</span>
-                                        </div>
-                                    </div>
-			                    </div>
-                             
-                                    <div class="col">
-                                        <div class=" c-bottom-details pt-2 px-0 d-flex">
-                                    <div data-bs-toggle="tooltip" data-bs-placement="bottom" title="Washington D.C." class="item-location" data-bs-original-title="Washington D.C.">
-                                        <i class="bi bi-geo-alt"></i>
-                                        Washington D.C.
-                                    </div>
-                                    <div class="ms-auto date">
-                                        <i class="far fa-clock"></i> 19-Nov-2022
-                                    </div>
-                                </div>
-                                    </div>
-                               
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 c_width">
-                        <div class="div item_list">
-                            <div class="cornerRibbons bg-org d-flex">
-				                <span class="ribbon-text" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Clear Title">Clear Title</span>
-			                </div>
-                            <div class="row">
-                                <a href="">
-                                <div class="col">
-                                    <div class="add_image">
-                                        <img class="category_images img-fluid" src="{{url('frontend\img\Automobile-premium-plus\1.jpg')}}" alt="">
-                                        <span class="photo-count">
-                                            <i class="fa fa-camera"></i> 12
-                                        </span>
-                                    </div>
-                                </div>
-                                </a>
-                            </div>
-                            <div class="row p-1">
-                                <div class="col-12">
-                                    <h5 class="add-title py-1 px-0">
-                                        <a href="" class="text_d_none" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="2018 Mercedes Sprinter" >2018 Mercedes Sprinter</a>
-                                    </h5>
-                                </div>
-                                <div class="col d-flex align-items-center">
-                                    <span class="product_price">
-                                        $32,000
-                                    </span>
-                                <div class="ms-auto my-auto">
-									<a class="btn btn-default btn-sm mb-0 make_favorite" id="1275">
-										<i class="fas fa-bookmark"></i> <span>Save</span>
-									</a>
-								</div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="item-details d-flex justify-content-between">
-                                        <div class="info-row reviews-widget ratings">
-                                            <span class="far fa-star"></span>
-                                            <span class="far fa-star"></span>
-                                            <span class="far fa-star"></span>
-                                            <span class="far fa-star"></span>
-                                            <span class="far fa-star"></span>
-                                        </div>
-                                        <div class="div">
-                                            <span class="rating-label">0 review</span>
-                                        </div>
-                                    </div>
-			                    </div>
-                             
-                                    <div class="col">
-                                        <div class=" c-bottom-details pt-2 px-0 d-flex">
-                                    <div data-bs-toggle="tooltip" data-bs-placement="bottom" title="Washington D.C." class="item-location" data-bs-original-title="Washington D.C.">
-                                        <i class="bi bi-geo-alt"></i>
-                                        Washington D.C.
-                                    </div>
-                                    <div class="ms-auto date">
-                                        <i class="far fa-clock"></i> 19-Nov-2022
-                                    </div>
-                                </div>
-                                    </div>
-                               
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 c_width">
-                        <div class="div item_list">
-                            <div class="cornerRibbons bg-org d-flex">
-				                <span class="ribbon-text" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Clear Title">Clear Title</span>
-			                </div>
-                            <div class="row">
-                                <a href="">
-                                <div class="col">
-                                    <div class="add_image">
-                                        <img class="category_images img-fluid" src="{{url('frontend\img\Automobile-premium-plus\1.jpg')}}" alt="">
-                                        <span class="photo-count">
-                                            <i class="fa fa-camera"></i> 12
-                                        </span>
-                                    </div>
-                                </div>
-                                </a>
-                            </div>
-                            <div class="row p-1">
-                                <div class="col-12">
-                                    <h5 class="add-title py-1 px-0">
-                                        <a href="" class="text_d_none" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="2018 Mercedes Sprinter" >2018 Mercedes Sprinter</a>
-                                    </h5>
-                                </div>
-                                <div class="col d-flex align-items-center">
-                                    <span class="product_price">
-                                        $32,000
-                                    </span>
-                                <div class="ms-auto my-auto">
-									<a class="btn btn-default btn-sm mb-0 make_favorite" id="1275">
-										<i class="fas fa-bookmark"></i> <span>Save</span>
-									</a>
-								</div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="item-details d-flex justify-content-between">
-                                        <div class="info-row reviews-widget ratings">
-                                            <span class="far fa-star"></span>
-                                            <span class="far fa-star"></span>
-                                            <span class="far fa-star"></span>
-                                            <span class="far fa-star"></span>
-                                            <span class="far fa-star"></span>
-                                        </div>
-                                        <div class="div">
-                                            <span class="rating-label">0 review</span>
-                                        </div>
-                                    </div>
-			                    </div>
-                             
-                                    <div class="col">
-                                        <div class=" c-bottom-details pt-2 px-0 d-flex">
-                                    <div data-bs-toggle="tooltip" data-bs-placement="bottom" title="Washington D.C." class="item-location" data-bs-original-title="Washington D.C.">
-                                        <i class="bi bi-geo-alt"></i>
-                                        Washington D.C.
-                                    </div>
-                                    <div class="ms-auto date">
-                                        <i class="far fa-clock"></i> 19-Nov-2022
-                                    </div>
-                                </div>
-                                    </div>
-                               
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 c_width">
-                        <div class="div item_list">
-                            <div class="cornerRibbons bg-org d-flex">
-				                <span class="ribbon-text" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Clear Title">Clear Title</span>
-			                </div>
-                            <div class="row">
-                                <a href="">
-                                <div class="col">
-                                    <div class="add_image">
-                                        <img class="category_images img-fluid" src="{{url('frontend\img\Automobile-premium-plus\1.jpg')}}" alt="">
-                                        <span class="photo-count">
-                                            <i class="fa fa-camera"></i> 12
-                                        </span>
-                                    </div>
-                                </div>
-                                </a>
-                            </div>
-                            <div class="row p-1">
-                                <div class="col-12">
-                                    <h5 class="add-title py-1 px-0">
-                                        <a href="" class="text_d_none" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="2018 Mercedes Sprinter" >2018 Mercedes Sprinter</a>
-                                    </h5>
-                                </div>
-                                <div class="col d-flex align-items-center">
-                                    <span class="product_price">
-                                        $32,000
-                                    </span>
-                                <div class="ms-auto my-auto">
-									<a class="btn btn-default btn-sm mb-0 make_favorite" id="1275">
-										<i class="fas fa-bookmark"></i> <span>Save</span>
-									</a>
-								</div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="item-details d-flex justify-content-between">
-                                        <div class="info-row reviews-widget ratings">
-                                            <span class="far fa-star"></span>
-                                            <span class="far fa-star"></span>
-                                            <span class="far fa-star"></span>
-                                            <span class="far fa-star"></span>
-                                            <span class="far fa-star"></span>
-                                        </div>
-                                        <div class="div">
-                                            <span class="rating-label">0 review</span>
-                                        </div>
-                                    </div>
-			                    </div>
-                             
-                                    <div class="col">
-                                        <div class=" c-bottom-details pt-2 px-0 d-flex">
-                                    <div data-bs-toggle="tooltip" data-bs-placement="bottom" title="Washington D.C." class="item-location" data-bs-original-title="Washington D.C.">
-                                        <i class="bi bi-geo-alt"></i>
-                                        Washington D.C.
-                                    </div>
-                                    <div class="ms-auto date">
-                                        <i class="far fa-clock"></i> 19-Nov-2022
-                                    </div>
-                                </div>
-                                    </div>
-                               
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 c_width">
-                        <div class="div item_list">
-                            <div class="cornerRibbons bg-org d-flex">
-				                <span class="ribbon-text" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Clear Title">Clear Title</span>
-			                </div>
-                            <div class="row">
-                                <a href="">
-                                <div class="col">
-                                    <div class="add_image">
-                                        <img class="category_images img-fluid" src="{{url('frontend\img\Automobile-premium-plus\1.jpg')}}" alt="">
-                                        <span class="photo-count">
-                                            <i class="fa fa-camera"></i> 12
-                                        </span>
-                                    </div>
-                                </div>
-                                </a>
-                            </div>
-                            <div class="row p-1">
-                                <div class="col-12">
-                                    <h5 class="add-title py-1 px-0">
-                                        <a href="" class="text_d_none" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="2018 Mercedes Sprinter" >2018 Mercedes Sprinter</a>
-                                    </h5>
-                                </div>
-                                <div class="col d-flex align-items-center">
-                                    <span class="product_price">
-                                        $32,000
-                                    </span>
-                                <div class="ms-auto my-auto">
-									<a class="btn btn-default btn-sm mb-0 make_favorite" id="1275">
-										<i class="fas fa-bookmark"></i> <span>Save</span>
-									</a>
-								</div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="item-details d-flex justify-content-between">
-                                        <div class="info-row reviews-widget ratings">
-                                            <span class="far fa-star"></span>
-                                            <span class="far fa-star"></span>
-                                            <span class="far fa-star"></span>
-                                            <span class="far fa-star"></span>
-                                            <span class="far fa-star"></span>
-                                        </div>
-                                        <div class="div">
-                                            <span class="rating-label">0 review</span>
-                                        </div>
-                                    </div>
-			                    </div>
-                             
-                                    <div class="col">
-                                        <div class=" c-bottom-details pt-2 px-0 d-flex">
-                                    <div data-bs-toggle="tooltip" data-bs-placement="bottom" title="Washington D.C." class="item-location" data-bs-original-title="Washington D.C.">
-                                        <i class="bi bi-geo-alt"></i>
-                                        Washington D.C.
-                                    </div>
-                                    <div class="ms-auto date">
-                                        <i class="far fa-clock"></i> 19-Nov-2022
-                                    </div>
-                                </div>
-                                    </div>
-                               
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 c_width">
-                        <div class="div item_list">
-                            <div class="cornerRibbons bg-org d-flex">
-				                <span class="ribbon-text" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Clear Title">Clear Title</span>
-			                </div>
-                            <div class="row">
-                                <a href="">
-                                <div class="col">
-                                    <div class="add_image">
-                                        <img class="category_images img-fluid" src="{{url('frontend\img\Automobile-premium-plus\1.jpg')}}" alt="">
-                                        <span class="photo-count">
-                                            <i class="fa fa-camera"></i> 12
-                                        </span>
-                                    </div>
-                                </div>
-                                </a>
-                            </div>
-                            <div class="row p-1">
-                                <div class="col-12">
-                                    <h5 class="add-title py-1 px-0">
-                                        <a href="" class="text_d_none" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="2018 Mercedes Sprinter" >2018 Mercedes Sprinter</a>
-                                    </h5>
-                                </div>
-                                <div class="col d-flex align-items-center">
-                                    <span class="product_price">
-                                        $32,000
-                                    </span>
-                                <div class="ms-auto my-auto">
-									<a class="btn btn-default btn-sm mb-0 make_favorite" id="1275">
-										<i class="fas fa-bookmark"></i> <span>Save</span>
-									</a>
-								</div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="item-details d-flex justify-content-between">
-                                        <div class="info-row reviews-widget ratings">
-                                            <span class="far fa-star"></span>
-                                            <span class="far fa-star"></span>
-                                            <span class="far fa-star"></span>
-                                            <span class="far fa-star"></span>
-                                            <span class="far fa-star"></span>
-                                        </div>
-                                        <div class="div">
-                                            <span class="rating-label">0 review</span>
-                                        </div>
-                                    </div>
-			                    </div>
-                             
-                                    <div class="col">
-                                        <div class=" c-bottom-details pt-2 px-0 d-flex">
-                                    <div data-bs-toggle="tooltip" data-bs-placement="bottom" title="Washington D.C." class="item-location" data-bs-original-title="Washington D.C.">
-                                        <i class="bi bi-geo-alt"></i>
-                                        Washington D.C.
-                                    </div>
-                                    <div class="ms-auto date">
-                                        <i class="far fa-clock"></i> 19-Nov-2022
-                                    </div>
-                                </div>
-                                    </div>
-                               
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 c_width">
-                        <div class="div item_list">
-                            <div class="cornerRibbons bg-org d-flex">
-				                <span class="ribbon-text" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Clear Title">Clear Title</span>
-			                </div>
-                            <div class="row">
-                                <a href="">
-                                <div class="col">
-                                    <div class="add_image">
-                                        <img class="category_images img-fluid" src="{{url('frontend\img\Automobile-premium-plus\1.jpg')}}" alt="">
-                                        <span class="photo-count">
-                                            <i class="fa fa-camera"></i> 12
-                                        </span>
-                                    </div>
-                                </div>
-                                </a>
-                            </div>
-                            <div class="row p-1">
-                                <div class="col-12">
-                                    <h5 class="add-title py-1 px-0">
-                                        <a href="" class="text_d_none" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="2018 Mercedes Sprinter" >2018 Mercedes Sprinter</a>
-                                    </h5>
-                                </div>
-                                <div class="col d-flex align-items-center">
-                                    <span class="product_price">
-                                        $32,000
-                                    </span>
-                                <div class="ms-auto my-auto">
-									<a class="btn btn-default btn-sm mb-0 make_favorite" id="1275">
-										<i class="fas fa-bookmark"></i> <span>Save</span>
-									</a>
-								</div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="item-details d-flex justify-content-between">
-                                        <div class="info-row reviews-widget ratings">
-                                            <span class="far fa-star"></span>
-                                            <span class="far fa-star"></span>
-                                            <span class="far fa-star"></span>
-                                            <span class="far fa-star"></span>
-                                            <span class="far fa-star"></span>
-                                        </div>
-                                        <div class="div">
-                                            <span class="rating-label">0 review</span>
-                                        </div>
-                                    </div>
-			                    </div>
-                             
-                                    <div class="col">
-                                        <div class=" c-bottom-details pt-2 px-0 d-flex">
-                                    <div data-bs-toggle="tooltip" data-bs-placement="bottom" title="Washington D.C." class="item-location" data-bs-original-title="Washington D.C.">
-                                        <i class="bi bi-geo-alt"></i>
-                                        Washington D.C.
-                                    </div>
-                                    <div class="ms-auto date">
-                                        <i class="far fa-clock"></i> 19-Nov-2022
-                                    </div>
-                                </div>
-                                    </div>
-                               
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 c_width">
-                        <div class="div item_list">
-                            <div class="cornerRibbons bg-org d-flex">
-				                <span class="ribbon-text" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Clear Title">Clear Title</span>
-			                </div>
-                            <div class="row">
-                                <a href="">
-                                <div class="col">
-                                    <div class="add_image">
-                                        <img class="category_images img-fluid" src="{{url('frontend\img\Automobile-premium-plus\1.jpg')}}" alt="">
-                                        <span class="photo-count">
-                                            <i class="fa fa-camera"></i> 12
-                                        </span>
-                                    </div>
-                                </div>
-                                </a>
-                            </div>
-                            <div class="row p-1">
-                                <div class="col-12">
-                                    <h5 class="add-title py-1 px-0">
-                                        <a href="" class="text_d_none" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="2018 Mercedes Sprinter" >2018 Mercedes Sprinter</a>
-                                    </h5>
-                                </div>
-                                <div class="col d-flex align-items-center">
-                                    <span class="product_price">
-                                        $32,000
-                                    </span>
-                                <div class="ms-auto my-auto">
-									<a class="btn btn-default btn-sm mb-0 make_favorite" id="1275">
-										<i class="fas fa-bookmark"></i> <span>Save</span>
-									</a>
-								</div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="item-details d-flex justify-content-between">
-                                        <div class="info-row reviews-widget ratings">
-                                            <span class="far fa-star"></span>
-                                            <span class="far fa-star"></span>
-                                            <span class="far fa-star"></span>
-                                            <span class="far fa-star"></span>
-                                            <span class="far fa-star"></span>
-                                        </div>
-                                        <div class="div">
-                                            <span class="rating-label">0 review</span>
-                                        </div>
-                                    </div>
-			                    </div>
-                             
-                                    <div class="col">
-                                        <div class=" c-bottom-details pt-2 px-0 d-flex">
-                                    <div data-bs-toggle="tooltip" data-bs-placement="bottom" title="Washington D.C." class="item-location" data-bs-original-title="Washington D.C.">
-                                        <i class="bi bi-geo-alt"></i>
-                                        Washington D.C.
-                                    </div>
-                                    <div class="ms-auto date">
-                                        <i class="far fa-clock"></i> 19-Nov-2022
-                                    </div>
-                                </div>
-                                    </div>
-                               
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 c_width">
-                        <div class="div item_list">
-                            <div class="cornerRibbons bg-org d-flex">
-				                <span class="ribbon-text" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Clear Title">Clear Title</span>
-			                </div>
-                            <div class="row">
-                                <a href="">
+                                <a href="{{url('/buy-product')}}">
                                 <div class="col">
                                     <div class="add_image">
                                         <img class="category_images img-fluid" src="{{url('frontend\img\Automobile-premium-plus\1.jpg')}}" alt="">
@@ -923,16 +419,18 @@
                         </div>
                     </div>
 
+                   
+
                     <div class="col-6 col-sm-4 col-md-3 col-lg-2 c_width">
                         <div class="div item_list">
                             <div class="cornerRibbons bg-org d-flex">
 				                <span class="ribbon-text" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Clear Title">Clear Title</span>
 			                </div>
                             <div class="row">
-                                <a href="">
+                                <a href="{{url('/buy-product')}}">
                                 <div class="col">
                                     <div class="add_image">
-                                        <img class="category_images img-fluid" src="{{url('frontend\img\Automobile-premium-plus\1.jpg')}}" alt="">
+                                        <img class="category_images img-fluid" src="{{url('frontend\img\Automobile-premium-plus\2.jpg')}}" alt="">
                                         <span class="photo-count">
                                             <i class="fa fa-camera"></i> 12
                                         </span>
@@ -987,16 +485,18 @@
                         </div>
                     </div>
 
+                   
+
                     <div class="col-6 col-sm-4 col-md-3 col-lg-2 c_width">
                         <div class="div item_list">
                             <div class="cornerRibbons bg-org d-flex">
 				                <span class="ribbon-text" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Clear Title">Clear Title</span>
 			                </div>
                             <div class="row">
-                                <a href="">
+                                <a href="{{url('/buy-product')}}">
                                 <div class="col">
                                     <div class="add_image">
-                                        <img class="category_images img-fluid" src="{{url('frontend\img\Automobile-premium-plus\1.jpg')}}" alt="">
+                                        <img class="category_images img-fluid" src="{{url('frontend\img\Automobile-premium-plus\3.jpg')}}" alt="">
                                         <span class="photo-count">
                                             <i class="fa fa-camera"></i> 12
                                         </span>
@@ -1051,16 +551,18 @@
                         </div>
                     </div>
 
+                   
+
                     <div class="col-6 col-sm-4 col-md-3 col-lg-2 c_width">
                         <div class="div item_list">
                             <div class="cornerRibbons bg-org d-flex">
 				                <span class="ribbon-text" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Clear Title">Clear Title</span>
 			                </div>
                             <div class="row">
-                                <a href="">
+                                <a href="{{url('/buy-product')}}">
                                 <div class="col">
                                     <div class="add_image">
-                                        <img class="category_images img-fluid" src="{{url('frontend\img\Automobile-premium-plus\1.jpg')}}" alt="">
+                                        <img class="category_images img-fluid" src="{{url('frontend\img\Automobile-premium-plus\4.jpg')}}" alt="">
                                         <span class="photo-count">
                                             <i class="fa fa-camera"></i> 12
                                         </span>
@@ -1115,16 +617,18 @@
                         </div>
                     </div>
 
+                   
+
                     <div class="col-6 col-sm-4 col-md-3 col-lg-2 c_width">
                         <div class="div item_list">
                             <div class="cornerRibbons bg-org d-flex">
 				                <span class="ribbon-text" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Clear Title">Clear Title</span>
 			                </div>
                             <div class="row">
-                                <a href="">
+                                <a href="{{url('/buy-product')}}">
                                 <div class="col">
                                     <div class="add_image">
-                                        <img class="category_images img-fluid" src="{{url('frontend\img\Automobile-premium-plus\1.jpg')}}" alt="">
+                                        <img class="category_images img-fluid" src="{{url('frontend\img\Automobile-premium-plus\5.jpg')}}" alt="">
                                         <span class="photo-count">
                                             <i class="fa fa-camera"></i> 12
                                         </span>
@@ -1179,16 +683,18 @@
                         </div>
                     </div>
 
+                   
+
                     <div class="col-6 col-sm-4 col-md-3 col-lg-2 c_width">
                         <div class="div item_list">
                             <div class="cornerRibbons bg-org d-flex">
 				                <span class="ribbon-text" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Clear Title">Clear Title</span>
 			                </div>
                             <div class="row">
-                                <a href="">
+                                <a href="{{url('/buy-product')}}">
                                 <div class="col">
                                     <div class="add_image">
-                                        <img class="category_images img-fluid" src="{{url('frontend\img\Automobile-premium-plus\1.jpg')}}" alt="">
+                                        <img class="category_images img-fluid" src="{{url('frontend\img\Automobile-premium-plus\6.jpg')}}" alt="">
                                         <span class="photo-count">
                                             <i class="fa fa-camera"></i> 12
                                         </span>
@@ -1243,16 +749,18 @@
                         </div>
                     </div>
 
+                   
+
                     <div class="col-6 col-sm-4 col-md-3 col-lg-2 c_width">
                         <div class="div item_list">
                             <div class="cornerRibbons bg-org d-flex">
 				                <span class="ribbon-text" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Clear Title">Clear Title</span>
 			                </div>
                             <div class="row">
-                                <a href="">
+                                <a href="{{url('/buy-product')}}">
                                 <div class="col">
                                     <div class="add_image">
-                                        <img class="category_images img-fluid" src="{{url('frontend\img\Automobile-premium-plus\1.jpg')}}" alt="">
+                                        <img class="category_images img-fluid" src="{{url('frontend\img\Automobile-premium-plus\7.jpg')}}" alt="">
                                         <span class="photo-count">
                                             <i class="fa fa-camera"></i> 12
                                         </span>
@@ -1306,6 +814,609 @@
                             </div>
                         </div>
                     </div>
+
+                    
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 c_width">
+                        <div class="div item_list">
+                            <div class="cornerRibbons bg-org d-flex">
+				                <span class="ribbon-text" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Clear Title">Clear Title</span>
+			                </div>
+                            <div class="row">
+                                <a href="{{url('/buy-product')}}">
+                                <div class="col">
+                                    <div class="add_image">
+                                        <img class="category_images img-fluid" src="{{url('frontend\img\Automobile-premium-plus\8.jpg')}}" alt="">
+                                        <span class="photo-count">
+                                            <i class="fa fa-camera"></i> 12
+                                        </span>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                            <div class="row p-1">
+                                <div class="col-12">
+                                    <h5 class="add-title py-1 px-0">
+                                        <a href="" class="text_d_none" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="2018 Mercedes Sprinter" >2018 Mercedes Sprinter</a>
+                                    </h5>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <span class="product_price">
+                                        $32,000
+                                    </span>
+                                <div class="ms-auto my-auto">
+									<a class="btn btn-default btn-sm mb-0 make_favorite" id="1275">
+										<i class="fas fa-bookmark"></i> <span>Save</span>
+									</a>
+								</div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="item-details d-flex justify-content-between">
+                                        <div class="info-row reviews-widget ratings">
+                                            <span class="far fa-star"></span>
+                                            <span class="far fa-star"></span>
+                                            <span class="far fa-star"></span>
+                                            <span class="far fa-star"></span>
+                                            <span class="far fa-star"></span>
+                                        </div>
+                                        <div class="div">
+                                            <span class="rating-label">0 review</span>
+                                        </div>
+                                    </div>
+			                    </div>
+                             
+                                    <div class="col">
+                                        <div class=" c-bottom-details pt-2 px-0 d-flex">
+                                    <div data-bs-toggle="tooltip" data-bs-placement="bottom" title="Washington D.C." class="item-location" data-bs-original-title="Washington D.C.">
+                                        <i class="bi bi-geo-alt"></i>
+                                        Washington D.C.
+                                    </div>
+                                    <div class="ms-auto date">
+                                        <i class="far fa-clock"></i> 19-Nov-2022
+                                    </div>
+                                </div>
+                                    </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+
+                   
+
+
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 c_width">
+                        <div class="div item_list">
+                            <div class="cornerRibbons bg-org d-flex">
+				                <span class="ribbon-text" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Clear Title">Clear Title</span>
+			                </div>
+                            <div class="row">
+                                <a href="{{url('/buy-product')}}">
+                                <div class="col">
+                                    <div class="add_image">
+                                        <img class="category_images img-fluid" src="{{url('frontend\img\Automobile-premium-plus\9.jpg')}}" alt="">
+                                        <span class="photo-count">
+                                            <i class="fa fa-camera"></i> 12
+                                        </span>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                            <div class="row p-1">
+                                <div class="col-12">
+                                    <h5 class="add-title py-1 px-0">
+                                        <a href="" class="text_d_none" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="2018 Mercedes Sprinter" >2018 Mercedes Sprinter</a>
+                                    </h5>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <span class="product_price">
+                                        $32,000
+                                    </span>
+                                <div class="ms-auto my-auto">
+									<a class="btn btn-default btn-sm mb-0 make_favorite" id="1275">
+										<i class="fas fa-bookmark"></i> <span>Save</span>
+									</a>
+								</div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="item-details d-flex justify-content-between">
+                                        <div class="info-row reviews-widget ratings">
+                                            <span class="far fa-star"></span>
+                                            <span class="far fa-star"></span>
+                                            <span class="far fa-star"></span>
+                                            <span class="far fa-star"></span>
+                                            <span class="far fa-star"></span>
+                                        </div>
+                                        <div class="div">
+                                            <span class="rating-label">0 review</span>
+                                        </div>
+                                    </div>
+			                    </div>
+                             
+                                    <div class="col">
+                                        <div class=" c-bottom-details pt-2 px-0 d-flex">
+                                    <div data-bs-toggle="tooltip" data-bs-placement="bottom" title="Washington D.C." class="item-location" data-bs-original-title="Washington D.C.">
+                                        <i class="bi bi-geo-alt"></i>
+                                        Washington D.C.
+                                    </div>
+                                    <div class="ms-auto date">
+                                        <i class="far fa-clock"></i> 19-Nov-2022
+                                    </div>
+                                </div>
+                                    </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+
+                   
+
+
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 c_width">
+                        <div class="div item_list">
+                            <div class="cornerRibbons bg-org d-flex">
+				                <span class="ribbon-text" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Clear Title">Clear Title</span>
+			                </div>
+                            <div class="row">
+                                <a href="{{url('/buy-product')}}">
+                                <div class="col">
+                                    <div class="add_image">
+                                        <img class="category_images img-fluid" src="{{url('frontend\img\Automobile-premium-plus\10.jpg')}}" alt="">
+                                        <span class="photo-count">
+                                            <i class="fa fa-camera"></i> 12
+                                        </span>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                            <div class="row p-1">
+                                <div class="col-12">
+                                    <h5 class="add-title py-1 px-0">
+                                        <a href="" class="text_d_none" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="2018 Mercedes Sprinter" >2018 Mercedes Sprinter</a>
+                                    </h5>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <span class="product_price">
+                                        $32,000
+                                    </span>
+                                <div class="ms-auto my-auto">
+									<a class="btn btn-default btn-sm mb-0 make_favorite" id="1275">
+										<i class="fas fa-bookmark"></i> <span>Save</span>
+									</a>
+								</div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="item-details d-flex justify-content-between">
+                                        <div class="info-row reviews-widget ratings">
+                                            <span class="far fa-star"></span>
+                                            <span class="far fa-star"></span>
+                                            <span class="far fa-star"></span>
+                                            <span class="far fa-star"></span>
+                                            <span class="far fa-star"></span>
+                                        </div>
+                                        <div class="div">
+                                            <span class="rating-label">0 review</span>
+                                        </div>
+                                    </div>
+			                    </div>
+                             
+                                    <div class="col">
+                                        <div class=" c-bottom-details pt-2 px-0 d-flex">
+                                    <div data-bs-toggle="tooltip" data-bs-placement="bottom" title="Washington D.C." class="item-location" data-bs-original-title="Washington D.C.">
+                                        <i class="bi bi-geo-alt"></i>
+                                        Washington D.C.
+                                    </div>
+                                    <div class="ms-auto date">
+                                        <i class="far fa-clock"></i> 19-Nov-2022
+                                    </div>
+                                </div>
+                                    </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+
+                   
+
+
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 c_width">
+                        <div class="div item_list">
+                            <div class="cornerRibbons bg-org d-flex">
+				                <span class="ribbon-text" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Clear Title">Clear Title</span>
+			                </div>
+                            <div class="row">
+                                <a href="{{url('/buy-product')}}">
+                                <div class="col">
+                                    <div class="add_image">
+                                        <img class="category_images img-fluid" src="{{url('frontend\img\Automobile-premium-plus\11.jpg')}}" alt="">
+                                        <span class="photo-count">
+                                            <i class="fa fa-camera"></i> 12
+                                        </span>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                            <div class="row p-1">
+                                <div class="col-12">
+                                    <h5 class="add-title py-1 px-0">
+                                        <a href="" class="text_d_none" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="2018 Mercedes Sprinter" >2018 Mercedes Sprinter</a>
+                                    </h5>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <span class="product_price">
+                                        $32,000
+                                    </span>
+                                <div class="ms-auto my-auto">
+									<a class="btn btn-default btn-sm mb-0 make_favorite" id="1275">
+										<i class="fas fa-bookmark"></i> <span>Save</span>
+									</a>
+								</div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="item-details d-flex justify-content-between">
+                                        <div class="info-row reviews-widget ratings">
+                                            <span class="far fa-star"></span>
+                                            <span class="far fa-star"></span>
+                                            <span class="far fa-star"></span>
+                                            <span class="far fa-star"></span>
+                                            <span class="far fa-star"></span>
+                                        </div>
+                                        <div class="div">
+                                            <span class="rating-label">0 review</span>
+                                        </div>
+                                    </div>
+			                    </div>
+                             
+                                    <div class="col">
+                                        <div class=" c-bottom-details pt-2 px-0 d-flex">
+                                    <div data-bs-toggle="tooltip" data-bs-placement="bottom" title="Washington D.C." class="item-location" data-bs-original-title="Washington D.C.">
+                                        <i class="bi bi-geo-alt"></i>
+                                        Washington D.C.
+                                    </div>
+                                    <div class="ms-auto date">
+                                        <i class="far fa-clock"></i> 19-Nov-2022
+                                    </div>
+                                </div>
+                                    </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+
+                   
+
+
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 c_width">
+                        <div class="div item_list">
+                            <div class="cornerRibbons bg-org d-flex">
+				                <span class="ribbon-text" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Clear Title">Clear Title</span>
+			                </div>
+                            <div class="row">
+                                <a href="{{url('/buy-product')}}">
+                                <div class="col">
+                                    <div class="add_image">
+                                        <img class="category_images img-fluid" src="{{url('frontend\img\Automobile-premium-plus\12.jpg')}}" alt="">
+                                        <span class="photo-count">
+                                            <i class="fa fa-camera"></i> 12
+                                        </span>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                            <div class="row p-1">
+                                <div class="col-12">
+                                    <h5 class="add-title py-1 px-0">
+                                        <a href="" class="text_d_none" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="2018 Mercedes Sprinter" >2018 Mercedes Sprinter</a>
+                                    </h5>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <span class="product_price">
+                                        $32,000
+                                    </span>
+                                <div class="ms-auto my-auto">
+									<a class="btn btn-default btn-sm mb-0 make_favorite" id="1275">
+										<i class="fas fa-bookmark"></i> <span>Save</span>
+									</a>
+								</div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="item-details d-flex justify-content-between">
+                                        <div class="info-row reviews-widget ratings">
+                                            <span class="far fa-star"></span>
+                                            <span class="far fa-star"></span>
+                                            <span class="far fa-star"></span>
+                                            <span class="far fa-star"></span>
+                                            <span class="far fa-star"></span>
+                                        </div>
+                                        <div class="div">
+                                            <span class="rating-label">0 review</span>
+                                        </div>
+                                    </div>
+			                    </div>
+                             
+                                    <div class="col">
+                                        <div class=" c-bottom-details pt-2 px-0 d-flex">
+                                    <div data-bs-toggle="tooltip" data-bs-placement="bottom" title="Washington D.C." class="item-location" data-bs-original-title="Washington D.C.">
+                                        <i class="bi bi-geo-alt"></i>
+                                        Washington D.C.
+                                    </div>
+                                    <div class="ms-auto date">
+                                        <i class="far fa-clock"></i> 19-Nov-2022
+                                    </div>
+                                </div>
+                                    </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+
+                   
+
+
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 c_width">
+                        <div class="div item_list">
+                            <div class="cornerRibbons bg-org d-flex">
+				                <span class="ribbon-text" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Clear Title">Clear Title</span>
+			                </div>
+                            <div class="row">
+                                <a href="{{url('/buy-product')}}">
+                                <div class="col">
+                                    <div class="add_image">
+                                        <img class="category_images img-fluid" src="{{url('frontend\img\Automobile-premium-plus\13.jpg')}}" alt="">
+                                        <span class="photo-count">
+                                            <i class="fa fa-camera"></i> 12
+                                        </span>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                            <div class="row p-1">
+                                <div class="col-12">
+                                    <h5 class="add-title py-1 px-0">
+                                        <a href="" class="text_d_none" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="2018 Mercedes Sprinter" >2018 Mercedes Sprinter</a>
+                                    </h5>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <span class="product_price">
+                                        $32,000
+                                    </span>
+                                <div class="ms-auto my-auto">
+									<a class="btn btn-default btn-sm mb-0 make_favorite" id="1275">
+										<i class="fas fa-bookmark"></i> <span>Save</span>
+									</a>
+								</div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="item-details d-flex justify-content-between">
+                                        <div class="info-row reviews-widget ratings">
+                                            <span class="far fa-star"></span>
+                                            <span class="far fa-star"></span>
+                                            <span class="far fa-star"></span>
+                                            <span class="far fa-star"></span>
+                                            <span class="far fa-star"></span>
+                                        </div>
+                                        <div class="div">
+                                            <span class="rating-label">0 review</span>
+                                        </div>
+                                    </div>
+			                    </div>
+                             
+                                    <div class="col">
+                                        <div class=" c-bottom-details pt-2 px-0 d-flex">
+                                    <div data-bs-toggle="tooltip" data-bs-placement="bottom" title="Washington D.C." class="item-location" data-bs-original-title="Washington D.C.">
+                                        <i class="bi bi-geo-alt"></i>
+                                        Washington D.C.
+                                    </div>
+                                    <div class="ms-auto date">
+                                        <i class="far fa-clock"></i> 19-Nov-2022
+                                    </div>
+                                </div>
+                                    </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+
+                   
+
+
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 c_width">
+                        <div class="div item_list">
+                            <div class="cornerRibbons bg-org d-flex">
+				                <span class="ribbon-text" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Clear Title">Clear Title</span>
+			                </div>
+                            <div class="row">
+                                <a href="{{url('/buy-product')}}">
+                                <div class="col">
+                                    <div class="add_image">
+                                        <img class="category_images img-fluid" src="{{url('frontend\img\Automobile-premium-plus\2.jpg')}}" alt="">
+                                        <span class="photo-count">
+                                            <i class="fa fa-camera"></i> 12
+                                        </span>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                            <div class="row p-1">
+                                <div class="col-12">
+                                    <h5 class="add-title py-1 px-0">
+                                        <a href="" class="text_d_none" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="2018 Mercedes Sprinter" >2018 Mercedes Sprinter</a>
+                                    </h5>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <span class="product_price">
+                                        $32,000
+                                    </span>
+                                <div class="ms-auto my-auto">
+									<a class="btn btn-default btn-sm mb-0 make_favorite" id="1275">
+										<i class="fas fa-bookmark"></i> <span>Save</span>
+									</a>
+								</div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="item-details d-flex justify-content-between">
+                                        <div class="info-row reviews-widget ratings">
+                                            <span class="far fa-star"></span>
+                                            <span class="far fa-star"></span>
+                                            <span class="far fa-star"></span>
+                                            <span class="far fa-star"></span>
+                                            <span class="far fa-star"></span>
+                                        </div>
+                                        <div class="div">
+                                            <span class="rating-label">0 review</span>
+                                        </div>
+                                    </div>
+			                    </div>
+                             
+                                    <div class="col">
+                                        <div class=" c-bottom-details pt-2 px-0 d-flex">
+                                    <div data-bs-toggle="tooltip" data-bs-placement="bottom" title="Washington D.C." class="item-location" data-bs-original-title="Washington D.C.">
+                                        <i class="bi bi-geo-alt"></i>
+                                        Washington D.C.
+                                    </div>
+                                    <div class="ms-auto date">
+                                        <i class="far fa-clock"></i> 19-Nov-2022
+                                    </div>
+                                </div>
+                                    </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+
+                   
+
+
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 c_width">
+                        <div class="div item_list">
+                            <div class="cornerRibbons bg-org d-flex">
+				                <span class="ribbon-text" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Clear Title">Clear Title</span>
+			                </div>
+                            <div class="row">
+                                <a href="{{url('/buy-product')}}">
+                                <div class="col">
+                                    <div class="add_image">
+                                        <img class="category_images img-fluid" src="{{url('frontend\img\Automobile-premium-plus\15.jpg')}}" alt="">
+                                        <span class="photo-count">
+                                            <i class="fa fa-camera"></i> 12
+                                        </span>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                            <div class="row p-1">
+                                <div class="col-12">
+                                    <h5 class="add-title py-1 px-0">
+                                        <a href="" class="text_d_none" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="2018 Mercedes Sprinter" >2018 Mercedes Sprinter</a>
+                                    </h5>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <span class="product_price">
+                                        $32,000
+                                    </span>
+                                <div class="ms-auto my-auto">
+									<a class="btn btn-default btn-sm mb-0 make_favorite" id="1275">
+										<i class="fas fa-bookmark"></i> <span>Save</span>
+									</a>
+								</div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="item-details d-flex justify-content-between">
+                                        <div class="info-row reviews-widget ratings">
+                                            <span class="far fa-star"></span>
+                                            <span class="far fa-star"></span>
+                                            <span class="far fa-star"></span>
+                                            <span class="far fa-star"></span>
+                                            <span class="far fa-star"></span>
+                                        </div>
+                                        <div class="div">
+                                            <span class="rating-label">0 review</span>
+                                        </div>
+                                    </div>
+			                    </div>
+                             
+                                    <div class="col">
+                                        <div class=" c-bottom-details pt-2 px-0 d-flex">
+                                    <div data-bs-toggle="tooltip" data-bs-placement="bottom" title="Washington D.C." class="item-location" data-bs-original-title="Washington D.C.">
+                                        <i class="bi bi-geo-alt"></i>
+                                        Washington D.C.
+                                    </div>
+                                    <div class="ms-auto date">
+                                        <i class="far fa-clock"></i> 19-Nov-2022
+                                    </div>
+                                </div>
+                                    </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+
+                   
+
+
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 c_width">
+                        <div class="div item_list">
+                            <div class="cornerRibbons bg-org d-flex">
+				                <span class="ribbon-text" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Clear Title">Clear Title</span>
+			                </div>
+                            <div class="row">
+                                <a href="{{url('/buy-product')}}">
+                                <div class="col">
+                                    <div class="add_image">
+                                        <img class="category_images img-fluid" src="{{url('frontend\img\Automobile-premium-plus\16.jpg')}}" alt="">
+                                        <span class="photo-count">
+                                            <i class="fa fa-camera"></i> 12
+                                        </span>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
+                            <div class="row p-1">
+                                <div class="col-12">
+                                    <h5 class="add-title py-1 px-0">
+                                        <a href="" class="text_d_none" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="2018 Mercedes Sprinter" >2018 Mercedes Sprinter</a>
+                                    </h5>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <span class="product_price">
+                                        $32,000
+                                    </span>
+                                <div class="ms-auto my-auto">
+									<a class="btn btn-default btn-sm mb-0 make_favorite" id="1275">
+										<i class="fas fa-bookmark"></i> <span>Save</span>
+									</a>
+								</div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="item-details d-flex justify-content-between">
+                                        <div class="info-row reviews-widget ratings">
+                                            <span class="far fa-star"></span>
+                                            <span class="far fa-star"></span>
+                                            <span class="far fa-star"></span>
+                                            <span class="far fa-star"></span>
+                                            <span class="far fa-star"></span>
+                                        </div>
+                                        <div class="div">
+                                            <span class="rating-label">0 review</span>
+                                        </div>
+                                    </div>
+			                    </div>
+                             
+                                    <div class="col">
+                                        <div class=" c-bottom-details pt-2 px-0 d-flex">
+                                    <div data-bs-toggle="tooltip" data-bs-placement="bottom" title="Washington D.C." class="item-location" data-bs-original-title="Washington D.C.">
+                                        <i class="bi bi-geo-alt"></i>
+                                        Washington D.C.
+                                    </div>
+                                    <div class="ms-auto date">
+                                        <i class="far fa-clock"></i> 19-Nov-2022
+                                    </div>
+                                </div>
+                                    </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+
+                   
                 </div>
             </div>
         </div>
