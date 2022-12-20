@@ -22,14 +22,28 @@
                             <div class="user_icon_span">
                                 <i class="fa-solid fa-motorcycle user_icon"></i>
                             </div>
-                            <span class="user_pro_cat ms-2">Account Settings</span>
+                            <span class="user_pro_cat ms-2">My Adverts</span>
                         </a>
                         <a class="tablinks text_d_none d-flex align-items-center border_none mb-3"
                             onclick="openCity(event, 'Tokyo')">
                             <div class="user_icon_span">
                                 <i class="fa-solid fa-motorcycle user_icon"></i>
                             </div>
-                            <span class="user_pro_cat ms-2">Account Settings</span>
+                            <span class="user_pro_cat ms-2">Notification</span>
+                        </a>
+                        <a class="tablinks text_d_none d-flex align-items-center border_none mb-3"
+                            onclick="openCity(event, 'Save')">
+                            <div class="user_icon_span">
+                                <i class="fa-solid fa-motorcycle user_icon"></i>
+                            </div>
+                            <span class="user_pro_cat ms-2">My Save</span>
+                        </a>
+                        <a class="tablinks text_d_none d-flex align-items-center border_none mb-3"
+                            onclick="openCity(event, 'Message')">
+                            <div class="user_icon_span">
+                                <i class="fa-solid fa-motorcycle user_icon"></i>
+                            </div>
+                            <span class="user_pro_cat ms-2">Message</span>
                         </a>
                     </div>
                     {{-- <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
@@ -46,15 +60,37 @@
                 <div id="Paris" class="tabcontent">
                     <h3>Paris</h3>
                     <p>Paris is the capital of France.</p>
-                    <p>Paris i e capita of France.< <p>Tokyo is the capital f Japan.</p>
-                    </di </di>
+                </div>
+                <div id="Tokyo" class="tabcontent">
+                    <h3>Tokyo</h3>
+                    <p>Tokyo is the capital of iTLY .</p>
+                </div>
+                <div id="Save" class="tabcontent">
+                    <h3>save</h3>
+
+                </div>
+                <div id="Message" class="tabcontent">
+                    <h3>Message</h3>
+
                 </div>
             </div>
+        </div>
+        <script>
+            function openCity(evt, cityName) {
+                var i, tabcontent, tablinks;
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+                document.getElementById(cityName).style.display = "block";
+                evt.currentTarget.className += " active";
+            }
 
-            <scri func tion op enCity(e cityNam var i, tabcontent, tablinks;
-                tabcontent=document.getElementsByClassName("tabcontent"); for (i=0; i < tabcontent.length; i++) {
-                tabcontent[i].style.display="none" ; } tablinks=document.getElementsByClassName("tablinks"); for (i=0; i <
-                tablinks.length; i++) { tablinks[i].className=tablinks[i].className.replace(" active", "" ); }
-                document.getElementById(cityName).style.display="block" ; evt.currentTarget.className +=" active" ; } // Get
-                the element with id="defaultOpen" and click on it document.getElementById("defaultOpen").click(); </script>
-            @endsection
+            // Get the element with id="defaultOpen" and click on it
+            document.getElementById("defaultOpen").click();
+        </script>
+    @endsection

@@ -1200,7 +1200,7 @@ bottom-details .date {
 
 
 .user_icon_span {
-    background-color: hsl(213, 88%, 56%);
+    background-color: #838EA1;
     border-radius: 50%;
     box-sizing: border-box;
     text-align: center;
@@ -1226,8 +1226,12 @@ bottom-details .date {
     font-size: 14px;
     line-height: 18px;
     text-align: center;
-    color: #2A84F2;
+    color: #838EA1;
 
+}
+
+.activeo {
+    color: blue;
 }
 
 /**************** User Profile END************/
