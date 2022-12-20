@@ -20,28 +20,28 @@
                         <a class="tablinks text_d_none d-flex align-items-center border_none mb-3"
                             onclick="openCity(event, 'Paris')">
                             <div class="user_icon_span">
-                                <i class="fa-solid fa-motorcycle user_icon"></i>
+                                <i class="fa-solid fa-volume-low user_icon"></i>
                             </div>
                             <span class="user_pro_cat ms-2">My Adverts</span>
                         </a>
                         <a class="tablinks text_d_none d-flex align-items-center border_none mb-3"
                             onclick="openCity(event, 'Tokyo')">
                             <div class="user_icon_span">
-                                <i class="fa-solid fa-motorcycle user_icon"></i>
+                                <i class="fa-regular fa-bell user_icon"></i>
                             </div>
                             <span class="user_pro_cat ms-2">Notification</span>
                         </a>
                         <a class="tablinks text_d_none d-flex align-items-center border_none mb-3"
                             onclick="openCity(event, 'Save')">
                             <div class="user_icon_span">
-                                <i class="fa-solid fa-motorcycle user_icon"></i>
+                                <i class="fa-solid  fa-bookmark user_icon"></i>
                             </div>
                             <span class="user_pro_cat ms-2">My Save</span>
                         </a>
                         <a class="tablinks text_d_none d-flex align-items-center border_none mb-3"
                             onclick="openCity(event, 'Message')">
                             <div class="user_icon_span">
-                                <i class="fa-solid fa-motorcycle user_icon"></i>
+                                <i class="fa-regular fa-envelope user_icon"></i>
                             </div>
                             <span class="user_pro_cat ms-2">Message</span>
                         </a>
@@ -50,11 +50,11 @@
                     <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button> --}}
                 </div>
             </div>
-            <div class="col-8 p-4">
-                <div id="London" class="tabcontent">
-                    <h3>London</h3>
-                    <p>London is the capital city of England.</p>
-
+            <div class="col-9 p-4 ">
+                <div id="London" class="tabcontent shadow">
+                    <div class="cat_content_heading">
+                        <h3 class="">Account Settings</h3>
+                    </div>
                 </div>
 
                 <div id="Paris" class="tabcontent">

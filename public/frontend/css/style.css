@@ -1152,10 +1152,9 @@ bottom-details .date {
 
 /* Style the tab content */
 .tabcontent {
-    float: left;
-    padding: 0px 12px;
-    border: 1px solid #ccc;
     width: 100%;
+    height: 600px;
+    padding: 10px;
     /* height: 300px; */
 }
 
@@ -1230,8 +1229,18 @@ bottom-details .date {
 
 }
 
-.activeo {
-    color: blue;
+.cat_content_heading h3 {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #3A456E;
+
+}
+
+.cat_content_heading {
+    border-bottom: 1px solid rgba(42, 132, 242, 0.3);
 }
 
 /**************** User Profile END************/
