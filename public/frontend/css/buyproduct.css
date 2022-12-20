@@ -168,15 +168,11 @@ color: #3A456E;
 
 }
 .sliderimg{
-  width: 100%;
+  width: 150px;
   object-fit: cover !important;
 }
 @media(max-width:580px)
 {
-  .sliderimg{
-    width: 30%;
-    padding-top: 10px;   
-  }
   .buysection2{
     
     padding-left: 1rem !important;
@@ -209,9 +205,15 @@ font-weight: 500;
 font-size: 14px;
 line-height: 21px;
 color: #2A84F2;
-  
-text-decoration: underline;
-text-underline-position: under;
+ 
+}
+    .buylink:visited{
+    font-family: 'Prompt';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+color: #2A84F2;
 text-decoration-thickness: 1px;
 
 
@@ -314,8 +316,9 @@ color: #3A456E;
   
  }
  .prifile_detail_btn_buy:hover{
-  background: #F3F4F8;
-  border: 2px solid #2A84F2;
+  background-color: #7e8c8d;
+  color: white;
+  border: 1px solid #2A84F2;
   
  }
  
@@ -517,7 +520,8 @@ color: #2A84F2;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    color: #3A456E
+    color: #3A456E;
+    padding-top: 30px;
   }
   .tabbactive li:active{
     color: red;
@@ -536,7 +540,7 @@ color: #2A84F2;
     
   #tabs_buy > [role="tablist"] > [role="tab"]:is([aria-selected="true"]) {
     border-bottom: solid 0.125rem #58acdc;
-    cursor: not-allowed;
+    cursor: pointer;
   }
   
   #tabs_buy > [role="tablist"] > [role="tab"]:hover:is([aria-selected="false"]) {
@@ -546,8 +550,9 @@ color: #2A84F2;
   
   #tabs_buy > [role="tabpanel"] {
     border-bottom: solid 1px transparent;
-    padding: 0.5rem 1rem;
     color: #2c2c2c;
+    padding-bottom: 100px;
+
   }
   
   #tabs_buy > [role="tabpanel"] > :where(h1, blockquote, p) {
@@ -577,7 +582,225 @@ color: #2A84F2;
     padding: 0.5rem 0;
   }
   
+
+  /* reviw Start  */
+  .reviwedata_buy{
+    display: flex;
+    justify-content: space-between;
+  }
    
+  @media(max-width:1000px)
+  {
+    .reviwedata_buy{
+      display: block;
+      padding-top: 20px;
+    } 
+    #tabs_buy > [role="tablist"]{
+display: block;
+    }
+    #tabs_buy > [role="tablist"] > [role="tab"]{
+      display: block;
+      padding-left: 0px !important;
+    }
+    .ul_buy{
+      padding-left: 0px !important;
+    }
+ 
+  }
+
+  @media(max-width:768px)
+  {
+    .reviwedata_buy{
+      display: flex;
+      justify-content: space-between;
+    } 
+    #tabs_buy > [role="tablist"]{
+      display: flex;
+          }
+          #tabs_buy > [role="tablist"] > [role="tab"]{
+            display: flex;
+           
+          }
+  }
+
+  #tabs_buy > [role="tablist"] > [role="tab"]{
+    display: block;
+    padding-left: 0px !important;
+  }
+  .ul_buy{
+    padding-left: 0px !important;
+  }
+
+  @media(max-width:500px)
+  {
+    #tabs_buy > [role="tablist"]{
+      display: block;
+          }
+          #tabs_buy > [role="tablist"] > [role="tab"]{
+            display: block;
+            padding-left: 0px !important;
+          }
+          .ul_buy{
+            padding-left: 0px !important;
+          }
+          #tabs_buy > [role="tablist"] > [role="tab"]:is([aria-selected="true"]) {
+      
+            width: 82%;
+        }
+  }
+  @media(max-width:350px)
+  {
+    .reviwedata_buy{
+      display: block;
+    margin-top: 10px;
+    } 
+    .short_buy{
+      padding-top: 10px;
+    }
+
+  }
+  .slider_buy{
+    display: flex;
+    justify-content: space-between;
+ overflow: auto;
+  }
+
+
+
+
+
+  
   
    
        
+
+
+
+
+  /* sdhfjasfhjsh */
+
+  .page-main-heading {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    
+    /* main text color */
+    
+    color: #3A456E;
+    
+} 
+.position-absolute {
+  position: absolute!important;
+}
+
+
+
+/*################# Top Tab Buy CSS ############## */
+ 
+.toptab_ul {
+  list-style: none;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: column;
+}
+
+.tabs blockquote {
+  padding: 0 0.85rem;
+ 
+  margin: 0.5rem 0 1rem;
+  color: #6c7d8d;
+}
+
+.tabs > [role="tablistt"] {
+  display: flex;
+}
+
+.tabs > [role="tablistt"] > [role="tabt"] {
+  display: flex;
+  align-items: center;
+  margin: 0 0 -0.125rem;
+ 
+  border-bottom: solid 0.125rem transparent;
+  padding: 0.5rem 1.5rem;
+  height: 3rem;
+}
+  
+.tabs > [role="tablistt"] > [role="tabt"]:is([aria-selected="true"]) {
+  border-bottom: solid 0.125rem #58acdc;
+  cursor: pointer;
+}
+
+.tabs > [role="tablistt"] > [role="tabt"]:hover:is([aria-selected="false"]) {
+  cursor: pointer;
+  border-bottom: solid 0.125rem #98c6e0;
+}
+
+.tabs > [role="tabpanel"] {
+  border-bottom: solid 1px transparent;
+  padding: 0.5rem 1rem;
+  
+  color: #2c2c2c;
+}
+
+.tabs > [role="tabpanel"] > :where(h1, blockquote, p) {
+  min-width: 20rem;
+  max-width: 50rem;
+}
+
+.tabs > [role="tabpanel"]:not([hidden]) {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 3rem);
+}
+
+.tabs > [role="tabpanel"] > h1 {
+  padding: 1rem 0 0 0;
+  font-size: 1.5rem;
+}
+
+.tabs > [role="tabpanel"] > p + :where(h2, h3, h4) {
+  margin-top: 0.75rem;
+}
+
+.tabs > [role="tabpanel"] > h2 {
+  font-size: 1.25rem;
+}
+
+.tabs > [role="tabpanel"] > :where(h1, h2, h3, p) + p {
+  padding: 0.5rem 0;
+}
+
+ 
+
+#panel-developers > p + :where(h2, h3, h4) {
+  margin-top: 0.75rem;
+}
+
+#panel-developers > ul {
+  margin: 0.5rem 2rem;
+}
+
+#panel-developers > ul > li {
+  list-style-type: '👉';
+  padding-inline-start: 1ch;
+}
+
+#panel-developers > ul > li + li {
+  margin: 0.5rem 0;
+}
+
+
+/*#################> Profile Page Code Start <##################### */
+.profile_seller_pragrapgh{
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 50px;
+  color: #838EA1;
+  text-decoration: none
+}

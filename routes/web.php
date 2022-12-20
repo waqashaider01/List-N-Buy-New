@@ -23,5 +23,8 @@ Route::get('/sign-up', [HomeController::class,'SignUp']);
 Route::get('about-us', [HomeController::class,'AboutUs']);
 Route::get('/home-screen', [HomeController::class,'HomeScreen']);
 Route::get('/buy-product', [HomeController::class,'BuyProduct']);
+Route::get('/seller-profile', [HomeController::class,'SellerProfile']);
+
+
 
 

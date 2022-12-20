@@ -44,5 +44,9 @@ public function BuyProduct(){
     return view('frontend.buy_product');
 }
 
+public function  SellerProfile(){
+    return view('frontend.seller_profile');
+}
+
 
 }
