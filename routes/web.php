@@ -24,7 +24,7 @@ Route::get('about-us', [HomeController::class,'AboutUs']);
 Route::get('/home-screen', [HomeController::class,'HomeScreen']);
 Route::get('/buy-product', [HomeController::class,'BuyProduct']);
 Route::get('/post-add', [HomeController::class,'PostAdd']);
-// Route::get('/promote-your-ad', [HomeController::class,'PromoteYourAd']);
-Route::view('promote-your-ad','frontend.promote_your_ad');
+Route::get('/promote-your-ad', [HomeController::class,'PromoteYourAd']);
+Route::get('/user-profile', [HomeController::class,'UserProfile']);
 
 

@@ -1027,218 +1027,210 @@ bottom-details .date {
 /**************** Promote Your Ad ************/
 
 
-
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-/* Post Add Button css */
-.Post-A {
+.promote_add_heading {
     font-family: 'Prompt';
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 36px;
     color: #3A456E;
-}
-
-/* Clear Button css */
-.Clear-A {
-    font-family: 'Prompt';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 36px;
-    color: #EB5757;
-}
-
-/* Step1 Button Css */
-.Step1_A {
-    font-family: 'Prompt';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 36px;
-    color: #FFFFFF;
-}
-
-/* Step2 Button Css */
-.Step2-A {
-    font-family: 'Prompt';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 36px;
-    color: #2A84F2;
-}
-
-/* input image css */
-.Input-Image-A {
-    width: 250px;
-    height: 170px;
-    border: 1px dashed #2A84F2;
-    border-radius: 5px;
-    color: #2A84F2;
-}
-
-/* input image icon css */
-.Image-Icon-A {
-    display: flex;
-    justify-content: center;
-    margin-top: 20%;
-    color: #838EA1;
-}
-
-/* input image text css */
-.Image-text-A {
-    color: #838EA1;
-    margin: 0px 5px 0px 5px;
-}
-
-.Input-Vedio-A {
-    width: 250px;
-    height: 170px;
-    border: 1px dashed #2A84F2;
-    border-radius: 5px;
-    color: #2A84F2;
-    left: 20%;
-}
-
-.Form-Select-A {
-    background: #F3F4F8;
-    /* primary color */
-
-    border: 1px solid #2A84F2;
-    border-radius: 8px;
-}
-
-.Form-A {
-    border: none;
-    background-color: #F3F4F8;
-}
-
-.Image-text-A {
-    font-family: 'Prompt';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    color: #838EA1;
 
 }
 
-.Continue-Button-A {
-    position: absolute;
-    width: 460px;
-    height: 63px;
-    left: 340px;
-    background: #2A84F2;
-    border-radius: 8px;
-}
 
-.Form-Border-A {
-    background-color: #F3F4F8;
-    border: 1px solid #2A84F2;
-    border-radius: 8px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 27px;
-    color: rgba(131, 142, 161, 0.5);
-
-}
-
-.Dropdown-List-A {
-    list-style: none;
-
-}
-
-.Dropdown-List-Anchor-A {
-    padding-left: 20px;
-    text-decoration: none;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 27px;
-    color: rgba(131, 142, 161, 0.5);
-}
-
-.Dropdown-List-A a i {
-    color: #2A84F2;
-    margin-left: 20rem;
-}
-
-.Dropdown-Item-A {
-    background-color: #2A84F2;
-    display: none;
-
-}
-
-.Dropdown-Item-A li {
-    list-style: none;
-    margin: 5px 0px 5px 0px;
-    border-bottom: 1px solid #b8b8b8;
-
-}
-
-.Dropdown-Item-A li a {
-    text-decoration: none;
+.pro_text {
     font-family: 'Prompt';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: #CBCBCB;
-}
-
-.Inside-Dropdown-Link-A {
-    /* display: none; */
-}
-
-.Inside-Dropdown-Link-A:hover {
-    display: block;
-}
-
-.custom-select {
-    /* -webkit-appearance: none;
-    -moz-appearance: none; */
-    /* appearance:none; */
-
-}
-
-#dropdown {}
-
-.first_select_A {
-    background-color: #2A84F2;
-    position: absolute;
-    left: 456px;
-    top: 38%;
-    width: 25%;
-}
-
-.first_select_items_A {
-    list-style: none;
-
-}
-
-.first_selecct_items_A:hover {
-    background-color: #639add;
-}
-
-.selected:hover+.first_select_A {
-    display: block;
-
+    color: #838EA1;
 }
 
 
 
+
+.adds_btn {
+    background: #2A84F2;
+    color: white;
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+
+}
+
+.adds_btn:hover {
+    background: #1c73df;
+    color: white;
+}
+
+
+.adds_btn2 {
+    border: 2px solid #2A84F2;
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+
+}
+
+.adds_btn2:hover {
+    border: 2px solid #2A84F2;
+    background: #2A84F2;
+    color: white;
+
+}
+
+.adds_model {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 42px;
+    color: #2A84F2;
+
+}
+
+.adds_model_text {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #2A84F2;
+
+}
 
 /**************** Promote Your Ad END************/
+
+
+
+
+
+/**************** User Profile************/
+
+.tab {
+    float: left;
+    /* border: 1px solid #ccc; */
+    /* background-color: #f1f1f1; */
+    width: 100%;
+    /* height: 300px; */
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* .tablinks.active {
+    background-color: #000000;
+} */
+
+/* Style the tab content */
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 100%;
+    /* height: 300px; */
+}
+
+
+
+.user_pro_img_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* width: 200px; */
+}
+
+.user_profile_img {
+    width: 100px;
+    background-size: cover;
+
+
+}
+
+
+.user_name {
+
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #3A456E;
+
+}
+
+.border_none {
+    border: none !important;
+    cursor: pointer;
+}
+
+.hello2.active {
+    border: none !important;
+}
+
+
+.user_icon_span {
+    background-color: hsl(213, 88%, 56%);
+    border-radius: 50%;
+    box-sizing: border-box;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+}
+
+.user_icon {
+    color: white;
+    text-align: center;
+    margin-top: 7px;
+}
+
+
+.user_icon_span {}
+
+
+
+.user_pro_cat {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #2A84F2;
+
+}
+
+/**************** User Profile END************/
 
 
 

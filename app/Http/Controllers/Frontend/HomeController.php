@@ -55,5 +55,9 @@ public function PromoteYourAd(){
     return view('frontend.promote_your_ad');
 }
 
+public function UserProfile(){
+    return view('frontend.user_profile');
+}
+
 
 }
