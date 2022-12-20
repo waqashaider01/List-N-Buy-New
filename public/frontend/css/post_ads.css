@@ -1,0 +1,73 @@
+.back_post_ads{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #2A84F2;
+    text-decoration: none;
+}
+.post_ads_title{
+    font-family: 'Prompt';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 36px;
+
+/* main text color */
+
+color: #3A456E;
+}
+.clear_btn_ads{
+    font-family: 'Prompt';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 27px;
+
+/* Red */
+
+color: #EB5757;
+
+}
+ 
+
+
+@media(max-width:540px)
+{
+    .ads_btn{
+  
+display: block !important;
+text-align: center;
+    }
+    .setp_btn_ads{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+.ads_lable{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+/* main text color */
+
+color: #3A456E;
+
+}
+.select_bx_ads{
+    height: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 5  00;
+    font-size: 18px;
+    line-height: 21px;
+    
+    color: rgba(131, 142, 161, 0.5);
+
+}
+ 
