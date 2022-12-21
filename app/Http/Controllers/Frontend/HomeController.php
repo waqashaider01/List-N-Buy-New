@@ -53,6 +53,9 @@ public function   ChartScreen(){
 public function   PostAds(){
     return view('frontend.post_ads');
 }
+public function    MessageScreen(){
+    return view('frontend.message_screen');
+}
 
 
 

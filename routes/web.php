@@ -26,6 +26,8 @@ Route::get('/buy-product', [HomeController::class,'BuyProduct']);
 Route::get('/seller-profile', [HomeController::class,'SellerProfile']);
 Route::get('/chart-screen', [HomeController::class,'ChartScreen']);
 Route::get('/post-ads', [HomeController::class,'PostAds']);
+Route::get('/message-screen', [HomeController::class,'MessageScreen']);
+
 
 
 
