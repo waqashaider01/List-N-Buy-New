@@ -7,59 +7,7 @@
  border: 1px solid #2A84F2;
     background: #F3F4F8;
 }
-
-/* ################## Buy Search and Logo ############## */
-/* form.example input[type=text] {
-    padding: 10px;
-    font-size: 17px;
-    border: 1px solid #2A84F2;
-    float: left;
-    width: 80%;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    background: #f1f1f1;
-  }
-  form.example button {
- border-top-right-radius: 5px;
- border-bottom-right-radius: 5px;
-
-    float: left;
-    width: 20%;
-    padding: 10px;
-    background: #2196F3;
-    color: white;
-    font-size: 17px;
-    border: 1px solid #2A84F2;
-    border-left: none;
-    cursor: pointer;
-  }
-  
-  form.example button:hover {
-    background: #0b7dda;
-  }
-  form.example::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  @media(max-width:500px)
-  {
-    form.example input[type=text] {
-       margin-top: 20px;
-        width: 100%;
-
-        border-radius: 5px !important;
-        
-      }
-      form.example button {
-        margin-top: 10px;
-        border-radius: 5px !important;
-        
-        width:120px;
-       
-      }
-  } */
-/* ################## Buy Search and Logo  End ############## */
+ 
 
 
 
@@ -92,24 +40,17 @@ box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 
           }
 
   }
-
-
-  /*################# Image Slider Start  ################# */
-
  
-  /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
-
-/* Hide the images by default */
+ 
 .mySlides {
   display: none;
 }
-
-/* Next & previous buttons */
+ 
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -121,19 +62,17 @@ box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 
   font-weight: bold;
   background-color: #0d99ff;
   font-size: 12px;
-  /* transition: 0.6s ease; */
+  
   border-radius: 0 3px 3px 0;
   user-select: none;
   text-decoration: none;
 }
-
-/* Position the "next button" to the right */
+ 
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
-
-/* On hover, add a black background color with a little bit see-through */
+  
 .prev:hover, .next:hover {
   background-color: #7e8c8d;
   color: white;
@@ -182,10 +121,6 @@ color: #3A456E;
 
 }
   
-  /*################# Image Slider End ################# */
-
-  /*################# slider Top Link Start  ################# */
-
 
   .buylink{
     font-family: 'Prompt';
@@ -218,10 +153,8 @@ text-decoration-thickness: 1px;
 
 
   }
-  /*################# slider Top Link End  ################# */
-
-
-  /*#################> buy product right side coloumn Start <################### */
+ 
+  
   .buysecondhead{
 
 font-family: 'Prompt';
@@ -405,7 +338,7 @@ font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 24px;
-/* primary color */
+ 
 color: #2A84F2;
 
 
@@ -431,13 +364,11 @@ color: #2A84F2;
   justify-content: space-between;
  }
  .post_buy_card{
-  /* margin-top: 2rem; */
+ 
   display: flex;
   justify-content: end;
  }
- .post_buy_card2{
-  /* margin-top: 2rem; */
- }
+ 
 
  @media(max-width:1200px)
  {
@@ -477,10 +408,6 @@ color: #2A84F2;
   }
  }
  
-  /*#################> buy product right side coloumn End <################### */
-
-
-  /*#################> NavTab Start <################### */
 
   .itemsDetailsTabs {
     border-bottom: 0.2px solid rgba(42, 132, 242, 0.3)!important;
@@ -497,13 +424,9 @@ color: #2A84F2;
   padding-bottom: 0!important;
 }
 
-  /*#################>NavTab End <################### */
+  
 
-
-  /* #tabs_buy {
-    display: flex;
-    flex-direction: column;
-  } */
+  
   
   #tabs_buy blockquote {
     padding: 0 0.85rem;
@@ -583,7 +506,7 @@ color: #2A84F2;
   }
   
 
-  /* reviw Start  */
+   
   .reviwedata_buy{
     display: flex;
     justify-content: space-between;
@@ -675,9 +598,7 @@ display: block;
        
 
 
-
-
-  /* sdhfjasfhjsh */
+ 
 
   .page-main-heading {
     font-family: 'Prompt';
@@ -685,8 +606,7 @@ display: block;
     font-weight: 500;
     font-size: 24px;
     line-height: 36px;
-    
-    /* main text color */
+  
     
     color: #3A456E;
     
@@ -696,8 +616,7 @@ display: block;
 }
 
 
-
-/*################# Top Tab Buy CSS ############## */
+ 
  
 .toptab_ul {
   list-style: none;
@@ -792,9 +711,6 @@ display: block;
 #panel-developers > ul > li + li {
   margin: 0.5rem 0;
 }
-
-
-/*#################> Profile Page Code Start <##################### */
 .profile_seller_pragrapgh{
   font-family: 'Prompt';
   font-style: normal;
