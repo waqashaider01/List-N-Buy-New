@@ -46,6 +46,21 @@ public function BuyProduct(){
     return view('frontend.buy_product');
 }
 
+public function  SellerProfile(){
+    return view('frontend.seller_profile');
+}
+public function   ChartScreen(){
+    return view('frontend.chart_screen');
+}
+public function   PostAds(){
+    return view('frontend.post_ads');
+}
+public function    MessageScreen(){
+    return view('frontend.message_screen');
+}
+
+
+
 
 public function PostAdd(){
     return view('frontend.post_add');
