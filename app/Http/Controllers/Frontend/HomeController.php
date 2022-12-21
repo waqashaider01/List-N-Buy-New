@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    
+
 public function index(){
     return view('frontend.index');
 }
@@ -40,6 +40,8 @@ public function HomeScreen(){
 public function AboutUs(){
     return view('frontend.About_us');
 }
+
+
 public function BuyProduct(){
     return view('frontend.buy_product');
 }
@@ -58,6 +60,19 @@ public function    MessageScreen(){
 }
 
 
+
+
+public function PostAdd(){
+    return view('frontend.post_add');
+}
+
+public function PromoteYourAd(){
+    return view('frontend.promote_your_ad');
+}
+
+public function UserProfile(){
+    return view('frontend.user_profile');
+}
 
 
 }

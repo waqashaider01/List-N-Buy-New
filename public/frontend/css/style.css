@@ -1,8 +1,8 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Prompt:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Prompt:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Prompt:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Prompt:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Prompt:wght@350&display=swap');
 
 
 
@@ -100,6 +100,7 @@
 .leng_drop_down_btn:checked {
     color: #2A84F2;
 }
+
 .leng_drop_down .dropdown-item.active {
     background-color: #e6e6e6 !important;
     color: black;
@@ -136,7 +137,7 @@
 .img_card_parent .img_card img {
     border-radius: 10px 10px 0 0;
     width: 100%;
-    height: 310px;
+    height: 160px;
     background-size: cover;
     object-fit: cover;
 
@@ -446,7 +447,7 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 21px;
-    width: 282px ;
+    width: 282px;
     color: white;
 }
 
@@ -469,7 +470,6 @@
     color: white;
     text-decoration: none;
     border-bottom: 0.5px solid transparent
-
 }
 
 .footerselect h6 {
@@ -495,8 +495,8 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 27px;
-     color: white;
-     text-align: center;
+    color: white;
+    text-align: center;
 }
 
 
@@ -515,7 +515,7 @@
 
 .select_option {
     cursor: pointer;
-    font-size: 16px;
+    font-size: 15px;
     text-overflow: ellipsis;
     color: #444;
     line-height: 28px;
@@ -915,11 +915,40 @@ bottom-details .date {
 .dropbtn {
     color: white;
     padding: 5px 10px !important;
-    font-size: 16px;
+    font-size: 15px;
     border: none;
     cursor: pointer;
     border-bottom: 1px solid #5AB4FF;
+    font-family: 'Prompt';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* white-space: nowrap; */
 }
+
+
+.sub_menu {
+    padding: 5px 10px !important;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #5AB4FF;
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+
+.side_nav_arrow {
+    font-size: 13px !important;
+}
+
 
 .dropbtn:hover {
     background-color: #5AB4FF;
@@ -930,6 +959,7 @@ bottom-details .date {
     position: relative;
     display: block;
     z-index: 100;
+
 }
 
 .dropdown-content {
@@ -972,15 +1002,311 @@ bottom-details .date {
     border-radius: 5px;
     padding-top: 20px;
     padding-bottom: 20px;
+
 }
 
-
-.sub_menu {
-    padding: 5px 10px !important;
-    margin-bottom: 5px;
+.category1_heading {
+    color: #3A456E;
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 /**************** HOME SIDE BAR END************/
+
+
+
+
+
+
+
+
+/**************** Promote Your Ad ************/
+
+
+.promote_add_heading {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #3A456E;
+
+}
+
+
+.pro_text {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #838EA1;
+}
+
+
+
+
+.adds_btn {
+    background: #2A84F2;
+    color: white;
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+
+}
+
+.adds_btn:hover {
+    background: #1c73df;
+    color: white;
+}
+
+
+.adds_btn2 {
+    border: 2px solid #2A84F2;
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+
+}
+
+.adds_btn2:hover {
+    border: 2px solid #2A84F2;
+    background: #2A84F2;
+    color: white;
+
+}
+
+.adds_model {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 42px;
+    color: #2A84F2;
+
+}
+
+.adds_model_text {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #2A84F2;
+
+}
+
+/**************** Promote Your Ad END************/
+
+
+
+
+
+/**************** User Profile************/
+
+.tab {
+    float: left;
+    /* border: 1px solid #ccc; */
+    /* background-color: #f1f1f1; */
+    width: 100%;
+    /* height: 300px; */
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* .tablinks.active {
+    background-color: #000000;
+} */
+
+/* Style the tab content */
+.tabcontent {
+    width: 100%;
+    height: 600px;
+    padding: 10px;
+    /* height: 300px; */
+}
+
+
+
+.user_pro_img_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* width: 200px; */
+}
+
+.user_profile_img {
+    width: 100px;
+    background-size: cover;
+
+
+}
+
+
+.user_name {
+
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #3A456E;
+
+}
+
+.border_none {
+    border: none !important;
+    cursor: pointer;
+}
+
+.hello2.active {
+    border: none !important;
+}
+
+
+.user_icon_span {
+    background-color: #838EA1;
+    border-radius: 50%;
+    box-sizing: border-box;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+}
+
+.user_icon {
+    color: white;
+    text-align: center;
+    margin-top: 7px;
+}
+
+
+.user_icon_span {}
+
+
+
+.user_pro_cat {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #838EA1;
+
+}
+
+.cat_content_heading h3 {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #3A456E;
+
+}
+
+.cat_content_heading {
+    border-bottom: 1px solid rgba(42, 132, 242, 0.3);
+}
+
+
+
+
+
+.sectionblock1 {
+    position: relative;
+    height: 55px;
+    width: 100%;
+    display: flex;
+
+    background: #F3F4F8;
+    border-radius: 5px;
+}
+
+.sectionblock1 input:focus {
+    box-shadow: #2A84F2 0px 0px 3px;
+    border: 1px solid #479aff;
+    background: #F3F4F8 !important;
+    border-radius: 5px;
+}
+
+.sectionblock1 span {
+    color: #2A84F2;
+    width: 40px;
+    line-height: 45px;
+    position: relative;
+    right: 15px;
+}
+
+
+
+.sectionblock1 input {
+    border: none;
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border-radius: 4px;
+    outline: none;
+    color: #222;
+    font-size: 18px;
+}
+
+.form-label1 {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    margin-bottom: 7px;
+    /* main text color */
+
+    color: #3A456E;
+
+}
+
+/**************** User Profile END************/
+
+
+
+
+
+
+
+
 
 
 
@@ -1036,13 +1362,15 @@ bottom-details .date {
     .banber_title {
         font-size: 1.2rem;
     }
+
     .footer-text {
-        
-        width: 100% ;
-      
+
+        width: 100%;
+
     }
+
     .loglogo {
-        
+
         width: 100px !important;
     }
 }
