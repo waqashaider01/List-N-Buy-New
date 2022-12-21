@@ -1,12 +1,14 @@
-.aboutexternal_buy a{
+.aboutexternal_buy a {
     font-family: 'Prompt';
-    font-weight: 500;   
+    font-weight: 500;
     color: #3A456E;
 }
-.buy_header{
- border: 1px solid #2A84F2;
+
+.buy_header {
+    border: 1px solid #2A84F2;
     background: #F3F4F8;
 }
+ 
 
 /* ################## Buy Search and Logo ############## */
 /* form.example input[type=text] {
@@ -60,36 +62,36 @@
       }
   } */
 /* ################## Buy Search and Logo  End ############## */
+ 
 
 
 
+.buysection2 {
 
-  .buysection2{
-        
-padding-left: 3rem;
-padding-right: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
     background: #FFFFFF;
-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
-  
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+
 
 }
-  .buysection_card{
-     padding-left: 2rem;
-     padding-right: 2rem;
-        background: #FFFFFF;
+
+.buysection_card {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background: #FFFFFF;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
-      
-    
-  }
-  @media(max-width:786px)
-  {
-    
-    .buysection2{
-    
+
+
+}
+
+@media(max-width:786px) {
+
+    .buysection2 {
+
         padding-left: 2rem;
-        padding-right:2rem;
-       
-          }
+        padding-right: 2rem;
+
 
   }
 
@@ -97,20 +99,31 @@ box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 
   /*################# Image Slider Start  ################# */
 
  
-  /* Slideshow container */
+ 
+
+    }
+
+
+
+
+
+
+
+ 
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
 }
 
 /* Hide the images by default */
 .mySlides {
-  display: none;
+    display: none;
 }
 
 /* Next & previous buttons */
 .prev, .next {
+
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -125,48 +138,66 @@ box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 
   border-radius: 0 3px 3px 0;
   user-select: none;
   text-decoration: none;
+
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    background-color: #0d99ff;
+    font-size: 12px;
+    /* transition: 0.6s ease; */
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    text-decoration: none;
+
 }
 
 /* Position the "next button" to the right */
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: #7e8c8d;
-  color: white;
+    background-color: #7e8c8d;
+    color: white;
 }
 
-.active{
-  border: 1px solid #0d99ff;
-} 
+.active {
+    border: 1px solid #0d99ff;
+}
 
-#main{
-  width:100%;
-  object-fit:cover;
-  display:block;
-  margin:20px auto;
-  border-radius: 5px;
-  background-color:#efeeef;
+#main {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+    background-color: #efeeef;
 
 }
-.counter{
-  position: absolute;
- bottom: 0px;
 
-   left: 50%;
+.counter {
+    position: absolute;
+    bottom: 0px;
 
-   font-family: 'Prompt';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
+    left: 50%;
+
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
 
 
-color: #3A456E;
+    color: #3A456E;
 
 }
+
 .sliderimg{
   width: 150px;
   object-fit: cover !important;
@@ -187,19 +218,47 @@ color: #3A456E;
   /*################# slider Top Link Start  ################# */
 
 
-  .buylink{
-    font-family: 'Prompt';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 21px;
-color: #838EA1;
-text-decoration: none;
+.sliderimg {
+    width: 100%;
+    object-fit: cover !important;
+}
+
+@media(max-width:580px) {
+    .sliderimg {
+        width: 30%;
+        padding-top: 10px;
+    }
+
+    .buysection2 {
+
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+
+    }
+
+}
+
+/*################# Image Slider End ################# */
+
+/*################# slider Top Link Start  ################# */
 
 
-  }
-  .buylink:hover{
+
+.buylink {
     font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #838EA1;
+    text-decoration: none;
+
+
+}
+
+.buylink:hover {
+    font-family: 'Prompt';
+
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -216,6 +275,17 @@ line-height: 21px;
 color: #2A84F2;
 text-decoration-thickness: 1px;
 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #2A84F2;
+
+
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-thickness: 1px;
+
 
   }
   /*################# slider Top Link End  ################# */
@@ -230,26 +300,44 @@ font-weight: 500;
 font-size: 16px;
 color: #3A456E;
 
-  }
-  .buy_doller{
+
+}
+
+/*################# slider Top Link End  ################# */
+
+
+
+/*#################> buy product right side coloumn Start <################### */
+.buysecondhead {
+
     font-family: 'Prompt';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    /* line-height: 27px; */
+    /* main text color */
+    color: #3A456E;
 
-/* main text color */
+}
 
-color: #3A456E;
+.buy_doller {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
 
-  }
 
-  .buy_product_btn{
- width: 250px;
- font-size: 16px !important;
- font-family: 'Prompt';
-font-style: normal;
-font-weight: 400;
 
+    color: #3A456E;
+
+}
+
+.buy_product_btn {
+    width: 250px;
+    font-size: 16px !important;
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 400;
 
     
   }
@@ -477,26 +565,266 @@ color: #2A84F2;
   }
  }
  
+ 
   /*#################> buy product right side coloumn End <################### */
 
 
   /*#################> NavTab Start <################### */
+ 
 
-  .itemsDetailsTabs {
-    border-bottom: 0.2px solid rgba(42, 132, 242, 0.3)!important;
+.rating-label-buy {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+
+    color: #838EA1;
+
+
 }
+
+.buy_product_btn_review {
+    width: 250px;
+
+    font-size: 16px !important;
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 400;
+
+
+
+
+    background-color: #FFCB47;
+}
+
+.buy_product_btn_review:hover {
+
+    background-color: #2A84F2;
+}
+
+.buy_profile_text {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #3A456E;
+    text-align: center;
+}
+
+.Profile-Name {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #3A456E;
+}
+
+
+
+
+.prifile_detail_btn_buy {
+    width: 250px;
+    background: #F3F4F8;
+    border: 1px solid #2A84F2;
+    border-radius: 5px;
+    font-size: 16px !important;
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 400;
+
+
+
+    color: #3A456E;
+
+}
+
+.prifile_detail_btn_buy:hover {
+    background: #F3F4F8;
+    border: 2px solid #2A84F2;
+
+}
+
+.profile-pic-div {
+
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid #2A84F2;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#photo {
+    height: 100%;
+    width: 100%;
+}
+
+.twitter_buy {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    background-color: #1da1f2;
+    border-radius: 50%;
+}
+
+.twitter_buy {
+    background-color: hsl(213, 88%, 56%);
+    border-radius: 50%;
+    box-sizing: border-box;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+}
+
+.icontext_buy {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+
+    /* other text color */
+
+    color: #838EA1;
+
+}
+
+.Similar_ads_buy {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* main text color */
+
+    color: #3A456E;
+
+}
+
+.card_buy_img {
+    width: 100% !important;
+    object-fit: cover;
+    display: block;
+    border-radius: 5px;
+    background-color: #efeeef;
+}
+
+.card_p_buy {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #838EA1;
+
+}
+
+.card_buy_btn {
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background: rgba(42, 132, 242, 0.3);
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* primary color */
+    color: #2A84F2;
+
+
+}
+
+.card_buy_btnup {
+    margin-left: 10px;
+}
+
+.card_buy_price {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+
+    /* primary color */
+
+    color: #2A84F2;
+
+}
+
+.buy_btn_location {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post_buy_card {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: end;
+}
+
+.post_buy_card2 {
+    margin-top: 2rem;
+}
+
+
+@media(max-width:768px) {
+    .post_buy_card2 {
+        margin-top: -3rem;
+    }
+
+    .post_buy_card {
+        margin-top: -3rem;
+    }
+}
+
+@media(max-width:580px) {
+    .post_buy_card {
+        margin-top: 10px;
+        display: block;
+    }
+
+    .post_buy_card2 {
+        margin-top: -3rem;
+    }
+
+    .card_buy_btn {
+        margin-left: 0px !important;
+        margin-top: 10px;
+    }
+
+    .buy_btn_location {
+        display: block;
+    }
+}
+
+/*#################> buy product right side coloumn End <################### */
+ 
+
+/*#################> NavTab Start <################### */
+
+.itemsDetailsTabs {
+    border-bottom: 0.2px solid rgba(42, 132, 242, 0.3) !important;
+}
+
 .nav {
-  display: flex;
-  flex-wrap: wrap;
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
 }
 
 .itemsDetailsTabs .nav-item {
-  padding-bottom: 0!important;
+    padding-bottom: 0 !important;
 }
-
+ 
   /*#################>NavTab End <################### */
 
 
@@ -504,7 +832,9 @@ color: #2A84F2;
     display: flex;
     flex-direction: column;
   } */
+ 
   
+ 
   #tabs_buy blockquote {
     padding: 0 0.85rem;
     
@@ -804,3 +1134,6 @@ display: block;
   color: #838EA1;
   text-decoration: none
 }
+ 
+/*#################>NavTab End <################### */
+ 
