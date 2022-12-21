@@ -52,9 +52,28 @@
             </div>
             <div class="col-9 p-4 ">
                 <div id="London" class="tabcontent shadow">
-                    <div class="cat_content_heading">
-                        <h3 class="">Account Settings</h3>
+                    <div class="row">
+                        <div class="col-12 mb-5">
+                            <div class="cat_content_heading">
+                                <h3 class="">Account Settings</h3>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <label class="form-label" id="label-form">First Name</label>
+                            <div class="sectionblock space long-value-input-container">
+                                <input type="text" required class="long-value-input" value=""
+                                    placeholder="First Name" />
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <label class="form-label" id="label-form">Last Name</label>
+                            <div class="sectionblock space long-value-input-container">
+                                <input type="text" required class="long-value-input" value=""
+                                    placeholder="Last Name" />
+                            </div>
+                        </div>
                     </div>
+
                 </div>
 
                 <div id="Paris" class="tabcontent">
