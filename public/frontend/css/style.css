@@ -306,41 +306,6 @@
     font-size: 18px;
 }
 
-.sectionblock1 {
-    position: relative;
-    height: 55px;
-    width: 100%;
-    display: flex;
-
-    background: #F3F4F8;
-    border-radius: 5px;
-}
-
-.sectionblock1 input:focus {
-    box-shadow: #2A84F2 0px 0px 3px;
-    border: 1px solid #479aff;
-    border-radius: 5px;
-}
-
-.sectionblock1 span {
-    color: #2A84F2;
-    width: 40px;
-    line-height: 45px;
-    position: relative;
-    right: 15px;
-}
-
-.sectionblock1 input {
-    border: none;
-    height: 100%;
-    width: 100%;
-    background: transparent;
-    border-radius: 4px;
-    outline: none;
-    color: #222;
-    font-size: 18px;
-}
-
 .toggle-password:hover {
     cursor: pointer;
 }
@@ -1278,7 +1243,70 @@ bottom-details .date {
     border-bottom: 1px solid rgba(42, 132, 242, 0.3);
 }
 
+
+
+
+
+.sectionblock1 {
+    position: relative;
+    height: 55px;
+    width: 100%;
+    display: flex;
+
+    background: #F3F4F8;
+    border-radius: 5px;
+}
+
+.sectionblock1 input:focus {
+    box-shadow: #2A84F2 0px 0px 3px;
+    border: 1px solid #479aff;
+    background: #F3F4F8 !important;
+    border-radius: 5px;
+}
+
+.sectionblock1 span {
+    color: #2A84F2;
+    width: 40px;
+    line-height: 45px;
+    position: relative;
+    right: 15px;
+}
+
+
+
+.sectionblock1 input {
+    border: none;
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border-radius: 4px;
+    outline: none;
+    color: #222;
+    font-size: 18px;
+}
+
+.form-label1 {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    margin-bottom: 7px;
+    /* main text color */
+
+    color: #3A456E;
+
+}
+
 /**************** User Profile END************/
+
+
+
+
+
+
+
+
 
 
 
