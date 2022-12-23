@@ -10,8 +10,15 @@
     <link rel="stylesheet" href="{{url('frontend/css/about.css')}}">
     <link rel="stylesheet" href="{{url('frontend/css/buyproduct.css')}}">
     <link rel="stylesheet" href="{{url('frontend/css/chartscreen.css')}}">
+    <link rel="stylesheet" href="{{url('frontend/css/messagescreen.css')}}">
+    
 
-
+<!-- message Side Start  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <!-- Message Side end  -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
@@ -34,9 +41,7 @@
         <img src="{{url('frontend/img/old-logo-blue 2.png')}}" alt="">
          </a> 
           </div>
-          <!-- <div class="col-md-5 ps-3 ms-5 aboutexternal">
-          <a class="nav-link nav_item  " aria-current="page" href="#" style="float: left;">ABOUT US</a>
-          </div> -->
+          
         </div>
       </div>
     </div>
@@ -47,13 +52,7 @@
     <ul class="navbar-nav mb-2 mb-lg-0 ">
     <li>
     <div class="row aboutintenal">
-      <!-- <div class="col-md-12">
-        <div class="row">
-          <div class="col-md-12">
-          <a class="nav-link nav_item  " aria-current="page" href="#" style="float: left;">ABOUT US</a>
-          </div>
-        </div>
-      </div> -->
+
     </div>
     </li>
         <li class="nav-item d-flex   mb-3 mb-lg-0" data-bs-toggle="modal" data-bs-target="#">
@@ -92,14 +91,199 @@
     </nav>
 </div>
 
-<div class="container pb-5">
- <div class="row">
-  <div class="col-md-4 col-sm-3 bg-danger" >
-    hsdfjsdhf
 
-  </div>
-  <div class="col-md-8 col-sm-9">
-  <div class="container_chart">
+<!-- last Message Side Code  Code  -->
+
+<div class="container pb-5" >
+        <div class="row">
+            <div class="col-md-5 col-lg-4 col-sm-6" style="background-color: #2A84F2;">
+               <div class="row">
+                  <div class="col-md-12 d-flex justify-content-between py-3">
+                    <div>
+                        <p class="message_head_A">My Messages</p>
+                    </div>
+                    <div>
+                      
+                         <!-- three dot menu -->
+                <div class="dropdown_mess">
+                    <!-- three dots -->
+                    <ul class="dropbtn_mess icons_dotted btn-right_mess  showLeft_mess" onclick="showDropdown()">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <!-- menu -->
+                    <div id="myDropdown" class="dropdown-content_mess">
+                        <a href="#home">Archived chats</a>                      
+                        <a href="#about">Spam chats</a>
+                        <a href="#contact">Add to archive</a>
+                    </div>
+                
+                </div>
+
+                    </div>
+                      </div>
+                <div class="col-md-10 d-flex justify-content-center pb-3">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <div class="input-group-text search_mess">
+                                <i class="bi bi-search "></i>
+                          </div>
+                        </div>
+                        <input type="text" class="form-control input_mess" placeholder="Search here" aria-label="Text input with checkbox">
+                      </div>
+                </div>
+
+                <!-- ============ -->
+                
+                <!-- =============== -->
+                
+                <div class="">
+                    <div id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <div class=" button-A " id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                            <div class="col-md-12 d-block pt-1 bg-color-c">
+                                <div class="d-flex justify-content-between    bg-color-c">
+                                    <div class="d-flex justify-content-between">
+                                        <div class="position-relative"> 
+                                            <img class="image-A"  src="{{url('frontend\img\messageChat\man_mess.png')}}" >
+                                            <span class="translate-middle  bg-danger   border-light rounded-circle empty-badge-A">
+                                            </span> 
+                                        </div>
+                                        <div class="ms-3 mt-2">
+                                            <span class=" text-heading-A">Richard Eric</span>
+                                            <div class="text-box" data-maxlength="10">
+                                            <p class=" message-A" >Xup man how much last? d kavdhkavddv</p>
+                                       </div>
+                                        </div>
+                                    </div>
+                                    <div class="mt-3 me-2">
+                                        <p class="time-text-A"> 12/2/2022</p>
+                                        <span class="translate-middle badge rounded-pill bg-warning ms-3">
+                                            9
+                                            <span class="visually-hidden">unread messages</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                            <div class="col-md-12 d-block pt-1 bg-color-c">
+                                <div class="d-flex justify-content-between    bg-color-c">
+                                    <div class="d-flex justify-content-between">
+                                        <div class="position-relative"> 
+                                            <img class="image-A"  src="{{url('frontend\img\messageChat\image1.jpg')}}"  src="./Images/image1.jpg" >
+                                            <span class="translate-middle  bg-danger   border-light rounded-circle empty-badge-A">
+                                            </span> 
+                                        </div>
+                                        <div class="ms-3 mt-2">
+                                            <span class=" text-heading-A">Richard Eric</span>
+                                            <div class="text-box" data-maxlength="10">
+                                            <p class=" message-A" >Xup man how much last? d kavdhkavddv</p>
+                                       </div>
+                                        </div>
+                                    </div>
+                                    <div class="mt-3 me-2">
+                                    <p class="time-text-A"> 12/2/2022</p>
+                                        <span class="translate-middle badge rounded-pill bg-warning ms-3">
+                                        3
+                                            <span class="visually-hidden">unread messages</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                            <div class="col-md-12 d-block pt-1 bg-color-c">
+                                <div class="d-flex justify-content-between    bg-color-c">
+                                    <div class="d-flex justify-content-between">
+                                        <div class="position-relative"> 
+                                        
+                                            <img class="image-A"   src="{{url('frontend\img\messageChat\man_mess1.png')}}"  >
+                                            <span class="translate-middle  bg-danger   border-light rounded-circle empty-badge-A">
+                                            </span> 
+                                        </div>
+                                        <div class="ms-3 mt-2">
+                                            <span class=" text-heading-A">Richard Eric</span>
+                                            <div class="text-box" data-maxlength="10">
+                                            <p class=" message-A" >Xup man how much last? d kavdhkavddv</p>
+                                       </div>
+                                        </div>
+                                    </div>
+                                    <div class="mt-3 me-2">
+                                        <p class="time-text-A"> 12/2/2022</p>
+                                        <span class="translate-middle badge rounded-pill bg-warning ms-3">
+                                            1
+                                            <span class="visually-hidden">unread messages</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                            <div class="col-md-12 d-block pt-1 bg-color-c">
+                                <div class="d-flex justify-content-between    bg-color-c">
+                                    <div class="d-flex justify-content-between">
+                                        <div class="position-relative"> 
+                                            <img class="image-A" src="{{url('frontend\img\messageChat\man_mess2.png')}}" >
+                                            <span class="translate-middle  bg-danger   border-light rounded-circle empty-badge-A">
+                                            </span> 
+                                        </div>
+                                        <div class="ms-3 mt-2">
+                                            <span class=" text-heading-A">Richard Eric</span>
+                                            <div class="text-box" data-maxlength="10">
+                                            <p class=" message-A" >Xup man how much last? d kavdhkavddv</p>
+                                       </div>
+                                        </div>
+                                    </div>
+                                    <div class="mt-3 me-2">
+                                        <p class="time-text-A"> 12/2/2022</p>
+                                        <span class="translate-middle badge rounded-pill bg-warning ms-3">
+                                            9
+                                            <span class="visually-hidden">unread messages</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                            <div class="col-md-12 d-block pt-1 bg-color-c">
+                                <div class="d-flex justify-content-between    bg-color-c">
+                                    <div class="d-flex justify-content-between">
+                                        <div class="position-relative"> 
+                                            <img class="image-A" src="{{url('frontend\img\messageChat\man_mess3.png')}}" >
+                                            <span class="translate-middle  bg-danger   border-light rounded-circle empty-badge-A">
+                                            </span> 
+                                        </div>
+                                        <div class="ms-3 mt-2">
+                                            <span class=" text-heading-A">Richard Eric</span>
+                                            <div class="text-box" data-maxlength="10">
+                                            <p class=" message-A" >Xup man how much last? d kavdhkavddv</p>
+                                       </div>
+                                        </div>
+                                    </div>
+                                    <div class="mt-3 me-2">
+                                        <p class="time-text-A"> 12/2/2022</p>
+                                        <span class="translate-middle badge rounded-pill bg-warning ms-3">
+                                            9
+                                            <span class="visually-hidden">unread messages</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      
+                </div>
+                
+               </div>
+            </div>
+            <div class=" col-lg-8 col-md-7 col-sm-6 p-0 g-0 ">
+                <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active bg-info hello3" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                       
+
+                    <div class="container_chart">
  <div class="chat_name px-4">
   
    <div>
@@ -180,11 +364,11 @@
     <div class="profile_chat_part">
 
 <div class="d-flex pt-3 pb-3 chat_btn justify-content-between justify-content-sm-center">
-  <button type="button" class="btn btn-outline-primary    ">Call Me</button>
-  <button type="button" class="btn btn-outline-primary   mx-3">Last Price</button>
+ 
+
   <button type="button" class="btn btn-outline-primary d-none   d-md-block mx-3">Is it Available</button>
   <button type="button" class="btn btn-outline-primary  d-none    d-md-block mx-3">Hello Erilich How can i get this</button>
-  <button type="button" class="btn btn-outline-primary d-none d-sm-block mx-3">Is it Available</button>
+  <button type="button" class="btn btn-outline-primary   d-none    d-sm-block  mx-3">Last Price</button>
 
   
 
@@ -225,17 +409,91 @@
     </div>
 
 
- </div>
 
-  </div>
- </div>
+                    
+
+
+
+                        </div>
+                    <div class="tab-pane fade bg-warning" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur recusandae architecto 
+                        nesciunt quod? Saepe excepturi autem reiciendis reprehenderit aliquam ex officia optio 
+                        pariatur sunt aliquid aperiam dolores quae error, dolorem minus, consequatur sequi ab 
+                        aspernatur, iure soluta voluptate! Eaque magni iusto nisi expedita perferendis dolorem 
+                        harum non voluptas suscipit possimus.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur recusandae architecto 
+                        nesciunt quod? Saepe excepturi autem reiciendis reprehenderit aliquam ex officia optio 
+                        pariatur sunt aliquid aperiam dolores quae error, dolorem minus, consequatur sequi ab 
+                        aspernatur, iure soluta voluptate! Eaque magni iusto nisi expedita perferendis dolorem 
+                        harum non voluptas suscipit possimus.
+                    </div>
+                    
+                  </div>
+            </div>
+        </div>
+
+
+
+       
+        
+    </div>
+    <script>
+    $(document).ready(function(){
+
+    $(".text-box p").text(function(index, currentText) {
+    var maxLength = $(this).parent().attr('data-maxlength');
+    if(currentText.length >= maxLength) {
+      return currentText.substr(0, maxLength) + "...";
+    } else {
+      return currentText
+    } 
+  });
+
+});
+         
+    </script>
+
+
+
+
+
+
+        <script>
+             function changeLanguage(language) {
+                    var element = document.getElementById("url");
+                    element.value = language;
+                    element.innerHTML = language;
+                }
+
+                function showDropdown() {
+                    document.getElementById("myDropdown").classList.toggle("show");
+                }
+
+                window.onclick = function(event) {
+                    if (!event.target.matches('.dropbtn_mess')) {
+                        var dropdowns = document.getElementsByClassName("dropdown-content_mess");
+                        var i;
+                        for (i = 0; i < dropdowns.length; i++) {
+                            var openDropdown = dropdowns[i];
+                            if (openDropdown.classList.contains('show')) {
+                                openDropdown.classList.remove('show');
+                            }
+                        }
+                    }
+                }
+        </script>
+ 
  
 
 </div>
 
 
- 
-  
+
+
+
+
+
+   
 </body>
 </html>
 <!-- Slideshow container -->
