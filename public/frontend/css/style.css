@@ -5,6 +5,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Prompt:wght@350&display=swap');
 
 
+body {
+    font-family: 'Prompt', sans-serif !important;
+    box-sizing: border-box !important;
+}
 
 
 
@@ -189,7 +193,7 @@
 
 .btn-enter1 {
     width: 100%;
-    color: black;
+    color: #3A456E;
     border: 2px solid #2A84F2;
     border-radius: 4px;
 
@@ -350,7 +354,7 @@
 
 .hero a {
     text-decoration: none;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 18px;
     color: #2A84F2;
 
@@ -1074,6 +1078,7 @@ bottom-details .date {
     font-weight: 400;
     font-size: 20px;
     line-height: 36px;
+    color: #2A84F2;
 
 }
 
@@ -1153,7 +1158,7 @@ bottom-details .date {
 /* Style the tab content */
 .tabcontent {
     width: 100%;
-    height: 600px;
+    /* height: 600px; */
     padding: 10px;
     /* height: 300px; */
 }
@@ -1214,12 +1219,10 @@ bottom-details .date {
 }
 
 
-.user_icon_span {}
-
-
 
 .user_pro_cat {
-    font-family: 'Roboto Slab';
+
+    font-family: 'Prompt';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -1298,7 +1301,31 @@ bottom-details .date {
 
 }
 
+
+
 /**************** User Profile END************/
+
+
+
+
+/**************** MY SAVE************/
+
+.b_border {
+    border-bottom: 1px solid rgba(42, 132, 242, 0.3);
+}
+
+
+.cat_content_heading1 h3 {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #3A456E;
+
+}
+
+/**************** MY SAVE END************/
 
 
 
