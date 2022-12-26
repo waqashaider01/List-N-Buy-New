@@ -18,7 +18,7 @@
     <div class="container mt-2">
         <div class="row">
             <div class="col-md-12 mt-2 text-center">
-                <img src="{{ url('frontend\img\login_logo.png') }}" alt="" />
+                <img src="{{ url('frontend\img\login_logo.png') }}" class="loglogo" alt="" />
             </div>
             <div class="col-md-12 mt-4 text-center">
                 <img src="{{ url('frontend\img\forgetkey.png') }}" alt="" class="imgsize" />

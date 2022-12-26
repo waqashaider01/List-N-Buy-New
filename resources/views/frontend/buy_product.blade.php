@@ -1,101 +1,5 @@
-@extends('frontend.layouts.main')
+@extends('frontend.layout_with_nav.main2')
 @section('main-container')
-    <div class="container mb-5">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid header_logo mt-5">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-md-5">
-                                <a class="" href="{{ url('/') }}">
-                                    <img src="{{ url('frontend/img/old-logo-blue 2.png') }}" alt="">
-                                </a>
-                            </div>
-                            <!-- <div class="col-md-5 ps-3 ms-5 aboutexternal">
-                  <a class="nav-link nav_item  " aria-current="page" href="#" style="float: left;">ABOUT US</a>
-                  </div> -->
-                        </div>
-                    </div>
-                </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse navbar_setting" id="navbarSupportedContent" style="position:relative">
-                    <ul class="navbar-nav mb-2 mb-lg-0 ">
-                        <li>
-                            <div class="row aboutintenal">
-                                <!-- <div class="col-md-12">
-                <div class="row">
-                  <div class="col-md-12">
-                  <a class="nav-link nav_item  " aria-current="page" href="#" style="float: left;">ABOUT US</a>
-                  </div>
-                </div>
-              </div> -->
-                            </div>
-                        </li>
-                        <li class="nav-item d-flex   mb-3 mb-lg-0" data-bs-toggle="modal" data-bs-target="#">
-                            <div class="col-md-12 d-flex   mt-2 aboutheadicon">
-                                <a href="" class="icon pinterest">
-                                    <span>Mail</span>
-                                    <div class="category_icon_span">
-                                        <i class="fa-regular fa-envelope category_icon"></i>
-                                    </div>
-                                </a>
-                                <a href="" class="icon pinterest">
-                                    <span>Announcement</span>
-                                    <div class="category_icon_span">
-                                        <img src="{{ url('frontend\img\about\about_sound.png') }}" alt=""
-                                            class="mt-2" style="width: 25px;">
-                                    </div>
-                                </a>
-                                <a href="" class="icon pinterest">
-                                    <span>Notification</span>
-                                    <div class="category_icon_span">
-                                        <i class="fa-regular fa-bell category_icon"></i>
-                                    </div>
-                                </a>
-                                <a href="" class="icon pinterest">
-                                    <span>User</span>
-                                    <div class="category_icon_span">
-                                        <i class="fa-regular fa-circle-user category_icon"></i>
-                                    </div>
-                                </a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a href="/login" class="btn nav_btn2">SELL</a>
-                        </li>
-                    </ul>
-                </div>
-        </nav>
-    </div>
-    <!-- ###############Search And Logo Section Start ############ -->
-    <!-- <div class="container-fluid buy_header">
-            <div class="container">
-
-            <div class="row pt-5 pb-5">
-
-            <div class="col-md-6">
-
-            <a class="" href="{{ url('/') }}">
-          <img src="{{ url('frontend/img/old-logo-blue 2.png') }}" alt="" style="width: 150px;">
-        </a>
-            </div>
-            <div class="col-md-6">
-            <form class="example" action="action_page.php">
-          <input type="text" placeholder="Search.." name="search">
-          <button type="submit">Search</button>
-        </form>
-            </div>
-          </div>
-            </div>
-        </div> -->
-    <!-- ###############Search And Logo Section  End  ############ -->
-
-
-
     <!-- End Tab  -->
     <div class="container buysection2">
         <div class="row pt-5">
@@ -103,27 +7,7 @@
                 <div class="row">
 
 
-                    <!-- <div class="col-lg-3 col-md-3 col-sm-6">
 
-
-
-         <a href="" class="buylink"><p>All</p></a>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-6">
-            <a href="" class="buylink"><p>Exterior</p></a>
-
-              </div>
-              <div class="col-lg-3 col-md-3 col-sm-6">
-
-            <a href="" class="buylink"><p>Interior</p></a>
-
-
-              </div>
-              <div class="col-lg-3 col-md-3 col-sm-6">
-              <a href="" class="buylink"><p>Videos</p></a>
-
-
-              </div> -->
                 </div>
             </div>
             <div class="col-d-8">
@@ -137,8 +21,8 @@
                     class="buylink">
                     Image
                 </li>
-                <li role="tabt" aria-selected="false" aria-controls="panel-developers" id="tab-developers"
-                    tabindex="-1" class="buylink">
+                <li role="tabt" aria-selected="false" aria-controls="panel-developers" id="tab-developers" tabindex="-1"
+                    class="buylink">
                     Videos
                 </li>
             </ul>
@@ -177,37 +61,6 @@
                             <a class="next" onclick="plusSlides(1)">&#10095;</a>
                         </div>
                         <br>
-
-                        <!-- The dots/circles -->
-                        <!-- <div   class="row pb-3 slider_buy">
-        <div class="col-lg-3 col-md-6 col-sm-3 " >
-        <div class="dot" onclick="currentSlide(1)"><img  src="{{ url('frontend\img\buy_product\buy_slider3.png') }}" class="sliderimg"></div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-3 col-xs-3">
-
-        <div class="dot" onclick="currentSlide(2)"><img src="{{ url('frontend\img\buy_product\buy_slider1.png') }}" class="sliderimg"></div>
-
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-3">
-
-
-        <div class="dot" onclick="currentSlide(3)"><img  src="{{ url('frontend\img\buy_product\buy_slider.png') }}" class="sliderimg"></div>
-
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-3 ">
-
-
-        <div class="dot" onclick="currentSlide(4)"><img  src="{{ url('frontend\img\buy_product\buy_slider2.png') }}" class="sliderimg"></div>
-        </div>
-
-
-
-
-
-
-
-
-        </div> -->
 
 
 
@@ -333,8 +186,8 @@
                             <div>
                                 <article id="tabs_buy">
                                     <ul role="tablist" aria-label="Free HTML Tabs" class="tabbactive ul_buy">
-                                        <li role="tab" aria-selected="true" aria-controls="panel-home"
-                                            id="tab-home" tabindex="0">
+                                        <li role="tab" aria-selected="true" aria-controls="panel-home" id="tab-home"
+                                            tabindex="0">
                                             Vehicle Description
                                         </li>
                                         <li role="tab" aria-selected="false" aria-controls="panel-developers"

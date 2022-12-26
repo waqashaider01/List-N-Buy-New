@@ -45,6 +45,14 @@
                             </div>
                             <span class="user_pro_cat ms-2">Message</span>
                         </a>
+
+                        <a href="" class="text_d_none">
+                            <div style="margin-top: 50px; margin-bottom:30px">
+                                <img src="{{ url('frontend\img\user-profile\3.png') }}" alt="" width="30px">
+                                <span class="sign_out_span ms-3">Sign Out</span>
+                            </div>
+                        </a>
+
                     </div>
 
                 </div>
@@ -529,52 +537,101 @@
 
                 <div id="Notification" class="tabcontent shadow">
                     <div class="row p-3">
-                        <div class="col-12 mb-5">
-                            <div class="cat_content_heading">
-                                <h3 class="">Account Settings</h3>
+                        <div class="col-12 mb-5 d-flex justify-content-between align-items-center b_border">
+                            <div class="cat_content_heading1">
+                                <h3 class="">Notifications</h3>
+                            </div>
+                            <div>
+                                <a href="" class="text_d_none" style="color: red">Clear All</a>
                             </div>
                         </div>
                         <div class="col-12 mb-5">
                             <div class="container buysection_card pt-5 pb-5 mb-5">
                                 <div class="row position-relative">
                                     <div class="col-lg-3 col-md-4 ">
-                                        <div class="_img_div">
-                                            <a href=""><img src="{{ url('frontend\img\user-profile\100.png') }}"
-                                                    alt="" class="card_buy_img" alt=""></a>
+                                        <div class="cart_img_box">
+                                            <img src="{{ url('frontend\img\user-profile\102.png') }}" alt=""
+                                                class="ellipse" alt="">
+                                            <a href="">
+                                                <div class="row g-1">
+                                                    <div class="col-6" style="z-index: 100">
+                                                        <img src="{{ url('frontend\img\user-profile\107.png') }}"
+                                                            alt="" class="card_buy_img" alt="">
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <img src="{{ url('frontend\img\user-profile\108.png') }}"
+                                                            alt="" class="card_buy_img" alt="">
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <img src="{{ url('frontend\img\user-profile\109.png') }}"
+                                                            alt="" class="card_buy_img" alt="">
+                                                    </div>
+                                                    <div class="col-6" style="z-index: 100">
+                                                        <img src="{{ url('frontend\img\user-profile\110.png') }}"
+                                                            alt="" class="card_buy_img" alt="">
+                                                    </div>
+                                                </div>
+
+                                            </a>
                                         </div>
                                     </div>
                                     <div class="col-lg-9 col-md-8 mt-3">
-                                        <span class="buysecondhead">Mercedes-Benz</span>
                                         <span style="float: right; cursor: pointer;"><i
                                                 class="fa-solid fa-xmark mb-3"></i></span>
-                                        <p class="card_p_buy">Mercedes-Benz to Release Pickup Truck by 2020</p>
+                                        <span class="buysecondhead">Check ads similar to your favourite</span>
+
+                                        <p class="card_p_buy mt-4">21/03/2021</p>
 
 
-                                        <div>
-                                            <p class="card_buy_price">$43,847.00</p>
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="container buysection_card pt-5 pb-5 mb-5">
+                                <div class="row position-relative">
+                                    <div class="col-lg-3 col-md-4 ">
+                                        <div class="cart_img_box">
+                                            <img src="{{ url('frontend\img\user-profile\102.png') }}" alt=""
+                                                class="ellipse" alt="">
+                                            <a href="">
+                                                <div class="row g-1">
+                                                    <div class="col-6" style="z-index: 100">
+                                                        <img src="{{ url('frontend\img\user-profile\103.png') }}"
+                                                            alt="" class="card_buy_img" alt="">
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <img src="{{ url('frontend\img\user-profile\104.png') }}"
+                                                            alt="" class="card_buy_img" alt="">
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <img src="{{ url('frontend\img\user-profile\105.png') }}"
+                                                            alt="" class="card_buy_img" alt="">
+                                                    </div>
+                                                    <div class="col-6" style="z-index: 100">
+                                                        <img src="{{ url('frontend\img\user-profile\106.png') }}"
+                                                            alt="" class="card_buy_img" alt="">
+                                                    </div>
+                                                </div>
+
+                                            </a>
                                         </div>
+                                    </div>
+                                    <div class="col-lg-9 col-md-8 mt-3">
+                                        <span style="float: right; cursor: pointer;"><i
+                                                class="fa-solid fa-xmark mb-3"></i></span>
+                                        <span class="buysecondhead">Check ads similar to your favourite</span>
+
+                                        <p class="card_p_buy mt-4">21/03/2021</p>
 
 
-                                        <div class="d-flex justify-content-between">
-                                            <div>
-                                                <a href=""><img
-                                                        src="http://127.0.0.1:8000/frontend\img\buy_product\location_buy.png"
-                                                        style="width: 20px;" alt=""></a>
-                                                <span class="icontext_buy p-1">Washington,DC</span>
-                                            </div>
-                                            <div>
-                                                <a href=""><img src="{{ url('frontend\img\user-profile\2.png') }}"
-                                                        style="width: 20px;" alt=""></a>
-                                                <span class="icontext_buy p-1">Min Bid $20,025</span>
-                                            </div>
 
-                                            <div>
-                                                <a href=""><img src="{{ url('frontend\img\user-profile\2.png') }}"
-                                                        style="width: 20px;" alt=""></a>
-                                                <span class="icontext_buy p-1">Max Bid $20,025</span>
-                                            </div>
 
-                                        </div>
+
+
                                     </div>
                                 </div>
                             </div>
@@ -706,6 +763,8 @@
                     <h3>Message</h3>
 
                 </div>
+
+
             </div>
 
         </div>
