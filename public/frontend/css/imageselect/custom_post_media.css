@@ -1,0 +1,23 @@
+@media(min-width: 768px) {
+    .rt-side {
+        min-height: 856px;
+    }
+    .bg-bt {
+        max-width: 558px;
+    }
+}
+
+@media (max-width: 767px) {
+    .rt-side {
+        display: none;
+    }
+    .about-left-dots {
+        display: none;
+    }
+}
+
+@media(min-width: 1200px) {
+    .slider-heading {
+        margin-top: 20%;
+    }
+}
