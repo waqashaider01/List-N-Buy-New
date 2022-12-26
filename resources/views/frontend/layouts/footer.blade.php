@@ -3,7 +3,7 @@
      <div class="container">
          <div class="row">
              <div class="col-md-6 col-lg-4  mt-5">
-                 <img src="{{ url('frontend\img\footerlogo.png') }}" class="loglogo" alt="">
+                 <img src="{{ url('frontend\img\footerlogo.png') }}" class="loglogo mb-2" alt="">
                  <p class="footer-text text-justify">
                      Listnbuy was created out of the
                      desire to bright that smooth interaction of a well designed and communicative user's interface that
