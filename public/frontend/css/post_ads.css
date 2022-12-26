@@ -30,8 +30,111 @@ line-height: 27px;
 color: #EB5757;
 
 }
- 
+.post_select_option{
+    height: 50px !important;
+    /* width: 339px !important; */
+    /* border: 1px solid red; */
+    background: #F3F4F8;
+    border: none !important;
+    /* border: 1px solid rgb(204, 37, 37); */
+    font-family: 'Poppins';
+    font-style: normal;
+    height: 50px;
+    border-radius: 6px;
+    
+    font-weight: 400;
+    font-size: 18px;
+    
+}
+.post_select_option_input{
 
+    height: 50px !important;
+    width: 100% !important;
+    /* border: 1px solid red; */
+    background: #F3F4F8;
+    border: none !important;
+    /* border: 1px solid rgb(204, 37, 37); */
+    font-family: 'Poppins';
+    font-style: normal;
+    height: 50px;
+    padding-left: 10px;
+    border-radius: 6px;
+    border: 1px solid  #2A84F2;
+    
+    font-weight: 400;
+    font-size: 18px;
+    
+}
+
+.text_area_play_ads{
+    height: 200px !important;
+    width: 100% !important;
+    /* border: 1px solid red; */
+    background: #F3F4F8;
+    border: none !important;
+    /* border: 1px solid rgb(204, 37, 37); */
+    font-family: 'Poppins';
+    font-style: normal;
+    border-radius: 8px;
+ 
+    padding: 10px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.text_area_play_ads::placeholder{
+color:rgba(75, 91, 119, 0.5);;
+
+    
+}
+.post_select_option_input::placeholder{
+
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+/* other text color 50% */
+
+color:rgba(75, 91, 119, 0.5);;
+
+    
+}
+.check_box_size{
+   
+    top: .8rem;
+    scale: 1.4;
+    margin-right: 0.7rem;
+   
+    
+}
+.yes_no{
+  color: #838EA1 !important;
+    
+}
+
+/* .lire{
+    height: 50px ;width:339px;
+    background: #F3F4F8;
+    border-radius: 3px;
+    color: rgba(75, 91, 119, 0.5);
+    border: 1px solid rgb(62, 62, 62);
+    font-family: 'Poppins';
+    font-style: normal;
+    height: 50px;
+    padding-left: 10px;   
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 9px;
+} */
+
+
+.bt_sz{
+    padding: 20px !important ;
+}
 
 @media(max-width:540px)
 {
@@ -51,6 +154,7 @@ font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 24px;
+padding: 15px 0px;
 /* identical to box height */
 
 
@@ -70,4 +174,83 @@ color: #3A456E;
     color: rgba(131, 142, 161, 0.5);
 
 }
+
+
+
+.custom-select {
+    position: relative;
+    font-family: Arial;
+  }
+  .custom-select select {
+    display: none;
+  }
+  .select-selected {
+  background: #F3F4F8;
+  border-radius: 3px;
+  color: rgba(75, 91, 119, 0.5);
+  /* border: 1px solid rgb(204, 37, 37); */
+  font-family: 'Poppins';
+  font-style: normal;
+  height: 50px;
+  padding-left: 10px;   
+  padding-top: 10px;
+  font-weight: 400;
+  font-size: 18px;
+  border-radius: 7px;
+    
+  }
+  .select-selected:hover{
+
+border: 2px solid  #2A84F2;
+
+  }
+  
+  
+  /* Style the arrow inside the select element: */
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 20px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color:#2A84F2 transparent transparent transparent  ;
+  }
+  /* Point the arrow upwards when the select box is open (active): */
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #2A84F2 transparent;
+    top: 15px;
+  }
+  /* style the items (options), including the selected item: */
+  .select-items div {
+    color: #ffffff;
+    padding: 8px 16px;
+    box-shadow: 1px 0px 1px #F3F4F8 ;
+    cursor: pointer;
+  }
+  
+  /* Style items (options): */
+  .select-items {
+    position: absolute;
+    /* background-color: DodgerBlue; */
+    background-color: #2A84F2;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+     -webkit-overflow-scrolling: auto;
+  }
+  
+  /* Hide the items when the select box is closed: */
+  .select-hide {
+    display: none;
+  }
+  
+  .select-items div:hover, .same-as-selected {
+    background-color:#5AB4FF;
+  }
+
  

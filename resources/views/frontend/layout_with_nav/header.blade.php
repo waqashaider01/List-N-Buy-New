@@ -13,7 +13,16 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="{{ url('frontend/css/about.css') }}">
     <link rel="stylesheet" href="{{ url('frontend/css/buyproduct.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 
+    <!-- post Image select Css  start -->
+
+   
+
+    <!-- post Image select Css  start -->
+
+
+    
 </head>
 
 <body>
