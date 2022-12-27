@@ -323,16 +323,21 @@
     font-family: 'Prompt';
     font-style: normal;
     font-weight: 400;
+    color: #3A456E;
 
+}
 
-
+.prifile_detail_btn_buy:active {
+    width: 250px;
+    background: #F3F4F8 !important;
+    border: 1px solid #2A84F2 !important;
     color: #3A456E;
 
 }
 
 .prifile_detail_btn_buy:hover {
-    background-color: #7e8c8d;
-    color: white;
+    background: #F3F4F8 !important;
+    color: #3A456E;
     border: 1px solid #2A84F2;
 
 }
@@ -635,7 +640,10 @@
 
     .ul_buy {
         padding-left: 0px !important;
+
     }
+
+
 
 }
 
@@ -841,4 +849,8 @@
     line-height: 50px;
     color: #838EA1;
     text-decoration: none
+}
+
+.tabbactive li:active {
+    color: #3A456E !important;
 }

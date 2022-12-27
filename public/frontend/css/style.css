@@ -37,14 +37,19 @@ body {
 
 }
 
-.nav_item {
-    font-family: 'Prompt', sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 27px;
-    color: #2A84F2;
+.nav_item:active {
+    color: #2A84F2 !important;
 
 }
+
+.nav_item:hover {
+    color: #2A84F2 !important;
+}
+
+.nav_item:focus {
+    color: #2A84F2 !important;
+}
+
 
 .nav_btn1 {
     height: 47px;
@@ -1025,10 +1030,6 @@ bottom-details .date {
 
 .dropdown:hover .dropdown-content {
     display: block;
-}
-
-.dropdown:hover .dropbtn {
-    /* background-color: #2A84F2; */
 }
 
 

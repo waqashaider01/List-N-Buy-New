@@ -26,6 +26,40 @@
                     Videos
                 </li>
             </ul>
+
+
+            <div class="container">
+                <div class="pt-4 row">
+                    <div class="col-12 col-lg-6 d-flex flex-sm-row flex-column justify-content-around">
+                        <div class="mb-2">
+
+
+                            <a href=""><img src="{{ url('frontend\img\buy_product\location_buy.png') }}"
+                                    style="width: 20px;" alt=""></a>
+                            <span class="icontext_buy p-sm-1">Washington,DC</span>
+
+                        </div>
+                        <div class="short_buy mb-2">
+                            <span>
+                                <a href=""><img src="{{ url('frontend\img\buy_product\time_buy.png') }}"
+                                        style="width: 20px;" alt=""></a>
+                                <span class="icontext_buy p-sm-1">Posted 2 hrs ago</span>
+
+                            </span>
+                        </div>
+                        <div class="short_buy mb-2">
+                            <a href=""><img src="{{ url('frontend\img\buy_product\eye_buy.png') }}"
+                                    style="width: 20px;" alt=""></a>
+                            <span class="icontext_buy p-sm-1">04 Veiws</span>
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+
             <section id="panel-home" role="tabpanel" tabindex="0" aria-labelledby="tab-home">
                 <div class="row">
 
@@ -153,33 +187,7 @@
                             </div>
 
                         </div>
-                        <div class="pt-4 reviwedata_buy">
-                            <div>
 
-
-                                <a href=""><img src="{{ url('frontend\img\buy_product\location_buy.png') }}"
-                                        style="width: 20px;" alt=""></a>
-                                <span class="icontext_buy p-sm-1">Washington,DC</span>
-
-                            </div>
-                            <div class="short_buy">
-                                <span>
-                                    <a href=""><img src="{{ url('frontend\img\buy_product\time_buy.png') }}"
-                                            style="width: 20px;" alt=""></a>
-                                    <span class="icontext_buy p-sm-1">Posted 2 hrs ago</span>
-
-                                </span>
-                            </div>
-                            <div class="short_buy">
-                                <a href=""><img src="{{ url('frontend\img\buy_product\eye_buy.png') }}"
-                                        style="width: 20px;" alt=""></a>
-                                <span class="icontext_buy p-sm-1">04 Veiws</span>
-
-                            </div>
-
-
-
-                        </div>
 
 
                         <div class="pt-4">
@@ -343,20 +351,15 @@
                                 <div class="row">
                                     <div class="col-lg-12 col-md-12 col-sm-6 pb-2">
                                         <div class=" d-flex justify-content-left buy_product_widget">
-                                            <div>
-
-                                                <img src="{{ url('frontend\img\buy_product\buy_star.png') }}"
-                                                    alt="" style="width:   15px;">
-                                                <img src="{{ url('frontend\img\buy_product\buy_star.png') }}"
-                                                    alt="" style="width:   15px;">
-                                                <img src="{{ url('frontend\img\buy_product\buy_star.png') }}"
-                                                    alt="" style="width:   15px;">
-                                                <img src="{{ url('frontend\img\buy_product\buy_star.png') }}"
-                                                    alt="" style="width:   15px;">
-
+                                            <div class="info-row reviews-widget ratings">
+                                                <span class="far fa-star"></span>
+                                                <span class="far fa-star"></span>
+                                                <span class="far fa-star"></span>
+                                                <span class="far fa-star"></span>
+                                                <span class="far fa-star"></span>
                                             </div>
                                             <div class="div">
-                                                <span class="rating-label-buy  ps-3">04 review(s)</span>
+                                                <span class="rating-label-buy  ps-3">0 review(s)</span>
                                             </div>
                                         </div>
                                     </div>
@@ -365,10 +368,11 @@
                                 <p class="buysecondhead">Current Location: Washington, DC</p>
 
 
-                                <button type="button" class="btn btn-primary btn-lg   buy_product_btn"
+                                <button type="button" class="btn btn-lg btn-lg   prifile_detail_btn_buy"
                                     data-bs-toggle="modal" data-bs-target="#staticBackdrop">Make In Offer</button>
                                 <br> <br>
-                                <button type="button" class="btn  btn-lg   buy_product_btn_review">Post a Review</button>
+                                <button type="button" class="btn  btn-lg    prifile_detail_btn_buy">Post a
+                                    Review</button>
 
 
                                 <div>
@@ -455,33 +459,7 @@
                             </div>
 
                         </div>
-                        <div class="pt-4 reviwedata_buy">
-                            <div>
 
-
-                                <a href=""><img src="{{ url('frontend\img\buy_product\location_buy.png') }}"
-                                        style="width: 20px;" alt=""></a>
-                                <span class="icontext_buy p-sm-1">Washington,DC</span>
-
-                            </div>
-                            <div class="short_buy">
-                                <span>
-                                    <a href=""><img src="{{ url('frontend\img\buy_product\time_buy.png') }}"
-                                            style="width: 20px;" alt=""></a>
-                                    <span class="icontext_buy p-sm-1">Posted 2 hrs ago</span>
-
-                                </span>
-                            </div>
-                            <div class="short_buy">
-                                <a href=""><img src="{{ url('frontend\img\buy_product\eye_buy.png') }}"
-                                        style="width: 20px;" alt=""></a>
-                                <span class="icontext_buy p-sm-1">04 Veiws</span>
-
-                            </div>
-
-
-
-                        </div>
 
 
                         <div class="pt-4">
@@ -492,16 +470,17 @@
                                             id="tab-home" tabindex="0">
                                             Vehicle Description
                                         </li>
-                                        <li role="tab" aria-selected="false" aria-controls="panel-developers"
-                                            id="tab-developers" tabindex="-1">
+                                        <li role="tab" aria-selected="false" class="tablist_col"
+                                            aria-controls="panel-developers" id="tab-developers" tabindex="-1">
                                             Vehicle Details
                                         </li>
-                                        <li role="tab" aria-selected="false" aria-controls="panel-information"
-                                            id="tab-information" tabindex="-1">
+                                        <li role="tab" aria-selected="false" class="tablist_col"
+                                            aria-controls="panel-information" id="tab-information" tabindex="-1">
                                             Reviews
                                         </li>
                                     </ul>
-                                    <section id="panel-home" role="tabpanel" tabindex="0" aria-labelledby="tab-home">
+                                    <section id="panel-home" role="tabpanel" class="tablist_col" tabindex="0"
+                                        aria-labelledby="tab-home">
                                         <div class="d-flex justify-content-between">
                                             <div>
                                                 <div class="d-block">
