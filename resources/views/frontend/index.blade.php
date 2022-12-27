@@ -18,7 +18,7 @@
         </li> --}}
                         <li class="nav-item d-flex me-4 mb-3 mb-lg-0 mt-3 mt-lg-0" data-bs-toggle="modal"
                             data-bs-target="#">
-                            <a href="#" class="btn nav_btn1 ">Post ad</a>
+                            <a href="/post-ads" class="btn nav_btn1 ">Post ad</a>
                         </li>
                         <li class="nav-item">
                             <a href="/login" class="btn nav_btn2">Sign In</a>
