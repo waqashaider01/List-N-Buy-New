@@ -26,7 +26,7 @@
                      <h6>Terms & Conditions</h6>
                  </a>
                  <a href="" class="footerselect">
-                     <h6>Terms & Conditions</h6>
+                     <h6>Privacy & Policy</h6>
                  </a>
              </div>
              <div class="col-md-6 col-lg-2 mt-5">
@@ -35,7 +35,7 @@
                      <h6>Contact Us</h6>
                  </a>
                  <a href="" class="footerselect">
-                     <h6>Contact Us</h6>
+                     <h6>Sitemap</h6>
                  </a>
                  <a href="" class="footerselect">
                      <h6> FAQs</h6>

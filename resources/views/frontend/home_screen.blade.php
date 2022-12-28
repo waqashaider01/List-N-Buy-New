@@ -160,7 +160,7 @@
 
 
     <div class="container-fluid container-xxl">
-        <div class="row flex-nowrap justify-content-center" style="background-color: #fefefe;">
+        <div class="row flex-nowrap justify-content-center cat_scroll" style="background-color: #fefefe; overflow:auto">
             <div class="col-sm-2 d-none d-md-flex" style="white-space: nowrap;">
                 <a href="" class="text_d_none">
                     {{-- <i class="fa-solid fa-house-chimney-user"></i> --}}

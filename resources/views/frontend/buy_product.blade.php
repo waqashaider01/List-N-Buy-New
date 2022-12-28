@@ -341,6 +341,7 @@
 
                     </div>
                     <div class="col-md-6 col-lg-4 pt-3">
+
                         <div class=" d-flex justify-content-center">
 
 
@@ -624,20 +625,15 @@
                                 <div class="row">
                                     <div class="col-lg-12 col-md-12 col-sm-6 pb-2">
                                         <div class=" d-flex justify-content-left buy_product_widget">
-                                            <div>
-
-                                                <img src="{{ url('frontend\img\buy_product\buy_star.png') }}"
-                                                    alt="" style="width:   15px;">
-                                                <img src="{{ url('frontend\img\buy_product\buy_star.png') }}"
-                                                    alt="" style="width:   15px;">
-                                                <img src="{{ url('frontend\img\buy_product\buy_star.png') }}"
-                                                    alt="" style="width:   15px;">
-                                                <img src="{{ url('frontend\img\buy_product\buy_star.png') }}"
-                                                    alt="" style="width:   15px;">
-
+                                            <div class="info-row reviews-widget ratings">
+                                                <span class="far fa-star"></span>
+                                                <span class="far fa-star"></span>
+                                                <span class="far fa-star"></span>
+                                                <span class="far fa-star"></span>
+                                                <span class="far fa-star"></span>
                                             </div>
                                             <div class="div">
-                                                <span class="rating-label-buy  ps-3">04 review(s)</span>
+                                                <span class="rating-label-buy  ps-3">0 review(s)</span>
                                             </div>
                                         </div>
                                     </div>
@@ -646,10 +642,11 @@
                                 <p class="buysecondhead">Current Location: Washington, DC</p>
 
 
-                                <button type="button" class="btn btn-primary btn-lg   buy_product_btn"
+                                <button type="button" class="btn btn-lg btn-lg   prifile_detail_btn_buy"
                                     data-bs-toggle="modal" data-bs-target="#staticBackdrop">Make In Offer</button>
                                 <br> <br>
-                                <button type="button" class="btn  btn-lg   buy_product_btn_review">Post a Review</button>
+                                <button type="button" class="btn  btn-lg    prifile_detail_btn_buy">Post a
+                                    Review</button>
 
 
                                 <div>
@@ -659,7 +656,6 @@
 
                             </div>
                         </div>
-
                         <hr>
                         <div class="row">
                             <div class="col-md-12 pt1">
