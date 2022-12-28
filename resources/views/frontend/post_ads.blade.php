@@ -59,6 +59,7 @@
                                     </select>
                                 </div>
 
+
                             </div>
                             <div class="col-md-4 ">
                                 <label for="" class="ads_lable">
@@ -409,7 +410,7 @@
                                 <label for="" class="ads_lable">
                                     Make
                                 </label>
-                                <div class="custom-select post_select_option">
+                                {{-- <div class="custom-select post_select_option">
                                     <select>
                                         <option value="0">Category</option>
                                         <option value="1">Honda</option>
@@ -423,27 +424,192 @@
                                         <option value="9">Bentley</option>
 
                                     </select>
+                                </div> --}}
+                                <div>
+                                    <div class="dropdownas">
+                                        <button class="dropbtn" id='dp'>Catagories</button>
+                                        <i class="bi bi-caret-down-fill" id="iconstab"
+                                            style="position: absolute    ; right: 10px; top: 20px; color: #2A84F2;"></i>
+
+
+                                        <div class="dropdownas-content" id="dropcont">
+                                            <ul class="navbar-nav">
+
+
+                                                <div class="dropdownas1">
+                                                    <ul class="navbar-nav">
+                                                        <li>
+                                                            <a href="#">Vehicles <i class="bi bi-caret-right-fill"
+                                                                    style="float: right;"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="dropdownas-content1">
+                                                        <ul class="navbar-nav">
+                                                            <li>
+                                                                <a href="#" onclick="callme('i9')"
+                                                                    id="i9">Cars</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#" onclick="callme('i10')"
+                                                                    id="i10">Busses and MicroBuses</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#" onclick="callme('i11')"
+                                                                    id="i11">Trucks and Trallers</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#" onclick="callme('i12')"
+                                                                    id="i12">Motorcycles</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#" onclick="callme('i13')"
+                                                                    id="i13">Vehicles Parts abd Accessories</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#" onclick="callme('i14')"
+                                                                    id="i14">Heavy Equipments</a>
+                                                            </li>
+                                                        </ul>
+
+
+                                                    </div>
+                                                </div>
+
+                                                <li>
+                                                    <a href="#" onclick="callme('i2')"
+                                                        id="i2">Properties</a>
+                                                </li>
+                                                <li class="">
+                                                    <a href="#" onclick="callme('i3')" id="i3">Mobile phones
+                                                        And tablets</a>
+                                                </li>
+                                                <li class="">
+                                                    <a href="#" onclick="callme('i4')"
+                                                        id="i4">MotorBikes</a>
+                                                </li>
+                                                <li class="">
+                                                    <a href="#" onclick="callme('i5')"
+                                                        id="i5">Electronics</a>
+                                                </li>
+                                                <li class="">
+                                                    <a href="#" onclick="callme('i6')" id="i6">Vehicles
+                                                        Parts</a>
+                                                </li>
+                                                <li class="">
+                                                    <a href="#" onclick="callme('i7')" id="i7">Health and
+                                                        Beauty</a>
+                                                </li>
+                                                <li class="">
+                                                    <a href="#" onclick="callme('i8')" id="i8">Fashions</a>
+                                                </li>
+
+                                            </ul>
+
+                                        </div>
+                                    </div>
                                 </div>
 
                             </div>
                             <div class="col-md-6 ">
                                 <label for="" class="ads_lable">
-                                    Model
+                                    Location
                                 </label>
-                                <div class="custom-select post_select_option">
-                                    <select>
-                                        <option value="0">Model</option>
-                                        <option value="1">80</option>
-                                        <option value="2">A4</option>
-                                        <option value="3">A5</option>
-                                        <option value="4">100</option>
-                                        <option value="5">200</option>
-                                        <option value="6">Q5</option>
-                                        <option value="7">Ford</option>
-                                        <option value="8">Q7</option>
-                                        <option value="9">4000</option>
+                                <div>
+                                    <div class="dropdownas">
+                                        <button class="dropbtn" id='lo'>Locations</button>
+                                        <i class="bi bi-caret-down-fill" id="iconstab"
+                                            style="position: absolute    ; right: 10px; top: 20px; color: #2A84F2;"></i>
 
-                                    </select>
+
+                                        <div class="dropdownas-content" id="dropcont">
+                                            <ul class="navbar-nav">
+
+
+
+                                                <div class="dropdownas1">
+                                                    <ul class="navbar-nav">
+                                                        <li>
+                                                            <a href="#">Lagos State <i
+                                                                    class="bi bi-caret-right-fill"
+                                                                    style="float: right;"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="dropdownas-content1">
+                                                        <ul class="navbar-nav">
+                                                            <li>
+                                                                <a href="#" onclick="callmel('b9')"
+                                                                    id="b9">Ajah</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#" onclick="callmel('ii10')"
+                                                                    id="ii10">Surulere</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#" onclick="callmel('b11')"
+                                                                    id="b11">lkeja</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#" onclick="callmel('b124')"
+                                                                    id="b124">Ojo</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#" onclick="callmel('b135')"
+                                                                    id="b135">Ebule Egba</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#" onclick="callmel('b145')"
+                                                                    id="b145">Agego</a>
+                                                            </li>
+                                                        </ul>
+
+
+                                                    </div>
+                                                </div>
+                                                <div class="dropdownas1">
+                                                    <ul class="navbar-nav">
+                                                        <li>
+                                                            <a href="#">Abuja (FCT) State <i
+                                                                    class="bi bi-caret-right-fill"
+                                                                    style="float: right;"></i></a>
+                                                        </li>
+                                                    </ul>
+
+                                                </div>
+                                                <div class="dropdownas1">
+                                                    <ul class="navbar-nav">
+                                                        <li>
+                                                            <a href="#">Ogun State <i class="bi bi-caret-right-fill"
+                                                                    style="float: right;"></i></a>
+                                                        </li>
+                                                    </ul>
+
+                                                </div>
+                                                <div class="dropdownas1">
+                                                    <ul class="navbar-nav">
+                                                        <li>
+                                                            <a href="#">Oyo State <i class="bi bi-caret-right-fill"
+                                                                    style="float: right;"></i></a>
+                                                        </li>
+                                                    </ul>
+
+                                                </div>
+                                                <div class="dropdownas1">
+                                                    <ul class="navbar-nav">
+                                                        <li>
+                                                            <a href="#">River State <i
+                                                                    class="bi bi-caret-right-fill"
+                                                                    style="float: right;"></i></a>
+                                                        </li>
+                                                    </ul>
+
+                                                </div>
+
+
+
+                                            </ul>
+
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -567,6 +733,53 @@
 
     </div>
     <!-- <script src="index.js"></script> -->
+    <script>
+        // Show hide popover
+        $(".dropdownas").click(function() {
+            $(this).find(".dropdownas-content").slideToggle("fast");
+
+        });
+
+
+        function callme(selected) {
+            var item = document.getElementById(selected).innerText;
+            let toog = document.getElementById(selected);
+            console.log(item)
+            toog.classList.toggle("al");
+            let i = document.getElementById('dp')
+            i.innerText = item
+
+
+
+
+        }
+
+        function callmel(selected) {
+            var item = document.getElementById(selected).innerText;
+            let toog = document.getElementById(selected);
+            console.log(item)
+            toog.classList.toggle("al");
+            let i = document.getElementById('lo')
+            i.innerText = item
+
+
+
+
+        }
+    </script>
+
+
+    <script>
+        $(document).ready(function() {
+
+            $('ul.navbar-nav > li')
+                .click(function(e) {
+                    $('ul.navbar-nav > li')
+                        .removeClass('active');
+                    $(this).addClass('active');
+                });
+        });
+    </script>
     <script>
         let vCard = document.getElementById('vCard')
         let vanme = document.getElementById('vanme')
