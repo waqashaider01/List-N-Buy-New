@@ -563,18 +563,3 @@ document.addEventListener("click", closeAllSelect);
 
 @endsection
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- Slideshow container -->

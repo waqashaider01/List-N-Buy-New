@@ -32,6 +32,8 @@ Route::get('/message-screen', [HomeController::class,'MessageScreen']);
 Route::get('/post-add', [HomeController::class,'PostAdd']);
 Route::get('/promote-your-ad', [HomeController::class,'PromoteYourAd']);
 Route::get('/user-profile', [HomeController::class,'UserProfile']);
+Route::get('/contact-us', [HomeController::class,'ContactUs']);
+
 
 
 
