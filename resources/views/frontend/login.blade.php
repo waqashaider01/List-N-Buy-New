@@ -21,7 +21,7 @@
             <div class="container-fluid">
                 <div class="row logsignmain">
                     <div class="col-md-6 ">
-                        <img src="{{ url('frontend\img\login_logo.png') }}" alt="" class="p-4 loglogo">
+                        <img src="{{ url('frontend\img\login_logo.png') }}" alt="" class="p-4 loglogo1">
                         <div class="sigin-bg-color">
                             <form class="row d-flex justify-content-center logform">
                                 <div class="col-md-7">

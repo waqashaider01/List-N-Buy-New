@@ -15,6 +15,10 @@ body {
 /**************** HOME PAGE ************/
 
 
+.shadow_nav {
+    box-shadow: 1px -5px 10px #000000;
+}
+
 .text_dec_none {
     text-decoration: none !important;
 }
@@ -62,6 +66,12 @@ body {
     transition: all 0.3s;
 }
 
+.nav_btn1:active {
+    border: 1px solid #FFCB47 !important;
+    background: #FFCB47 !important;
+    transition: all 0.3s !important;
+}
+
 .nav_btn2 {
     height: 47px;
     width: 122px;
@@ -80,6 +90,13 @@ body {
     border: 1px solid #FFCB47;
     background: #FFCB47;
     transition: all 0.3s;
+    color: black;
+}
+
+.nav_btn2:active {
+    border: 1px solid #FFCB47 !important;
+    background: #FFCB47 !important;
+    color: black !important;
 }
 
 .navbar_setting {
@@ -119,8 +136,8 @@ body {
 .img_card {
     /* height: 150px; */
     background: #FFFFFF;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 .img_card_parent {
@@ -130,8 +147,8 @@ body {
     font-weight: 500;
     font-size: 24px;
     line-height: 36px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10 px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
     color: #3A456E;
     background: #F3F4F8 !important;
     /* width: 299px; */
@@ -139,7 +156,7 @@ body {
 }
 
 .img_card_parent .img_card img {
-    border-radius: 10px 10px 0 0;
+    border-radius: 8px 8px 0 0;
     width: 100%;
     height: 160px;
     background-size: cover;
@@ -149,7 +166,7 @@ body {
 }
 
 .img_card_parent {
-    border-radius: 10px;
+    border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
@@ -199,6 +216,12 @@ body {
 
 }
 
+.btn-enter1:active {
+
+    border: 2px solid #2A84F2 !important;
+
+}
+
 .btn-enter1:hover {
 
     border: 2px solid #2A84F2;
@@ -214,6 +237,8 @@ body {
 .logsignmain {
     height: 100vh;
 }
+
+
 
 
 .loglogo {
@@ -347,6 +372,12 @@ body {
     height: 40px;
 }
 
+.btn-enter:active {
+    color: white !important;
+    background-color: #2A84F2 !important;
+
+}
+
 .btn-enter:hover {
     background-color: #2A84F2;
     color: white;
@@ -441,8 +472,8 @@ body {
     background-color: #2A84F2;
 }
 
-.loglogo {
-    width: 200px;
+.loglogo1 {
+    width: 190px;
 }
 
 .footer-text {
@@ -1302,6 +1333,28 @@ bottom-details .date {
 }
 
 
+.cart_img_box {
+    position: relative;
+}
+
+.ellipse {
+    position: absolute;
+    top: 44%;
+    left: 44%;
+    width: 20px;
+}
+
+
+.sign_out_span {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    /* line-height: 24px; */
+    /* text-align: center; */
+    color: #FFCB47;
+
+}
 
 /**************** User Profile END************/
 

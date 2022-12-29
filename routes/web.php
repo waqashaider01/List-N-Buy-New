@@ -22,7 +22,7 @@ Route::get('/forget-password', [HomeController::class,'ForgetPassword']);
 Route::get('/password-reset', [HomeController::class,'PasswordReset']);
 Route::get('/Set-a-new-password', [HomeController::class,'SetNewPassword']);
 Route::get('/sign-up', [HomeController::class,'SignUp']);
-Route::get('about-us', [HomeController::class,'AboutUs']);
+Route::get('/about-us', [HomeController::class,'AboutUs']);
 Route::get('/home-screen', [HomeController::class,'HomeScreen']);
 Route::get('/buy-product', [HomeController::class,'BuyProduct']);
 Route::get('/seller-profile', [HomeController::class,'SellerProfile']);
