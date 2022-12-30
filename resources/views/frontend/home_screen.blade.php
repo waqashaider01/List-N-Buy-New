@@ -160,7 +160,7 @@
 
 
     <div class="container-fluid container-xxl">
-        <div class="row flex-nowrap justify-content-center" style="background-color: #fefefe;">
+        <div class="row flex-nowrap justify-content-center cat_scroll" style="background-color: #fefefe; overflow:auto">
             <div class="col-sm-2 d-none d-md-flex" style="white-space: nowrap;">
                 <a href="" class="text_d_none">
                     {{-- <i class="fa-solid fa-house-chimney-user"></i> --}}
@@ -406,7 +406,7 @@
                                             data-bs-original-title="2018 Mercedes Sprinter">2018 Mercedes Sprinter</a>
                                     </h5>
                                 </div>
-                                <div class="col d-flex align-items-center">
+                                <div class="col d-flex align-items-center mb-1">
                                     <span class="product_price">
                                         $32,000
                                     </span>
@@ -416,7 +416,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-12">
+                                {{-- <div class="col-12">
                                     <div class="item-details d-flex justify-content-between">
                                         <div class="info-row reviews-widget ratings">
                                             <span class="far fa-star"></span>
@@ -429,7 +429,7 @@
                                             <span class="rating-label">0 review</span>
                                         </div>
                                     </div>
-                                </div>
+                                </div> --}}
 
                                 <div class="col">
                                     <div class=" c-bottom-details pt-2 px-0 d-flex">
@@ -478,7 +478,7 @@
                                             data-bs-original-title="2018 Mercedes Sprinter">2018 Mercedes Sprinter</a>
                                     </h5>
                                 </div>
-                                <div class="col d-flex align-items-center">
+                                <div class="col d-flex align-items-center mb-1">
                                     <span class="product_price">
                                         $32,000
                                     </span>
@@ -488,7 +488,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-12">
+                                {{-- <div class="col-12">
                                     <div class="item-details d-flex justify-content-between">
                                         <div class="info-row reviews-widget ratings">
                                             <span class="far fa-star"></span>
@@ -501,7 +501,7 @@
                                             <span class="rating-label">0 review</span>
                                         </div>
                                     </div>
-                                </div>
+                                </div> --}}
 
                                 <div class="col">
                                     <div class=" c-bottom-details pt-2 px-0 d-flex">
@@ -550,7 +550,7 @@
                                             data-bs-original-title="2018 Mercedes Sprinter">2018 Mercedes Sprinter</a>
                                     </h5>
                                 </div>
-                                <div class="col d-flex align-items-center">
+                                <div class="col d-flex align-items-center mb-1">
                                     <span class="product_price">
                                         $32,000
                                     </span>
@@ -560,7 +560,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-12">
+                                {{-- <div class="col-12">
                                     <div class="item-details d-flex justify-content-between">
                                         <div class="info-row reviews-widget ratings">
                                             <span class="far fa-star"></span>
@@ -573,7 +573,7 @@
                                             <span class="rating-label">0 review</span>
                                         </div>
                                     </div>
-                                </div>
+                                </div> --}}
 
                                 <div class="col">
                                     <div class=" c-bottom-details pt-2 px-0 d-flex">
@@ -622,7 +622,7 @@
                                             data-bs-original-title="2018 Mercedes Sprinter">2018 Mercedes Sprinter</a>
                                     </h5>
                                 </div>
-                                <div class="col d-flex align-items-center">
+                                <div class="col d-flex align-items-center mb-1">
                                     <span class="product_price">
                                         $32,000
                                     </span>
@@ -632,7 +632,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-12">
+                                {{-- <div class="col-12">
                                     <div class="item-details d-flex justify-content-between">
                                         <div class="info-row reviews-widget ratings">
                                             <span class="far fa-star"></span>
@@ -645,7 +645,7 @@
                                             <span class="rating-label">0 review</span>
                                         </div>
                                     </div>
-                                </div>
+                                </div> --}}
 
                                 <div class="col">
                                     <div class=" c-bottom-details pt-2 px-0 d-flex">
@@ -694,7 +694,7 @@
                                             data-bs-original-title="2018 Mercedes Sprinter">2018 Mercedes Sprinter</a>
                                     </h5>
                                 </div>
-                                <div class="col d-flex align-items-center">
+                                <div class="col d-flex align-items-center mb-1">
                                     <span class="product_price">
                                         $32,000
                                     </span>
@@ -704,7 +704,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-12">
+                                {{-- <div class="col-12">
                                     <div class="item-details d-flex justify-content-between">
                                         <div class="info-row reviews-widget ratings">
                                             <span class="far fa-star"></span>
@@ -717,7 +717,7 @@
                                             <span class="rating-label">0 review</span>
                                         </div>
                                     </div>
-                                </div>
+                                </div> --}}
 
                                 <div class="col">
                                     <div class=" c-bottom-details pt-2 px-0 d-flex">
@@ -766,7 +766,7 @@
                                             data-bs-original-title="2018 Mercedes Sprinter">2018 Mercedes Sprinter</a>
                                     </h5>
                                 </div>
-                                <div class="col d-flex align-items-center">
+                                <div class="col d-flex align-items-center mb-1">
                                     <span class="product_price">
                                         $32,000
                                     </span>
@@ -776,7 +776,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-12">
+                                {{-- <div class="col-12">
                                     <div class="item-details d-flex justify-content-between">
                                         <div class="info-row reviews-widget ratings">
                                             <span class="far fa-star"></span>
@@ -789,7 +789,7 @@
                                             <span class="rating-label">0 review</span>
                                         </div>
                                     </div>
-                                </div>
+                                </div> --}}
 
                                 <div class="col">
                                     <div class=" c-bottom-details pt-2 px-0 d-flex">
@@ -838,7 +838,7 @@
                                             data-bs-original-title="2018 Mercedes Sprinter">2018 Mercedes Sprinter</a>
                                     </h5>
                                 </div>
-                                <div class="col d-flex align-items-center">
+                                <div class="col d-flex align-items-center mb-1">
                                     <span class="product_price">
                                         $32,000
                                     </span>
@@ -848,7 +848,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-12">
+                                {{-- <div class="col-12">
                                     <div class="item-details d-flex justify-content-between">
                                         <div class="info-row reviews-widget ratings">
                                             <span class="far fa-star"></span>
@@ -861,7 +861,7 @@
                                             <span class="rating-label">0 review</span>
                                         </div>
                                     </div>
-                                </div>
+                                </div> --}}
 
                                 <div class="col">
                                     <div class=" c-bottom-details pt-2 px-0 d-flex">
@@ -909,7 +909,7 @@
                                             data-bs-original-title="2018 Mercedes Sprinter">2018 Mercedes Sprinter</a>
                                     </h5>
                                 </div>
-                                <div class="col d-flex align-items-center">
+                                <div class="col d-flex align-items-center mb-1">
                                     <span class="product_price">
                                         $32,000
                                     </span>
@@ -919,7 +919,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-12">
+                                {{-- <div class="col-12">
                                     <div class="item-details d-flex justify-content-between">
                                         <div class="info-row reviews-widget ratings">
                                             <span class="far fa-star"></span>
@@ -932,7 +932,7 @@
                                             <span class="rating-label">0 review</span>
                                         </div>
                                     </div>
-                                </div>
+                                </div> --}}
 
                                 <div class="col">
                                     <div class=" c-bottom-details pt-2 px-0 d-flex">
@@ -982,7 +982,7 @@
                                             data-bs-original-title="2018 Mercedes Sprinter">2018 Mercedes Sprinter</a>
                                     </h5>
                                 </div>
-                                <div class="col d-flex align-items-center">
+                                <div class="col d-flex align-items-center mb-1">
                                     <span class="product_price">
                                         $32,000
                                     </span>
@@ -992,7 +992,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-12">
+                                {{-- <div class="col-12">
                                     <div class="item-details d-flex justify-content-between">
                                         <div class="info-row reviews-widget ratings">
                                             <span class="far fa-star"></span>
@@ -1005,7 +1005,7 @@
                                             <span class="rating-label">0 review</span>
                                         </div>
                                     </div>
-                                </div>
+                                </div> --}}
 
                                 <div class="col">
                                     <div class=" c-bottom-details pt-2 px-0 d-flex">
@@ -1055,7 +1055,7 @@
                                             data-bs-original-title="2018 Mercedes Sprinter">2018 Mercedes Sprinter</a>
                                     </h5>
                                 </div>
-                                <div class="col d-flex align-items-center">
+                                <div class="col d-flex align-items-center mb-1">
                                     <span class="product_price">
                                         $32,000
                                     </span>
@@ -1065,7 +1065,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-12">
+                                {{-- <div class="col-12">
                                     <div class="item-details d-flex justify-content-between">
                                         <div class="info-row reviews-widget ratings">
                                             <span class="far fa-star"></span>
@@ -1078,7 +1078,7 @@
                                             <span class="rating-label">0 review</span>
                                         </div>
                                     </div>
-                                </div>
+                                </div> --}}
 
                                 <div class="col">
                                     <div class=" c-bottom-details pt-2 px-0 d-flex">
@@ -1128,7 +1128,7 @@
                                             data-bs-original-title="2018 Mercedes Sprinter">2018 Mercedes Sprinter</a>
                                     </h5>
                                 </div>
-                                <div class="col d-flex align-items-center">
+                                <div class="col d-flex align-items-center mb-1">
                                     <span class="product_price">
                                         $32,000
                                     </span>
@@ -1138,7 +1138,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-12">
+                                {{-- <div class="col-12">
                                     <div class="item-details d-flex justify-content-between">
                                         <div class="info-row reviews-widget ratings">
                                             <span class="far fa-star"></span>
@@ -1151,7 +1151,7 @@
                                             <span class="rating-label">0 review</span>
                                         </div>
                                     </div>
-                                </div>
+                                </div> --}}
 
                                 <div class="col">
                                     <div class=" c-bottom-details pt-2 px-0 d-flex">
@@ -1201,7 +1201,7 @@
                                             data-bs-original-title="2018 Mercedes Sprinter">2018 Mercedes Sprinter</a>
                                     </h5>
                                 </div>
-                                <div class="col d-flex align-items-center">
+                                <div class="col d-flex align-items-center mb-1">
                                     <span class="product_price">
                                         $32,000
                                     </span>
@@ -1211,7 +1211,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-12">
+                                {{-- <div class="col-12">
                                     <div class="item-details d-flex justify-content-between">
                                         <div class="info-row reviews-widget ratings">
                                             <span class="far fa-star"></span>
@@ -1224,7 +1224,7 @@
                                             <span class="rating-label">0 review</span>
                                         </div>
                                     </div>
-                                </div>
+                                </div> --}}
 
                                 <div class="col">
                                     <div class=" c-bottom-details pt-2 px-0 d-flex">
@@ -1274,7 +1274,7 @@
                                             data-bs-original-title="2018 Mercedes Sprinter">2018 Mercedes Sprinter</a>
                                     </h5>
                                 </div>
-                                <div class="col d-flex align-items-center">
+                                <div class="col d-flex align-items-center mb-1">
                                     <span class="product_price">
                                         $32,000
                                     </span>
@@ -1284,7 +1284,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-12">
+                                {{-- <div class="col-12">
                                     <div class="item-details d-flex justify-content-between">
                                         <div class="info-row reviews-widget ratings">
                                             <span class="far fa-star"></span>
@@ -1297,13 +1297,12 @@
                                             <span class="rating-label">0 review</span>
                                         </div>
                                     </div>
-                                </div>
+                                </div> --}}
 
                                 <div class="col">
                                     <div class=" c-bottom-details pt-2 px-0 d-flex">
-                                        <div data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                            title="Washington D.C." class="item-location"
-                                            data-bs-original-title="Washington D.C.">
+                                        <div data-bs-toggle="tooltip" data-bs-placement="bottom" title="Washington D.C."
+                                            class="item-location" data-bs-original-title="Washington D.C.">
                                             <i class="bi bi-geo-alt"></i>
                                             Washington D.C.
                                         </div>
@@ -1348,7 +1347,7 @@
                                             data-bs-original-title="2018 Mercedes Sprinter">2018 Mercedes Sprinter</a>
                                     </h5>
                                 </div>
-                                <div class="col d-flex align-items-center">
+                                <div class="col d-flex align-items-center mb-1">
                                     <span class="product_price">
                                         $32,000
                                     </span>
@@ -1358,7 +1357,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-12">
+                                {{-- <div class="col-12">
                                     <div class="item-details d-flex justify-content-between">
                                         <div class="info-row reviews-widget ratings">
                                             <span class="far fa-star"></span>
@@ -1371,13 +1370,12 @@
                                             <span class="rating-label">0 review</span>
                                         </div>
                                     </div>
-                                </div>
+                                </div> --}}
 
                                 <div class="col">
                                     <div class=" c-bottom-details pt-2 px-0 d-flex">
-                                        <div data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                            title="Washington D.C." class="item-location"
-                                            data-bs-original-title="Washington D.C.">
+                                        <div data-bs-toggle="tooltip" data-bs-placement="bottom" title="Washington D.C."
+                                            class="item-location" data-bs-original-title="Washington D.C.">
                                             <i class="bi bi-geo-alt"></i>
                                             Washington D.C.
                                         </div>
@@ -1422,7 +1420,7 @@
                                             data-bs-original-title="2018 Mercedes Sprinter">2018 Mercedes Sprinter</a>
                                     </h5>
                                 </div>
-                                <div class="col d-flex align-items-center">
+                                <div class="col d-flex align-items-center mb-1">
                                     <span class="product_price">
                                         $32,000
                                     </span>
@@ -1432,7 +1430,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-12">
+                                {{-- <div class="col-12">
                                     <div class="item-details d-flex justify-content-between">
                                         <div class="info-row reviews-widget ratings">
                                             <span class="far fa-star"></span>
@@ -1445,13 +1443,12 @@
                                             <span class="rating-label">0 review</span>
                                         </div>
                                     </div>
-                                </div>
+                                </div> --}}
 
                                 <div class="col">
                                     <div class=" c-bottom-details pt-2 px-0 d-flex">
-                                        <div data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                            title="Washington D.C." class="item-location"
-                                            data-bs-original-title="Washington D.C.">
+                                        <div data-bs-toggle="tooltip" data-bs-placement="bottom" title="Washington D.C."
+                                            class="item-location" data-bs-original-title="Washington D.C.">
                                             <i class="bi bi-geo-alt"></i>
                                             Washington D.C.
                                         </div>
@@ -1496,7 +1493,7 @@
                                             data-bs-original-title="2018 Mercedes Sprinter">2018 Mercedes Sprinter</a>
                                     </h5>
                                 </div>
-                                <div class="col d-flex align-items-center">
+                                <div class="col d-flex align-items-center mb-1">
                                     <span class="product_price">
                                         $32,000
                                     </span>
@@ -1506,7 +1503,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-12">
+                                {{-- <div class="col-12">
                                     <div class="item-details d-flex justify-content-between">
                                         <div class="info-row reviews-widget ratings">
                                             <span class="far fa-star"></span>
@@ -1519,7 +1516,7 @@
                                             <span class="rating-label">0 review</span>
                                         </div>
                                     </div>
-                                </div>
+                                </div> --}}
 
                                 <div class="col">
                                     <div class=" c-bottom-details pt-2 px-0 d-flex">

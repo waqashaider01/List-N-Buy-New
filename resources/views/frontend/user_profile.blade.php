@@ -145,7 +145,8 @@
 
 
                             <article id="tabs" class="tabs">
-                                <ul role="tablistt" aria-label="Free HTML Tabs" class="toptab_ul">
+                                <ul role="tablistt" aria-label="Free HTML Tabs"
+                                    class="toptab_ul flex-sm-row flex-column">
                                     <li role="tabt" aria-selected="true" aria-controls="panel-home" id="tab-home"
                                         tabindex="0" class="buylink">
                                         ACTIVE (2)
@@ -186,21 +187,21 @@
                                                 </div>
 
 
-                                                <div class="d-flex justify-content-between">
-                                                    <div>
+                                                <div class="d-flex justify-content-between flex-sm-row flex-column">
+                                                    <div class="mb-2">
                                                         <a href=""><img
                                                                 src="http://127.0.0.1:8000/frontend\img\buy_product\location_buy.png"
                                                                 style="width: 20px;" alt=""></a>
                                                         <span class="icontext_buy p-1">Washington,DC</span>
                                                     </div>
-                                                    <div>
+                                                    <div class="mb-2">
                                                         <a href=""><img
                                                                 src="{{ url('frontend\img\user-profile\2.png') }}"
                                                                 style="width: 20px;" alt=""></a>
                                                         <span class="icontext_buy p-1">Min Bid $20,025</span>
                                                     </div>
 
-                                                    <div>
+                                                    <div class="mb-2">
                                                         <a href=""><img
                                                                 src="{{ url('frontend\img\user-profile\2.png') }}"
                                                                 style="width: 20px;" alt=""></a>
@@ -233,21 +234,21 @@
                                                 </div>
 
 
-                                                <div class="d-flex justify-content-between">
-                                                    <div>
+                                                <div class="d-flex justify-content-between flex-sm-row flex-column">
+                                                    <div class="mb-2">
                                                         <a href=""><img
                                                                 src="http://127.0.0.1:8000/frontend\img\buy_product\location_buy.png"
                                                                 style="width: 20px;" alt=""></a>
                                                         <span class="icontext_buy p-1">Washington,DC</span>
                                                     </div>
-                                                    <div>
+                                                    <div class="mb-2">
                                                         <a href=""><img
                                                                 src="{{ url('frontend\img\user-profile\2.png') }}"
                                                                 style="width: 20px;" alt=""></a>
                                                         <span class="icontext_buy p-1">Min Bid $20,025</span>
                                                     </div>
 
-                                                    <div>
+                                                    <div class="mb-2">
                                                         <a href=""><img
                                                                 src="{{ url('frontend\img\user-profile\2.png') }}"
                                                                 style="width: 20px;" alt=""></a>

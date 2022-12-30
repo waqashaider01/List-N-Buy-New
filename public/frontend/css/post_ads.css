@@ -1,4 +1,4 @@
-.back_post_ads{
+.back_post_ads {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -7,30 +7,33 @@
     color: #2A84F2;
     text-decoration: none;
 }
-.post_ads_title{
+
+.post_ads_title {
     font-family: 'Prompt';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 36px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
 
-/* main text color */
+    /* main text color */
 
-color: #3A456E;
+    color: #3A456E;
 }
-.clear_btn_ads{
+
+.clear_btn_ads {
     font-family: 'Prompt';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 27px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
 
-/* Red */
+    /* Red */
 
-color: #EB5757;
+    color: #EB5757;
 
 }
-.post_select_option{
+
+.post_select_option {
     height: 50px !important;
     /* width: 339px !important; */
     /* border: 1px solid red; */
@@ -41,12 +44,13 @@ color: #EB5757;
     font-style: normal;
     height: 50px;
     border-radius: 6px;
-    
+
     font-weight: 400;
     font-size: 18px;
-    
+
 }
-.post_select_option_input{
+
+.post_select_option_input {
 
     height: 50px !important;
     width: 100% !important;
@@ -59,14 +63,14 @@ color: #EB5757;
     height: 50px;
     padding-left: 10px;
     border-radius: 6px;
-    border: 1px solid  #2A84F2;
-    
+    border: 1px solid #2A84F2;
+
     font-weight: 400;
     font-size: 18px;
-    
+
 }
 
-.text_area_play_ads{
+.text_area_play_ads {
     height: 200px !important;
     width: 100% !important;
     /* border: 1px solid red; */
@@ -76,43 +80,49 @@ color: #EB5757;
     font-family: 'Poppins';
     font-style: normal;
     border-radius: 8px;
- 
+
     padding: 10px;
     font-weight: 400;
     font-size: 18px;
 }
-.text_area_play_ads::placeholder{
-color:rgba(75, 91, 119, 0.5);;
 
-    
+.text_area_play_ads::placeholder {
+    color: rgba(75, 91, 119, 0.5);
+    ;
+
+
 }
-.post_select_option_input::placeholder{
+
+.post_select_option_input::placeholder {
 
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 21px;
-/* identical to box height */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
 
 
-/* other text color 50% */
+    /* other text color 50% */
 
-color:rgba(75, 91, 119, 0.5);;
+    color: rgba(75, 91, 119, 0.5);
+    ;
 
-    
+
 }
-.check_box_size{
-   
+
+.check_box_size {
+
     top: .8rem;
     scale: 1.4;
     margin-right: 0.7rem;
-   
-    
+
+
 }
-.yes_no{
-  color: #838EA1 !important;
-    
+
+.yes_no {
+    color: #838EA1 !important;
+
 }
 
 /* .lire{
@@ -124,7 +134,7 @@ color:rgba(75, 91, 119, 0.5);;
     font-family: 'Poppins';
     font-style: normal;
     height: 50px;
-    padding-left: 10px;   
+    padding-left: 10px;
     padding-top: 10px;
     font-weight: 400;
     font-size: 18px;
@@ -132,45 +142,47 @@ color:rgba(75, 91, 119, 0.5);;
 } */
 
 
-.bt_sz{
-    padding: 20px !important ;
+.bt_sz {
+    padding: 20px !important;
 }
 
-@media(max-width:540px)
-{
-    .ads_btn{
-  
-display: block !important;
-text-align: center;
+@media(max-width:540px) {
+    .ads_btn {
+
+        display: block !important;
+        text-align: center;
     }
-    .setp_btn_ads{
+
+    .setp_btn_ads {
         margin-top: 10px;
         margin-bottom: 10px;
     }
 }
-.ads_lable{
+
+.ads_lable {
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-padding: 15px 0px;
-/* identical to box height */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 15px 0px;
+    /* identical to box height */
 
 
-/* main text color */
+    /* main text color */
 
-color: #3A456E;
+    color: #3A456E;
 
 }
-.select_bx_ads{
+
+.select_bx_ads {
     height: 50px;
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 5  00;
+    font-weight: 5 00;
     font-size: 18px;
     line-height: 21px;
-    
+
     color: rgba(131, 142, 161, 0.5);
 
 }
@@ -180,34 +192,37 @@ color: #3A456E;
 .custom-select {
     position: relative;
     font-family: Arial;
-  }
-  .custom-select select {
+}
+
+.custom-select select {
     display: none;
-  }
-  .select-selected {
-  background: #F3F4F8;
-  border-radius: 3px;
-  color: rgba(75, 91, 119, 0.5);
-  /* border: 1px solid rgb(204, 37, 37); */
-  font-family: 'Poppins';
-  font-style: normal;
-  height: 50px;
-  padding-left: 10px;   
-  padding-top: 10px;
-  font-weight: 400;
-  font-size: 18px;
-  border-radius: 7px;
-    
-  }
-  .select-selected:hover{
+}
 
-border: 2px solid  #2A84F2;
+.select-selected {
+    background: #F3F4F8;
+    border-radius: 3px;
+    color: rgba(75, 91, 119, 0.5);
+    /* border: 1px solid rgb(204, 37, 37); */
+    font-family: 'Poppins';
+    font-style: normal;
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 7px;
 
-  }
-  
-  
-  /* Style the arrow inside the select element: */
-  .select-selected:after {
+}
+
+.select-selected:hover {
+
+    border: 2px solid #2A84F2;
+
+}
+
+
+/* Style the arrow inside the select element: */
+.select-selected:after {
     position: absolute;
     content: "";
     top: 20px;
@@ -215,23 +230,25 @@ border: 2px solid  #2A84F2;
     width: 0;
     height: 0;
     border: 6px solid transparent;
-    border-color:#2A84F2 transparent transparent transparent  ;
-  }
-  /* Point the arrow upwards when the select box is open (active): */
-  .select-selected.select-arrow-active:after {
+    border-color: #2A84F2 transparent transparent transparent;
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+.select-selected.select-arrow-active:after {
     border-color: transparent transparent #2A84F2 transparent;
     top: 15px;
-  }
-  /* style the items (options), including the selected item: */
-  .select-items div {
+}
+
+/* style the items (options), including the selected item: */
+.select-items div {
     color: #ffffff;
     padding: 8px 16px;
-    box-shadow: 1px 0px 1px #F3F4F8 ;
+    box-shadow: 1px 0px 1px #F3F4F8;
     cursor: pointer;
-  }
-  
-  /* Style items (options): */
-  .select-items {
+}
+
+/* Style items (options): */
+.select-items {
     position: absolute;
     /* background-color: DodgerBlue; */
     background-color: #2A84F2;
@@ -241,16 +258,311 @@ border: 2px solid  #2A84F2;
     left: 0;
     right: 0;
     z-index: 99;
-     -webkit-overflow-scrolling: auto;
-  }
-  
-  /* Hide the items when the select box is closed: */
-  .select-hide {
-    display: none;
-  }
-  
-  .select-items div:hover, .same-as-selected {
-    background-color:#5AB4FF;
-  }
+    -webkit-overflow-scrolling: auto;
+}
 
- 
+/* Hide the items when the select box is closed: */
+.select-hide {
+    display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+    background-color: #5AB4FF;
+}
+
+
+.s_about_ad {
+    padding: 20px 36px;
+
+    border: 2px solid #2A84F2 !important;
+}
+
+.s_about_ad2 {
+    padding: 18px 30px;
+    border: 2px solid #2A84F2 !important;
+}
+
+
+
+/* Post Add Button css */
+.Post-A {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #3A456E;
+}
+
+/* Clear Button css */
+.Clear-A {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #EB5757;
+}
+
+/* Step1 Button Css */
+.Step1_A {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+/* Step2 Button Css */
+.Step2-A {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #2A84F2;
+}
+
+/* input image css */
+.Input-Image-A {
+    /* min-width: 1000px; */
+    width: 100%;
+    min-height: 160px;
+    border: 1px dashed #2A84F2;
+    border-radius: 5px;
+    color: #2A84F2;
+}
+
+/* input image icon css */
+.Image-Icon-A {
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    color: #838EA1;
+}
+
+/* input image text css */
+.Image-text-A {
+    color: #838EA1;
+    margin: 0px 5px 0px 5px;
+}
+
+.Input-Vedio-A {
+    width: 100%;
+    height: 170px;
+    border: 1px dashed #2A84F2;
+    border-radius: 5px;
+    color: #2A84F2;
+    left: 20%;
+}
+
+.Form-Select-A {
+    background: #F3F4F8;
+    /* primary color */
+
+    border: 1px solid #2A84F2;
+    border-radius: 8px;
+}
+
+.Form-A {
+    border: none;
+    background-color: #F3F4F8;
+}
+
+.Image-text-A {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #838EA1;
+
+}
+
+.Continue-Button-A {
+    position: absolute;
+    width: 460px;
+    height: 63px;
+    left: 340px;
+    background: #2A84F2;
+    border-radius: 8px;
+}
+
+.Form-Border-A {
+    background-color: #F3F4F8;
+    border: 1px solid #2A84F2;
+    border-radius: 8px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(131, 142, 161, 0.5);
+
+}
+
+.Dropdown-List-A {
+    list-style: none;
+
+}
+
+.Dropdown-List-Anchor-A {
+    padding-left: 20px;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(131, 142, 161, 0.5);
+}
+
+.Dropdown-List-A a i {
+    color: #2A84F2;
+    margin-left: 20rem;
+}
+
+.Dropdown-Item-A {
+    background-color: #2A84F2;
+    display: none;
+
+}
+
+.Dropdown-Item-A li {
+    list-style: none;
+    margin: 5px 0px 5px 0px;
+    border-bottom: 1px solid #b8b8b8;
+
+}
+
+.Dropdown-Item-A li a {
+    text-decoration: none;
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #CBCBCB;
+}
+
+.Inside-Dropdown-Link-A {
+    /* display: none; */
+}
+
+.Inside-Dropdown-Link-A:hover {
+    display: block;
+}
+
+
+
+#dropdown {}
+
+.first_select_A {
+    background-color: #2A84F2;
+    position: absolute;
+    left: 456px;
+    top: 38%;
+    width: 25%;
+}
+
+.first_select_items_A {
+    list-style: none;
+
+}
+
+.first_selecct_items_A:hover {
+    background-color: #639add;
+}
+
+.selected:hover+.first_select_A {
+    display: block;
+
+}
+
+#pictureplace {
+    margin-top: 50px;
+    margin-right: 80px;
+}
+
+.img_res_div {
+    /* width: 200px; */
+    height: 200px;
+}
+
+.image_card {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    object-fit: cover;
+
+}
+
+
+.cardP:hover {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+}
+
+
+
+/* temp */
+.gallery :hover {
+    width: 100%;
+    height: 100%;
+
+    background-size: 20px;
+
+    background-color: #2A84F2;
+
+    transition: all 0.2s ease,
+        background-color 0.4s ease;
+    opacity: 1;
+    border-radius: 100%;
+}
+
+.Input-Vedio-A {
+    /* min-width: 1000px; */
+    width: 100%;
+    min-height: 290px;
+    height: auto;
+}
+
+#player {
+    width: 270px;
+    height: 300px;
+}
+
+#vCard {
+
+    margin-left: 10px;
+
+
+}
+
+#vCard:hover {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.fade-in {
+    animation: fadeIn 2s;
+    opacity: 1;
+}
+
+#vanme {
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
