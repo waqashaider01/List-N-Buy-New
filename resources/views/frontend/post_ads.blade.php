@@ -957,18 +957,3 @@
     </script>
 @endsection
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- Slideshow container -->

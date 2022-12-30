@@ -73,6 +73,10 @@ public function PromoteYourAd(){
 public function UserProfile(){
     return view('frontend.user_profile');
 }
+public function  ContactUs(){
+    return view('frontend.contactuspage');
+}
+
 
 
 }
